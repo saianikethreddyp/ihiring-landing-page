@@ -1,0 +1,16 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const errs = [];
+const mk = async (vp) => { const p = await (await b.newContext({ viewport: vp, deviceScaleFactor: vp.width < 500 ? 2 : 1 })).newPage(); p.on('pageerror', (e) => errs.push(e.message)); p.on('console', (m) => m.type() === 'error' && errs.push(m.text())); return p; };
+const d = await mk({ width: 1440, height: 900 });
+await d.goto('http://localhost:3100/', { waitUntil: 'networkidle' });
+await d.evaluate(() => window.scrollTo(0, document.body.scrollHeight)); await d.waitForTimeout(800);
+await d.screenshot({ path: 'screenshots/v2/09-footer-fixed.png' });
+await d.locator('#faq').scrollIntoViewIfNeeded(); await d.waitForTimeout(600); await d.screenshot({ path: 'screenshots/v2/07-faq.png' });
+await d.goto('http://localhost:3100/demo', { waitUntil: 'networkidle' }); await d.screenshot({ path: 'screenshots/v2/10-demo.png' });
+const m = await mk({ width: 390, height: 844 });
+await m.goto('http://localhost:3100/', { waitUntil: 'networkidle' }); await m.waitForTimeout(800);
+await m.screenshot({ path: 'screenshots/v2/m-01.png' });
+await m.locator('#product').scrollIntoViewIfNeeded(); await m.waitForTimeout(900); await m.evaluate(() => window.scrollBy(0, 350)); await m.waitForTimeout(600);
+await m.screenshot({ path: 'screenshots/v2/m-03-chapters.png' });
+console.log('overflow:', await m.evaluate(() => document.documentElement.scrollWidth > innerWidth), '| errors:', errs.length ? errs : 'none');
+await b.close();

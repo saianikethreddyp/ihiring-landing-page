@@ -1,0 +1,935 @@
+{
+  "meta": {
+    "source": "https://ihiring.ai/",
+    "scrapedAt": "2026-10-05T13:56:55.551Z",
+    "tool": "playwright-chromium",
+    "pages": [
+      "home",
+      "tips-for-interview",
+      "contact-us",
+      "privacy-policy"
+    ]
+  },
+  "brand": {
+    "name": "ihiring.ai",
+    "legalName": "ihiring Inc.",
+    "persona": "SAM, the AI interviewer",
+    "tagline": "Meet Sam! The Only AI Interviewer That Thinks Beyond Intelligence",
+    "twitter": "@ihiring",
+    "reviews": {
+      "g2": "https://www.g2.com/products/ihiring-ai/reviews",
+      "capterra": "https://www.capterra.com/p/10031866/ihiring/reviews/"
+    },
+    "logos": {
+      "wordmark": "assets/logos/main-logo.svg",
+      "wordmarkAlt": "assets/logos/Logo.svg",
+      "mark96": "assets/logos/ihiring-mark-96.png",
+      "mark512": "assets/logos/ihiring-mark-512.png",
+      "favicon": "assets/icons/favicon.ico",
+      "appleTouch": "assets/icons/apple-touch-icon.png",
+      "linkedin": "assets/logos/linkedin-logo.svg",
+      "g2Badge": "assets/svg/G2_ihiring_website.svg",
+      "capterraBadge": "assets/svg/fbf7dad7-3830-4620-a9ea-e91c23a1a245.svg"
+    }
+  },
+  "seo": {
+    "title": "ihiring.ai | AI-Powered Interview Platform",
+    "description": "Transform your hiring process with ihiring.ai - The intelligent AI interviewing platform that evaluates candidates beyond technical skills, focusing on soft skills, personality traits, and cultural fit.",
+    "keywords": "AI interviewing, AI hiring platform, talent acquisition, recruitment automation, AI recruitment, talent management, AI-powered hiring, smart hiring, AI job interviews, talent development, talent optimization, HR technology, hiring automation, candidate assessment, interview automation",
+    "social": {
+      "og:title": "ihiring.ai | AI-Powered Interview Platform",
+      "og:description": "Transform your hiring process with ihiring.ai - The intelligent AI interviewing platform that evaluates candidates beyond technical skills.",
+      "og:url": "https://ihiring.ai",
+      "og:site_name": "ihiring.ai",
+      "og:locale": "en_US",
+      "og:image": "https://ihiring.ai/images/favicon-96x96.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:alt": "ihiring.ai - AI-Powered Interview Platform",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@ihiring",
+      "twitter:creator": "@ihiring",
+      "twitter:title": "ihiring.ai | AI-Powered Interview Platform",
+      "twitter:description": "Transform your hiring process with ihiring.ai - The intelligent AI interviewing platform that evaluates candidates beyond technical skills.",
+      "twitter:image": "https://ihiring.ai/images/favicon-96x96.png"
+    },
+    "themeColor": "#ffffff",
+    "robots": "# *\nUser-agent: *\nAllow: /\n\n# Host\nHost: https://ihiring.ai\n\n# Sitemaps\nSitemap: https://ihiring.ai/sitemap.xml\n",
+    "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:news=\"http://www.google.com/schemas/sitemap-news/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\" xmlns:mobile=\"http://www.google.com/schemas/sitemap-mobile/1.0\" xmlns:image=\"http://www.google.com/schemas/sitemap-image/1.1\" xmlns:video=\"http://www.google.com/schemas/sitemap-video/1.1\">\n<url><loc>https://ihiring.ai/notification-optin</loc><lastmod>2026-07-24T14:31:42.998Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>\n<url><loc>https://ihiring.ai/privacy-policy</loc><lastmod>2026-07-24T14:31:43.001Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>\n<url><loc>https://ihiring.ai/thanks</loc><lastmod>2026-07-24T14:31:43.001Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>\n<url><loc>https://ihiring.ai/contact-us</loc><lastmod>2026-07-24T14:31:43.001Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>\n<url><loc>https://ihiring.ai/tips-for-interview</loc><lastmod>2026-07-24T14:31:43.001Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>\n<url><loc>https://ihiring.ai</loc><lastmod>2026-07-24T14:31:43.001Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>\n</urlset>",
+    "issues": [
+      "og:image points to a 96px favicon but declares 1200x630",
+      "Web manifest still says name \"MyWebSite\"",
+      "Viewport disables zoom (user-scalable=no) - accessibility problem",
+      "Same <title> on every subpage"
+    ]
+  },
+  "navigation": {
+    "header": [
+      {
+        "label": "Features",
+        "href": "/#Features"
+      },
+      {
+        "label": "Actionable Insights",
+        "href": "/#Actionable_Insights"
+      },
+      {
+        "label": "Functionality",
+        "href": "/#Functionality"
+      },
+      {
+        "label": "Blog",
+        "href": "/tips-for-interview"
+      },
+      {
+        "label": "Pricing",
+        "href": "/contact-us",
+        "note": "Pricing links to the demo form; no pricing page exists"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Login",
+        "kind": "button"
+      },
+      {
+        "label": "Get a Demo",
+        "kind": "button",
+        "goesTo": "/contact-us"
+      }
+    ],
+    "footer": [
+      {
+        "label": "Features",
+        "href": "/#Features"
+      },
+      {
+        "label": "Actionable Insights",
+        "href": "/#Actionable_Insights"
+      },
+      {
+        "label": "Functionality",
+        "href": "/#Functionality"
+      },
+      {
+        "label": "FAQ's",
+        "href": "/#FAQs"
+      },
+      {
+        "label": "Blog",
+        "href": "/tips-for-interview"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      }
+    ],
+    "copyright": "ihiring Inc. | All Rights Reserved © 2025"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Meet Sam!",
+      "headline": "The Only AI Interviewer",
+      "subheadline": "That Thinks Beyond Intelligence",
+      "chips": [
+        "Screening",
+        "Scheduling",
+        "Interviewing",
+        "Analyzed Reports",
+        "ATS Integration"
+      ],
+      "cta": "See ihiring",
+      "video": {
+        "provider": "gumlet",
+        "embed": "https://play.gumlet.io/embed/67c14d5d3e62e5390999631b?t1=1740721792&t2=1740721655056?preload=false&autoplay=false&loop=true&background=false&disable_player_controls=false",
+        "screenshot": "screenshots/hero-video-frame.png",
+        "thumbnails": [
+          "assets/video-thumbnails/2e745b_thumbnail-1-0.avif",
+          "assets/video-thumbnails/562dd6_thumbnail-1-0.avif",
+          "assets/video-thumbnails/66066d_thumbnail-1-0.avif"
+        ],
+        "ui": "Candidate video left; \"Live Transcripts\" chat right; role tag \"Backend Engineer\"; SAM orb bottom-right"
+      }
+    },
+    "features": {
+      "id": "Features",
+      "heading": "Let SAM handle your overwhelming tasks, too!",
+      "items": [
+        {
+          "title": "Precise Pipeline Management",
+          "body": "Screen and onboard qualified candidates from every source, ensuring a quality interview pipeline.",
+          "visual": "Flow diagram: Source -> Screen -> Schedule / Report -> Interview -> ihiring ATS | Your ATS",
+          "assets": [
+            "assets/svg/file_flow.svg",
+            "assets/svg/flow-right-image.svg",
+            "assets/svg/flow_vector.svg"
+          ]
+        },
+        {
+          "title": "Auto Schedule Anytime",
+          "body": "Candidates can instantly schedule, reschedule interviews 24/7 through Sam's smart calendar.",
+          "visual": "Animated scheduling GIF",
+          "assets": [
+            "assets/gifs/interview_Schedule_Latest.gif"
+          ]
+        }
+      ]
+    },
+    "actionableInsights": {
+      "id": "Actionable_Insights",
+      "badge": "Actionable Insights",
+      "heading": "Vet Qualified Candidates in Minutes, Not Weeks",
+      "subheading": "Swiftly filter through thousands of candidates to identify the most qualified and onboard top talent faster than ever",
+      "items": [
+        {
+          "title": "Increases Productivity",
+          "body": "Increases your teams productivity by 7.4x and achieve your planned KPI's.",
+          "asset": "assets/gifs/IncreasesProductivity2-new.gif"
+        },
+        {
+          "title": "Smart Proctoring",
+          "body": "A real-time cheating detection system ensures interview integrity",
+          "asset": "assets/gifs/Smart_Proctor.gif"
+        },
+        {
+          "title": "Decision-Ready Insights",
+          "body": "Sam writes and delivers detailed, unbiased interview reports after each stage, enabling quick, informed, merit-based decisions",
+          "asset": "assets/gifs/InsightsVideo2.gif"
+        }
+      ]
+    },
+    "functionality": {
+      "id": "Functionality",
+      "eyebrow": "Move Smart",
+      "heading": "Designed to fit every need, for teams of any size!",
+      "pipeline": [
+        "Smart Screening",
+        "Auto Scheduling",
+        "AI Interviewing",
+        "Reports",
+        "ATS Integration"
+      ],
+      "footnote": "*Seamlessly integrates with any enterprise, staffing, or recruitment model and ATS.",
+      "integrationsInGraphic": [
+        "LinkedIn",
+        "Indeed",
+        "Glassdoor",
+        "Workday",
+        "Robert Half"
+      ],
+      "integrationsNamedInFaq": [
+        "Workday",
+        "Greenhouse",
+        "Lever",
+        "Ashby",
+        "Bullhorn",
+        "LinkedIn",
+        "Indeed",
+        "Glassdoor"
+      ],
+      "screenshots": [
+        "screenshots/integrations-0.png",
+        "screenshots/integrations-1.png",
+        "screenshots/integrations-2.png"
+      ]
+    },
+    "testimonials": {
+      "heading": "Candidates (thumbs-up) ihiring's SAM",
+      "note": "These are quotes from CANDIDATES interviewed by SAM, not from buyers. No customer logos or buyer testimonials exist on the site.",
+      "items": [
+        {
+          "quote": "SAM was thorough and professional. I started off skeptical, but the follow-up technical questions really tested my skills.",
+          "name": "Haig Schmidt",
+          "role": "Level III Data Engineer"
+        },
+        {
+          "quote": "The ihiring interview style was refreshingly comfortable, allowed me to open up and clearly share my skills and experience.",
+          "name": "Taylor",
+          "role": "Senior Fullstack Engineer"
+        },
+        {
+          "quote": "Wow, what a modern way to interview! Sam made the whole process feel natural and forward-thinking.",
+          "name": "Dominic Z.T.",
+          "role": "Level II DevOps Engineer"
+        },
+        {
+          "quote": "The interview was stress-free and at my own pace. I felt much more at ease than my usual interview jitters.",
+          "name": "Miller",
+          "role": "Entry-Level Business Analyst"
+        },
+        {
+          "quote": "Efficient and respectful of my time. No small talk, just focused questions about my experience and technical abilities.",
+          "name": "Nicole Meyer",
+          "role": "Data Analyst"
+        },
+        {
+          "quote": "I used to feel nervous giving interviews to humans, but in this mode of interview I felt I was talking to myself.",
+          "name": "Dorthy",
+          "role": "Junior PM"
+        },
+        {
+          "quote": "It felt like a natural conversation. I could focus on sharing my experience without feeling nervous.",
+          "name": "Chris A",
+          "role": "ML Engineer"
+        }
+      ]
+    },
+    "explore": {
+      "eyebrow": "There is a lot more",
+      "heading": "Explore it yourself ...",
+      "cta": "Get a Demo",
+      "visual": "Blurred candidate-name pills (decorative)",
+      "assets": [
+        "assets/ui/candidate-pills/demo-1.png",
+        "assets/ui/candidate-pills/demo-2.png",
+        "assets/ui/candidate-pills/demo-3.png",
+        "assets/ui/candidate-pills/demo-4.png",
+        "assets/ui/candidate-pills/demo-5.png",
+        "assets/ui/candidate-pills/demo-6.png"
+      ]
+    },
+    "socialProof": {
+      "g2": "G2 badge",
+      "capterra": "Capterra badge (5 stars)"
+    },
+    "faq": {
+      "id": "FAQs",
+      "heading": "Your Questions, Answered",
+      "tabs": {
+        "General": [
+          {
+            "q": "What does ihiring offer?",
+            "a": "ihiring automates hiring with Sam, an AI interviewer that screens resumes, automates scheduling, conducts interviews 24/7, and delivers actionable reports."
+          },
+          {
+            "q": "Which ATS and Job boards platforms are supported?",
+            "a": "We integrate seamlessly with Workday, Greenhouse, Lever, Ashby, Bullhorn, LinkedIn, Indeed, Glassdoor and more."
+          },
+          {
+            "q": "Does ihiring work for staffing and enterprises?",
+            "a": "Yes, we support both staffing and enterprises, with customized integrations optimized for their business needs."
+          },
+          {
+            "q": "What insights does Sam provide?",
+            "a": "Sam, provides detailed reports with interview videos, transcripts, and performance summaries, delivering actionable insights to support client hiring decisions."
+          },
+          {
+            "q": "As a candidate interviewing on the ihiring platform, what guidelines should I follow?",
+            "a": "As a candidate preparing for an interview on the ihiring platform, it's advisable to approach it as you would any other interview. Maintain composure and authenticity to ensure a productive and enjoyable experience. For detailed guidelines, please visit our blog."
+          }
+        ],
+        "Core Features": [
+          {
+            "q": "How does Sam select the top candidate's application?",
+            "a": "Sam uses AI and ML to analyze resumes, rank profiles, and identify the best-fit candidate's application."
+          },
+          {
+            "q": "Can Sam schedule interview calls and be available 24/7?",
+            "a": "Yes, busy working candidates can schedule interviews with Sam anytime, including evenings, nights and weekends, ensuring 24/7 flexibility to engage top talent effectively."
+          },
+          {
+            "q": "Does Sam conduct live 1:1 interviews and analyze the interview to provide a report?",
+            "a": "Yes, Sam conducts live 1:1 concurrent video interviews and technical assessments 24/7, anywhere in the world. Sam writes and delivers detailed, unbiased interview reports after each stage, enabling quick, informed, merit-based decisions."
+          },
+          {
+            "q": "Does Sam test skills and prevent candidate cheating?",
+            "a": "Sam uses advanced monitoring techniques to assess skills and detect any form of cheating, ensuring a fair and accurate evaluation process."
+          }
+        ]
+      }
+    }
+  },
+  "pages": {
+    "blog": {
+      "path": "/tips-for-interview",
+      "title": "Tips for Interviewing with Sam, on ihiring",
+      "date": "February 22, 2025",
+      "note": "Only one blog post exists. Audience is candidates, not buyers.",
+      "text": "Features\nActionable Insights\nFunctionality\nBlog\nPricing\nLogin\nGet a Demo\nTips for Interviewing with\nSam, on ihiring\nFebruary 22, 2025\n\nFirstly, congratulations! Receiving an invitation to an interview is the first step toward advancing your career and achieving your future goals. ihiring is an AI-driven, candidate-focused interview platform that empowers talented individuals like you to shine.\n\nWhat is an interview on ihiring?\n\nAn interview on ihiring involves a live conversation with Sam, our AI recruiter, conducted via video interview call, same as any other interview. Unlike the other interviews, the process is designed to be fair and consistent, eliminating human biases or variables like recruiter mood or skill level as Sam only cares about your knowledge and is never biased.\n\nWhat’s required from you?\n\nVideo calls on ihiring are like those on Zoom or Teams. Strong and stable internet service is essential for the interview. Choose a quiet, distraction-free environment with good lighting if using video, and dress appropriately.\n\nConsider it like your other interview.\n\nApproach the conversation as you would a standard job interview. Highlight your experience, problem-solving skills, and industry knowledge. Review your resume, align your skills with the job requirements, and research the company if applicable. You can keep your notes next to you. But do not use any external tools like search engines or AI during the call and stay focused.\n\nMost important, be yourself.\n\nStay calm and authentic—this is your opportunity to showcase your personality and capabilities. Speak naturally, focus on clarity, and convey enthusiasm. The goal is to make the experience both productive and enjoyable.\n\nihiring\nFeatures\nActionable Insights\nFunctionality\nFAQ's\nBlog\nPrivacy Policy\nihiring Inc. | All Rights Reserved © 2025"
+    },
+    "demo": {
+      "path": "/contact-us",
+      "heading": "See our solution in action!",
+      "subheading": "Schedule your personalized demo and discover how we can transform your hiring process.",
+      "chips": [
+        "Screening",
+        "Scheduling",
+        "Interviewing",
+        "Analyzed Reports",
+        "ATS Integration"
+      ],
+      "form": [
+        {
+          "name": "name",
+          "label": "Full Name*"
+        },
+        {
+          "name": "organizationName",
+          "label": "Organization Name*"
+        },
+        {
+          "name": "jobTitle",
+          "label": "Job Title*"
+        },
+        {
+          "name": "email",
+          "label": "Work Email*"
+        },
+        {
+          "name": "phoneNumber",
+          "label": "Phone Number"
+        },
+        {
+          "name": "source",
+          "label": "How did you hear about us?*",
+          "options": [
+            "AI/Tech Conferences",
+            "Referral",
+            "Google Search",
+            "Linkedin",
+            "Billboard",
+            "Teammates",
+            "LLMs",
+            "Others"
+          ]
+        }
+      ],
+      "submit": "Get a Demo"
+    },
+    "privacy": {
+      "path": "/privacy-policy",
+      "lastUpdated": "March 03, 2025",
+      "rawHtml": "raw/privacy-policy.html",
+      "text": "PRIVACY POLICY\nLast updated March 03, 2025\n\n\n\n\n\n\nThis Privacy Notice for ihiring Inc. ( \"we,\" \"us,\" or \"our\" ), describes how and why we might access, collect, store, use, and/or share ( \"process\" ) your personal information when you use our services ( \"Services\" ), including when you:\nVisit our website at https://ihiring.ai , or any website of ours that links to this Privacy Notice\nUse ihiring.ai an AI Interviewer SaaS cloud-based platform that automates and enhances clients recruitment process.\nEngage with us in other related ways, including any sales, marketing, or events\nQuestions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at info@ihiring.ai .\n\n\n\n\nSUMMARY OF KEY POINTS\nThis summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.\n\n\nWhat personal information do we process? When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about personal information you disclose to us.\n\n\nDo we process any sensitive personal information? Some of the information may be considered \"special\" or \"sensitive\" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law. Learn more about sensitive information we process.\n\n\nDo we collect any information from third parties? We do not collect any information from third parties.\n\n\nHow do we process your information? We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about how we process your information.\n\n\nIn what situations and with which parties do we share personal information? We may share information in specific situations and with specific third parties. Learn more about when and with whom we share your personal information .\n\n\nHow do we keep your information safe? We have adequate organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about how we keep your information safe.\n\n\nWhat are your rights? Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about your privacy rights.\n\n\nHow do you exercise your rights? The easiest way to exercise your rights is by visiting https://ihiring.ai/privacy-policy , or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.\n\n\nWant to learn more about what we do with any information we collect? Review the Privacy Notice in full.\n\n\n\n\nTABLE OF CONTENTS\n1. WHAT INFORMATION DO WE COLLECT?\n2. HOW DO WE PROCESS YOUR INFORMATION?\n3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?\n4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?\n5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?\n6. DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?\n7. HOW LONG DO WE KEEP YOUR INFORMATION?\n8. HOW DO WE KEEP YOUR INFORMATION SAFE?\n9. DO WE COLLECT INFORMATION FROM MINORS?\n10. WHAT ARE YOUR PRIVACY RIGHTS?\n11. CONTROLS FOR DO-NOT-TRACK FEATURES\n12. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?\n13. DO OTHER REGIONS HAVE SPECIFIC PRIVACY RIGHTS?\n14. DO WE MAKE UPDATES TO THIS NOTICE?\n15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?\n16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?\n\n\n\n\n1. WHAT INFORMATION DO WE COLLECT?\nPersonal information you disclose to us\nIn Short: We collect personal information that you provide to us.\n\n\nWe collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.\n\n\nPersonal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:\nnames\nphone numbers\nemail addresses\nmailing addresses\njob titles\nusernames\npasswords\ncontact preferences\ncontact or authentication data\nbilling addresses\ndebit/credit card numbers\nSensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information:\nAll personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.\n\n\n2. HOW DO WE PROCESS YOUR INFORMATION?\nIn Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.\n\n\nWe process your personal information for a variety of reasons, depending on how you interact with our Services, including:\nTo facilitate account creation and authentication and otherwise manage user accounts. We may process your information so you can create and log in to your account, as well as keep your account in working order.\nTo deliver and facilitate delivery of services to the user. We may process your information to provide you with the requested service.\nTo respond to user inquiries/offer support to users. We may process your information to respond to your inquiries and solve any potential issues you might have with the requested service.\nTo send administrative information to you. We may process your information to send you details about our products and services, changes to our terms and policies, and other similar information.\nTo fulfill and manage your orders. We may process your information to fulfill and manage your orders, payments, returns, and exchanges made through the Services.\n\nTo enable user-to-user communications. We may process your information if you choose to use any of our offerings that allow for communication with another user.\n\nTo request feedback. We may process your information when necessary to request feedback and to contact you about your use of our Services.\nTo save or protect an individual's vital interest. We may process your information when necessary to save or protect an individualâ€™s vital interest, such as to prevent harm.\nPayment & Billing . Will use it for Payment & Billing to charge for the provided services.\nTo serve better . To understand if there's any issues while using the service\n\n\n3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?\nIn Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e. , legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.\n\n\nIf you are located in the EU or UK, this section applies to you.\n\n\nThe General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:\nConsent. We may process your information if you have given us permission (i.e. , consent) to use your personal information for a specific purpose. You can withdraw your consent at any time. Learn more about withdrawing your consent.\nPerformance of a Contract. We may process your personal information when we believe it is necessary to fulfill our contractual obligations to you, including providing our Services or at your request prior to entering into a contract with you.\nLegitimate Interests. We may process your information when we believe it is reasonably necessary to achieve our legitimate business interests and those interests do not outweigh your interests and fundamental rights and freedoms. For example, we may process your personal information for some of the purposes described in order to:\nUnderstand how our users use our products and services so we can improve user experience\nTo understand if the clients/users are happy or facing any kind of issues while using the services\nLegal Obligations. We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.\n\nVital Interests. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.\nIf you are located in Canada, this section applies to you.\n\n\nWe may process your information if you have given us specific permission (i.e. , express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e. , implied consent). You can withdraw your consent at any time.\n\n\nIn some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example:\nIf collection is clearly in the interests of an individual and consent cannot be obtained in a timely way\nFor investigations and fraud detection and prevention\nFor business transactions provided certain conditions are met\nIf it is contained in a witness statement and the collection is necessary to assess, process, or settle an insurance claim\nFor identifying injured, ill, or deceased persons and communicating with next of kin\nIf we have reasonable grounds to believe an individual has been, is, or may be victim of financial abuse\nIf it is reasonable to expect collection and use with consent would compromise the availability or the accuracy of the information and the collection is reasonable for purposes related to investigating a breach of an agreement or a contravention of the laws of Canada or a province\nIf disclosure is required to comply with a subpoena, warrant, court order, or rules of the court relating to the production of records\nIf it was produced by an individual in the course of their employment, business, or profession and the collection is consistent with the purposes for which the information was produced\nIf the collection is solely for journalistic, artistic, or literary purposes\nIf the information is publicly available and is specified by the regulations\n\n\n4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?\nIn Short: We may share information in specific situations described in this section and/or with the following third parties.\n\n\nWe may need to share your personal information in the following situations:\nBusiness Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.\n\n\n5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?\nIn Short: We may use cookies and other tracking technologies to collect and store your information.\n\n\nWe may use cookies and similar tracking technologies (like web beacons and pixels) to gather information when you interact with our Services. Some online tracking technologies help us maintain the security of our Services and your account, prevent crashes, fix bugs, save your preferences, and assist with basic site functions.\n\n\nWe also permit third parties and service providers to use online tracking technologies on our Services for analytics and advertising, including to help manage and display advertisements, to tailor advertisements to your interests, or to send abandoned shopping cart reminders (depending on your communication preferences). The third parties and service providers use their technology to provide advertising about products and services tailored to your interests which may appear either on our Services or on other websites.\n\n\nTo the extent these online tracking technologies are deemed to be a \"sale\"/\"sharing\" (which includes targeted advertising, as defined under the applicable laws) under applicable US state laws, you can opt out of these online tracking technologies by submitting a request as described below under section \"DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?\"\n\n\nSpecific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: https://ihiring.ai/privacy-policy#Cookies and Any Other Tracking Technologies.\nGoogle Analytics\nWe may share your information with Google Analytics to track and analyze the use of the Services. The Google Analytics Advertising Features that we may use include: Google Analytics Demographics and Interests Reporting, Remarketing with Google Analytics and Google Display Network Impressions Reporting. To opt out of being tracked by Google Analytics across the Services, visit https://tools.google.com/dlpage/gaoptout. You can opt out of Google Analytics Advertising Features through Ads Settings and Ad Settings for mobile apps. Other opt out means include http://optout.networkadvertising.org/ and http://www.networkadvertising.org/mobile-choice. For more information on the privacy practices of Google, please visit the Google Privacy & Terms page.\n\n\n6. DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?\nIn Short: We offer products, features, or tools powered by artificial intelligence, machine learning, or similar technologies.\n\n\nAs part of our Services, we offer products, features, or tools powered by artificial intelligence, machine learning, or similar technologies (collectively, \"AI Products\"). These tools are designed to enhance your experience and provide you with innovative solutions. The terms in this Privacy Notice govern your use of the AI Products within our Services.\n\n\nUse of AI Technologies\n\n\nWe provide the AI Products through third-party service providers (\"AI Service Providers\"), including Anthropic, Amazon Web Services (AWS) AI and OpenAI. As outlined in this Privacy Notice, your input, output, and personal information will be shared with and processed by these AI Service Providers to enable your use of our AI Products for purposes outlined in \"WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?\" You must not use the AI Products in any way that violates the terms or policies of any AI Service Provider.\n\n\nOur AI Products\n\n\nOur AI Products are designed for the following functions:\nAI applications\nAI automation\nAI insights\nMachine learning models\nText analysis\nAI document generation\nAI deployment\nAI development\nAI bots\n\n\nHow We Process Your Data Using AI\n\n\nAll personal information processed using our AI Products is handled in line with our Privacy Notice and our agreement with third parties. This ensures high security and safeguards your personal information throughout the process, giving you peace of mind about your data's safety.\n\n\n7. HOW LONG DO WE KEEP YOUR INFORMATION?\nIn Short: We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.\n\n\nWe will only keep your personal information for as long as it is necessary for the purposes set out in this Privacy Notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than six (6) months past the start of the idle period of the user's account .\n\n\nWhen we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.\n\n\n8. HOW DO WE KEEP YOUR INFORMATION SAFE?\nIn Short: We aim to protect your personal information through a system of organizational and technical security measures.\n\n\nWe have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.\n\n\n9. DO WE COLLECT INFORMATION FROM MINORS?\nIn Short: We do not knowingly collect data from or market to children under 18 years of age .\n\n\nWe do not knowingly collect, solicit data from, or market to children under 18 years of age, nor do we knowingly sell such personal information. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependentâ€™s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at info@ihiring.ai .\n\n\n10. WHAT ARE YOUR PRIVACY RIGHTS?\nIn Short: Depending on your state of residence in the US or in some regions, such as the European Economic Area (EEA), United Kingdom (UK), Switzerland, and Canada , you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time, depending on your country, province, or state of residence.\n\n\nIn some regions (like the EEA, UK, Switzerland, and Canada ), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; (iv) if applicable, to data portability; and (v) not to be subject to automated decision-making. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section \" HOW CAN YOU CONTACT US ABOUT THIS NOTICE? \" below.\n\n\nWe will consider and act upon any request in accordance with applicable data protection laws.\nIf you are located in the EEA or UK and you believe we are unlawfully processing your personal information, you also have the right to complain to your Member State data protection authority or UK data protection authority.\n\n\nIf you are located in Switzerland, you may contact the Federal Data Protection and Information Commissioner.\n\n\nWithdrawing your consent: If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section \" HOW CAN YOU CONTACT US ABOUT THIS NOTICE? \" below or updating your preferences .\n\n\nHowever, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.\nAccount Information\nIf you would at any time like to review or change the information in your account or terminate your account, you can:\nUpon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.\n\n\nCookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. For further information, please see our Cookie Notice: https://ihiring.ai/privacy-policy#Cookies and Any Other Tracking Technologies .\n\n\nIf you have questions or comments about your privacy rights, you may email us at info@ihiring.ai .\n\n\n11. CONTROLS FOR DO-NOT-TRACK FEATURES\nMost web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ( \"DNT\" ) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized . As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Privacy Notice.\n\n\nCalifornia law requires us to let you know how we respond to web browser DNT signals. Because there currently is not an industry or legal standard for recognizing or honoring DNT signals, we do not respond to them at this time.\n\n\n12. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?\nIn Short: If you are a resident of California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, or Virginia , you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it, correct inaccuracies, get a copy of, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. More information is provided below.\nCategories of Personal Information We Collect\nWe have collected the following categories of personal information in the past twelve (12) months:\n\n\nCategory\tExamples\tCollected\n\nA. Identifiers\n\t\nContact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name\n\t\n\n\nNO\n\n\nB. Personal information as defined in the California Customer Records statute\n\t\nName, contact information, education, employment, employment history, and financial information\n\t\n\n\nNO\n\n\nC . Protected classification characteristics under state or federal law\n\t\nGender, age, date of birth, race and ethnicity, national origin, marital status, and other demographic data\n\t\n\n\nNO\n\n\n\n\nD . Commercial information\n\t\nTransaction information, purchase history, financial details, and payment information\n\t\n\n\nNO\n\n\n\n\nE . Biometric information\n\t\nFingerprints and voiceprints\n\t\n\n\nNO\n\n\n\n\nF . Internet or other similar network activity\n\t\nBrowsing history, search history, online behavior , interest data, and interactions with our and other websites, applications, systems, and advertisements\n\t\n\n\nNO\n\n\n\n\nG . Geolocation data\n\t\nDevice location\n\t\n\n\nNO\n\n\n\n\nH. Audio, electronic, sensory, or similar information\n\t\nImages and audio, video or call recordings created in connection with our business activities\n\t\n\n\nYES\n\n\n\n\nI. Professional or employment-related information\n\t\nBusiness contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us\n\t\n\n\nNO\n\n\n\n\nJ. Education Information\n\t\nStudent records and directory information\n\t\n\n\nNO\n\n\n\n\nK. Inferences drawn from collected personal information\n\t\nInferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individualâ€™s preferences and characteristics\n\t\n\n\nYES\n\n\n\nL. Sensitive personal Information\tAccount login information, contents of email or text messages, debit or credit card numbers and citizenship or immigration status\t\n\n\nYES\n\n\n\n\nWe only collect sensitive personal information, as defined by applicable privacy laws or the purposes allowed by law or with your consent. Sensitive personal information may be used, or disclosed to a service provider or contractor, for additional, specified purposes. You may have the right to limit the use or disclosure of your sensitive personal information.\n\n\nWe may also collect other personal information outside of these categories through instances where you interact with us in person, online, or by phone or mail in the context of:\nReceiving help through our customer support channels;\nParticipation in customer surveys or contests; and\nFacilitation in the delivery of our Services and to respond to your inquiries.\nWe will use and retain the collected personal information as needed to provide the Services or for:\nCategory H - We will use and retain the collected personal information as needed to provide the Services or/for as long as the user has an account with us. No longer than six (6) months past the termination of user account.\nCategory K - We will use and retain the collected personal information as needed to provide the Services or/for as long as the user has an account with us. No longer than six (6) months past the termination of user account.\nCategory L - We will use and retain the collected personal information as needed to provide the Services or/for as long as the user has an account with us. No longer than six (6) months past the termination of user account.\nSources of Personal Information\nLearn more about the sources of personal information we collect in \" WHAT INFORMATION DO WE COLLECT? \"\nHow We Use and Share Personal Information\nLearn more about how we use your personal information in the section, \" HOW DO WE PROCESS YOUR INFORMATION? \"\n\n\nWill your information be shared with anyone else?\n\n\nWe may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Learn more about how we disclose personal information to in the section, \"WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION? \"\n\n\nWe may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be \"selling\" of your personal information.\n\n\nWe have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. We will not sell or share personal information in the future belonging to website visitors, users, and other consumers.\nYour Rights\nYou have rights under certain US state data protection laws. However, these rights are not absolute, and in certain cases, we may decline your request as permitted by law. These rights include:\nRight to know whether or not we are processing your personal data\nRight to access your personal data\nRight to correct inaccuracies in your personal data\nRight to request the deletion of your personal data\nRight to obtain a copy of the personal data you previously shared with us\nRight to non-discrimination for exercising your rights\nRight to opt out of the processing of your personal data if it is used for targeted advertising (or sharing as defined under Californiaâ€™s privacy law), the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects (\"profiling\" )\nDepending upon the state where you live, you may also have the following rights:\nRight to access the categories of personal data being processed (as permitted by applicable law, including Minnesotaâ€™s privacy law)\nRight to obtain a list of the categories of third parties to which we have disclosed personal data (as permitted by applicable law, including California's and Delaware's privacy law)\nRight to obtain a list of specific third parties to which we have disclosed personal data (as permitted by applicable law, including Minnesota's and Oregon's privacy law)\nRight to review, understand, question, and correct how personal data has been profiled (as permitted by applicable law, including Minnesotaâ€™s privacy law)\nRight to limit use and disclosure of sensitive personal data (as permitted by applicable law, including Californiaâ€™s privacy law)\nRight to opt out of the collection of sensitive data and personal data collected through the operation of a voice or facial recognition feature (as permitted by applicable law, including Floridaâ€™s privacy law)\nHow to Exercise Your Rights\nTo exercise these rights, you can contact us by visiting https://ihiring.ai/privacy-policy , by emailing us at info@ihiring.ai, by visiting https://ihiring.ai/contact-us , or by referring to the contact details at the bottom of this document.\n\n\nWe will honor your opt-out preferences if you enact the Global Privacy Control (GPC) opt-out signal on your browser.\n\n\nUnder certain US state data protection laws, you can designate an authorized agent to make a request on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with applicable laws.\n\nRequest Verification\nUpon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. We will only use personal information provided in your request to verify your identity or authority to make the request. However, if we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity and for security or fraud-prevention purposes.\n\n\nIf you submit the request through an authorized agent, we may need to collect additional information to verify your identity before processing your request and the agent will need to provide a written and signed permission from you to submit such request on your behalf.\nAppeals\nUnder certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at info@ihiring.ai . We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.\nCalifornia \"Shine The Light\" Law\nCalifornia Civil Code Section 1798.83, also known as the \"Shine The Light\" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section \" HOW CAN YOU CONTACT US ABOUT THIS NOTICE? \"\n\n\n13. DO OTHER REGIONS HAVE SPECIFIC PRIVACY RIGHTS?\nIn Short: You may have additional rights based on the country you reside in.\nAustralia and New Zealand\nWe collect and process your personal information under the obligations and conditions set by Australia's Privacy Act 1988 and New Zealand's Privacy Act 2020 (Privacy Act).\n\n\nThis Privacy Notice satisfies the notice requirements defined in both Privacy Acts, in particular: what personal information we collect from you, from which sources, for which purposes, and other recipients of your personal information.\n\n\nIf you do not wish to provide the personal information necessary to fulfill their applicable purpose, it may affect our ability to provide our services, in particular:\noffer you the products or services that you want\nrespond to or help with your requests\nmanage your account with us\nconfirm your identity and protect your account\nAt any time, you have the right to request access to or correction of your personal information. You can make such a request by contacting us by using the contact details provided in the section \"HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? \"\n\n\nIf you believe we are unlawfully processing your personal information, you have the right to submit a complaint about a breach of the Australian Privacy Principles to the Office of the Australian Information Commissioner and a breach of New Zealand's Privacy Principles to the Office of New Zealand Privacy Commissioner .\nRepublic of South Africa\nAt any time, you have the right to request access to or correction of your personal information. You can make such a request by contacting us by using the contact details provided in the section \" HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? \"\n\n\nIf you are unsatisfied with the manner in which we address any complaint with regard to our processing of personal information, you can contact the office of the regulator, the details of which are:\n\n\nThe Information Regulator (South Africa)\nGeneral enquiries: enquiries@inforegulator.org.za\nComplaints (complete POPIA/PAIA form 5): PAIAComplaints@inforegulator.org.za & POPIAComplaints@inforegulator.org.za\n\n\n14. DO WE MAKE UPDATES TO THIS NOTICE?\nIn Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.\n\n\nWe may update this Privacy Notice from time to time. The updated version will be indicated by an updated \"Revised\" date at the top of this Privacy Notice. If we make material changes to this Privacy Notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Privacy Notice frequently to be informed of how we are protecting your information.\n\n\n15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?\nIf you have questions or comments about this notice, you may contact our Data Protection Officer (DPO) by email at info@ihiring.ai , or contact us by post at:\n\n\nihiring Inc.\nData Protection Officer\n2261 Market Street\n#85525\nSan Francisco, CA 94114\nUnited States\n\n\n16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?\nBased on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please visit: https://ihiring.ai/privacy-policy ."
+    }
+  },
+  "currentDesign": {
+    "fonts": [
+      "Poppins (headings and body)",
+      "Arial fallback"
+    ],
+    "colors": {
+      "primaryBlue": "#1d4ed8",
+      "accentBlue": "#0e5dfc",
+      "gradientHeading": "blue-700 -> #ff33cc",
+      "bg": "#ffffff",
+      "darkSection": "#000000",
+      "tint": "#f4f4f5"
+    },
+    "stack": "Next.js + Tailwind + shadcn tokens, hosted behind CloudFront",
+    "tokens": {
+      "bodyBg": "rgb(255, 255, 255)",
+      "bodyColor": "rgb(0, 0, 0)",
+      "bodyFont": "Arial, Helvetica, sans-serif, Poppins",
+      "topColors": [
+        [
+          "rgb(229, 229, 229)",
+          594
+        ],
+        [
+          "rgb(0, 0, 0)",
+          421
+        ],
+        [
+          "rgb(255, 255, 255)",
+          78
+        ],
+        [
+          "rgb(168, 162, 158)",
+          53
+        ],
+        [
+          "rgb(243, 244, 246)",
+          28
+        ],
+        [
+          "rgb(75, 85, 99)",
+          28
+        ],
+        [
+          "rgb(29, 78, 216)",
+          27
+        ],
+        [
+          "rgb(8, 51, 68)",
+          17
+        ],
+        [
+          "rgb(14, 93, 252)",
+          16
+        ],
+        [
+          "rgb(229, 231, 235)",
+          14
+        ],
+        [
+          "rgb(136, 144, 147)",
+          10
+        ],
+        [
+          "rgb(115, 115, 115)",
+          8
+        ],
+        [
+          "rgb(231, 229, 228)",
+          8
+        ],
+        [
+          "rgba(0, 0, 0, 0.7)",
+          8
+        ],
+        [
+          "rgb(55, 65, 81)",
+          5
+        ]
+      ],
+      "topFonts": [
+        [
+          "Arial, Helvetica, sans-serif, Poppins",
+          524
+        ],
+        [
+          "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          105
+        ],
+        [
+          "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          15
+        ]
+      ],
+      "topTypeScale": [
+        [
+          "16px/400",
+          390
+        ],
+        [
+          "16px/500",
+          31
+        ],
+        [
+          "13px/600",
+          28
+        ],
+        [
+          "13px/300",
+          28
+        ],
+        [
+          "48px/400",
+          27
+        ],
+        [
+          "16px/200",
+          20
+        ],
+        [
+          "18px/400",
+          17
+        ],
+        [
+          "24px/400",
+          15
+        ],
+        [
+          "36px/400",
+          13
+        ],
+        [
+          "14px/400",
+          8
+        ],
+        [
+          "16px/300",
+          7
+        ],
+        [
+          "40px/500",
+          7
+        ],
+        [
+          "64px/300",
+          5
+        ],
+        [
+          "20px/300",
+          5
+        ],
+        [
+          "20px/400",
+          5
+        ]
+      ],
+      "rootVars": {
+        "--inherit": "inherit",
+        "--current": "currentColor",
+        "--transparent": "transparent",
+        "--black": "#000",
+        "--white": "#fff",
+        "--slate-50": "#f8fafc",
+        "--slate-100": "#f1f5f9",
+        "--slate-200": "#e2e8f0",
+        "--slate-300": "#cbd5e1",
+        "--slate-400": "#94a3b8",
+        "--slate-500": "#64748b",
+        "--slate-600": "#475569",
+        "--slate-700": "#334155",
+        "--slate-800": "#1e293b",
+        "--slate-900": "#0f172a",
+        "--slate-950": "#020617",
+        "--gray-50": "#f9fafb",
+        "--gray-100": "#f3f4f6",
+        "--gray-200": "#e5e7eb",
+        "--gray-300": "#d1d5db",
+        "--gray-400": "#9ca3af",
+        "--gray-500": "#6b7280",
+        "--gray-600": "#4b5563",
+        "--gray-700": "#374151",
+        "--gray-800": "#1f2937",
+        "--gray-900": "#111827",
+        "--gray-950": "#030712",
+        "--zinc-50": "#fafafa",
+        "--zinc-100": "#f4f4f5",
+        "--zinc-200": "#e4e4e7",
+        "--zinc-300": "#d4d4d8",
+        "--zinc-400": "#a1a1aa",
+        "--zinc-500": "#71717a",
+        "--zinc-600": "#52525b",
+        "--zinc-700": "#3f3f46",
+        "--zinc-800": "#27272a",
+        "--zinc-900": "#18181b",
+        "--zinc-950": "#09090b",
+        "--neutral-50": "#fafafa",
+        "--neutral-100": "#f5f5f5",
+        "--neutral-200": "#e5e5e5",
+        "--neutral-300": "#d4d4d4",
+        "--neutral-400": "#a3a3a3",
+        "--neutral-500": "#737373",
+        "--neutral-600": "#525252",
+        "--neutral-700": "#404040",
+        "--neutral-800": "#262626",
+        "--neutral-900": "#171717",
+        "--neutral-950": "#0a0a0a",
+        "--stone-50": "#fafaf9",
+        "--stone-100": "#f5f5f4",
+        "--stone-200": "#e7e5e4",
+        "--stone-300": "#d6d3d1",
+        "--stone-400": "#a8a29e",
+        "--stone-500": "#78716c",
+        "--stone-600": "#57534e",
+        "--stone-700": "#44403c",
+        "--stone-800": "#292524",
+        "--stone-900": "#1c1917",
+        "--stone-950": "#0c0a09",
+        "--red-50": "#fef2f2",
+        "--red-100": "#fee2e2",
+        "--red-200": "#fecaca",
+        "--red-300": "#fca5a5",
+        "--red-400": "#f87171",
+        "--red-500": "#ef4444",
+        "--red-600": "#dc2626",
+        "--red-700": "#b91c1c",
+        "--red-800": "#991b1b",
+        "--red-900": "#7f1d1d",
+        "--red-950": "#450a0a",
+        "--orange-50": "#fff7ed",
+        "--orange-100": "#ffedd5",
+        "--orange-200": "#fed7aa",
+        "--orange-300": "#fdba74",
+        "--orange-400": "#fb923c",
+        "--orange-500": "#f97316",
+        "--orange-600": "#ea580c",
+        "--orange-700": "#c2410c",
+        "--orange-800": "#9a3412",
+        "--orange-900": "#7c2d12",
+        "--orange-950": "#431407",
+        "--amber-50": "#fffbeb",
+        "--amber-100": "#fef3c7",
+        "--amber-200": "#fde68a",
+        "--amber-300": "#fcd34d",
+        "--amber-400": "#fbbf24",
+        "--amber-500": "#f59e0b",
+        "--amber-600": "#d97706",
+        "--amber-700": "#b45309",
+        "--amber-800": "#92400e",
+        "--amber-900": "#78350f",
+        "--amber-950": "#451a03",
+        "--yellow-50": "#fefce8",
+        "--yellow-100": "#fef9c3",
+        "--yellow-200": "#fef08a",
+        "--yellow-300": "#fde047",
+        "--yellow-400": "#facc15",
+        "--yellow-500": "#eab308",
+        "--yellow-600": "#ca8a04",
+        "--yellow-700": "#a16207",
+        "--yellow-800": "#854d0e",
+        "--yellow-900": "#713f12",
+        "--yellow-950": "#422006",
+        "--lime-50": "#f7fee7",
+        "--lime-100": "#ecfccb",
+        "--lime-200": "#d9f99d",
+        "--lime-300": "#bef264",
+        "--lime-400": "#a3e635",
+        "--lime-500": "#84cc16",
+        "--lime-600": "#65a30d",
+        "--lime-700": "#4d7c0f",
+        "--lime-800": "#3f6212",
+        "--lime-900": "#365314",
+        "--lime-950": "#1a2e05",
+        "--green-50": "#f0fdf4",
+        "--green-100": "#dcfce7",
+        "--green-200": "#bbf7d0",
+        "--green-300": "#86efac",
+        "--green-400": "#4ade80",
+        "--green-500": "#22c55e",
+        "--green-600": "#16a34a",
+        "--green-700": "#15803d",
+        "--green-800": "#166534",
+        "--green-900": "#14532d",
+        "--green-950": "#052e16",
+        "--emerald-50": "#ecfdf5",
+        "--emerald-100": "#d1fae5",
+        "--emerald-200": "#a7f3d0",
+        "--emerald-300": "#6ee7b7",
+        "--emerald-400": "#34d399",
+        "--emerald-500": "#10b981",
+        "--emerald-600": "#059669",
+        "--emerald-700": "#047857",
+        "--emerald-800": "#065f46",
+        "--emerald-900": "#064e3b",
+        "--emerald-950": "#022c22",
+        "--teal-50": "#f0fdfa",
+        "--teal-100": "#ccfbf1",
+        "--teal-200": "#99f6e4",
+        "--teal-300": "#5eead4",
+        "--teal-400": "#2dd4bf",
+        "--teal-500": "#14b8a6",
+        "--teal-600": "#0d9488",
+        "--teal-700": "#0f766e",
+        "--teal-800": "#115e59",
+        "--teal-900": "#134e4a",
+        "--teal-950": "#042f2e",
+        "--cyan-50": "#ecfeff",
+        "--cyan-100": "#cffafe",
+        "--cyan-200": "#a5f3fc",
+        "--cyan-300": "#67e8f9",
+        "--cyan-400": "#22d3ee",
+        "--cyan-500": "#06b6d4",
+        "--cyan-600": "#0891b2",
+        "--cyan-700": "#0e7490",
+        "--cyan-800": "#155e75",
+        "--cyan-900": "#164e63",
+        "--cyan-950": "#083344",
+        "--sky-50": "#f0f9ff",
+        "--sky-100": "#e0f2fe",
+        "--sky-200": "#bae6fd",
+        "--sky-300": "#7dd3fc",
+        "--sky-400": "#38bdf8",
+        "--sky-500": "#0ea5e9",
+        "--sky-600": "#0284c7",
+        "--sky-700": "#0369a1",
+        "--sky-800": "#075985",
+        "--sky-900": "#0c4a6e",
+        "--sky-950": "#082f49",
+        "--blue-50": "#eff6ff",
+        "--blue-100": "#dbeafe",
+        "--blue-200": "#bfdbfe",
+        "--blue-300": "#93c5fd",
+        "--blue-400": "#60a5fa",
+        "--blue-500": "#3b82f6",
+        "--blue-600": "#2563eb",
+        "--blue-700": "#1d4ed8",
+        "--blue-800": "#1e40af",
+        "--blue-900": "#1e3a8a",
+        "--blue-950": "#172554",
+        "--indigo-50": "#eef2ff",
+        "--indigo-100": "#e0e7ff",
+        "--indigo-200": "#c7d2fe",
+        "--indigo-300": "#a5b4fc",
+        "--indigo-400": "#818cf8",
+        "--indigo-500": "#6366f1",
+        "--indigo-600": "#4f46e5",
+        "--indigo-700": "#4338ca",
+        "--indigo-800": "#3730a3",
+        "--indigo-900": "#312e81",
+        "--indigo-950": "#1e1b4b",
+        "--violet-50": "#f5f3ff",
+        "--violet-100": "#ede9fe",
+        "--violet-200": "#ddd6fe",
+        "--violet-300": "#c4b5fd",
+        "--violet-400": "#a78bfa",
+        "--violet-500": "#8b5cf6",
+        "--violet-600": "#7c3aed",
+        "--violet-700": "#6d28d9",
+        "--violet-800": "#5b21b6",
+        "--violet-900": "#4c1d95",
+        "--violet-950": "#2e1065",
+        "--purple-50": "#faf5ff",
+        "--purple-100": "#f3e8ff",
+        "--purple-200": "#e9d5ff",
+        "--purple-300": "#d8b4fe",
+        "--purple-400": "#c084fc",
+        "--purple-500": "#a855f7",
+        "--purple-600": "#9333ea",
+        "--purple-700": "#7e22ce",
+        "--purple-800": "#6b21a8",
+        "--purple-900": "#581c87",
+        "--purple-950": "#3b0764",
+        "--fuchsia-50": "#fdf4ff",
+        "--fuchsia-100": "#fae8ff",
+        "--fuchsia-200": "#f5d0fe",
+        "--fuchsia-300": "#f0abfc",
+        "--fuchsia-400": "#e879f9",
+        "--fuchsia-500": "#d946ef",
+        "--fuchsia-600": "#c026d3",
+        "--fuchsia-700": "#a21caf",
+        "--fuchsia-800": "#86198f",
+        "--fuchsia-900": "#701a75",
+        "--fuchsia-950": "#4a044e",
+        "--pink-50": "#fdf2f8",
+        "--pink-100": "#fce7f3",
+        "--pink-200": "#fbcfe8",
+        "--pink-300": "#f9a8d4",
+        "--pink-400": "#f472b6",
+        "--pink-500": "#ec4899",
+        "--pink-600": "#db2777",
+        "--pink-700": "#be185d",
+        "--pink-800": "#9d174d",
+        "--pink-900": "#831843",
+        "--pink-950": "#500724",
+        "--rose-50": "#fff1f2",
+        "--rose-100": "#ffe4e6",
+        "--rose-200": "#fecdd3",
+        "--rose-300": "#fda4af",
+        "--rose-400": "#fb7185",
+        "--rose-500": "#f43f5e",
+        "--rose-600": "#e11d48",
+        "--rose-700": "#be123c",
+        "--rose-800": "#9f1239",
+        "--rose-900": "#881337",
+        "--rose-950": "#4c0519",
+        "--background": "0 0% 100%",
+        "--foreground": "0 0% 3.9%",
+        "--card": "0 0% 100%",
+        "--card-foreground": "0 0% 3.9%",
+        "--popover": "0 0% 100%",
+        "--popover-foreground": "0 0% 3.9%",
+        "--primary": "0 0% 9%",
+        "--primary-foreground": "0 0% 98%",
+        "--secondary": "0 0% 96.1%",
+        "--secondary-foreground": "0 0% 9%",
+        "--muted": "0 0% 96.1%",
+        "--muted-foreground": "0 0% 45.1%",
+        "--accent": "0 0% 96.1%",
+        "--accent-foreground": "0 0% 9%",
+        "--destructive": "0 84.2% 60.2%",
+        "--destructive-foreground": "0 0% 98%",
+        "--border": "0 0% 89.8%",
+        "--input": "0 0% 89.8%",
+        "--ring": "0 0% 3.9%",
+        "--chart-1": "12 76% 61%",
+        "--chart-2": "173 58% 39%",
+        "--chart-3": "197 37% 24%",
+        "--chart-4": "43 74% 66%",
+        "--chart-5": "27 87% 67%",
+        "--radius": "0.5rem"
+      }
+    },
+    "screenshots": [
+      "assets/../screenshots/contact-us-desktop-fold.png",
+      "assets/../screenshots/contact-us-desktop-full.png",
+      "assets/../screenshots/contact-us-mobile-full.png",
+      "assets/../screenshots/feature-tab-auto.png",
+      "assets/../screenshots/feature-tab-precise.png",
+      "assets/../screenshots/hero-video-frame.png",
+      "assets/../screenshots/home-desktop-fold.png",
+      "assets/../screenshots/home-desktop-full.png",
+      "assets/../screenshots/home-mobile-full.png",
+      "assets/../screenshots/home-section-01-header.png",
+      "assets/../screenshots/home-section-02-section.png",
+      "assets/../screenshots/home-section-03-section.png",
+      "assets/../screenshots/home-section-04-section.png",
+      "assets/../screenshots/home-section-05-section.png",
+      "assets/../screenshots/integrations-0.png",
+      "assets/../screenshots/integrations-1.png",
+      "assets/../screenshots/integrations-2.png",
+      "assets/../screenshots/privacy-policy-desktop-fold.png",
+      "assets/../screenshots/privacy-policy-desktop-full.png",
+      "assets/../screenshots/privacy-policy-mobile-full.png",
+      "assets/../screenshots/tips-for-interview-desktop-fold.png",
+      "assets/../screenshots/tips-for-interview-desktop-full.png",
+      "assets/../screenshots/tips-for-interview-mobile-full.png"
+    ]
+  },
+  "assets": {
+    "logos": [
+      "assets/logos/Logo.svg",
+      "assets/logos/ihiring-mark-512.png",
+      "assets/logos/ihiring-mark-96.png",
+      "assets/logos/ihiring-wordmark.svg",
+      "assets/logos/linkedin-logo.svg",
+      "assets/logos/main-logo.svg"
+    ],
+    "icons": [
+      "assets/icons/apple-touch-icon.png",
+      "assets/icons/favicon-96x96.png",
+      "assets/icons/favicon.ico",
+      "assets/icons/site.webmanifest",
+      "assets/icons/web-app-manifest-192x192.png",
+      "assets/icons/web-app-manifest-512x512.png"
+    ],
+    "svg": [
+      "assets/svg/Document-flow.svg",
+      "assets/svg/G2_ihiring_website.svg",
+      "assets/svg/fbf7dad7-3830-4620-a9ea-e91c23a1a245.svg",
+      "assets/svg/file_flow.svg",
+      "assets/svg/flow-right-image.svg",
+      "assets/svg/flow_vector.svg",
+      "assets/svg/linkedin.svg",
+      "assets/svg/new-like.svg",
+      "assets/svg/right-side-flagged.svg",
+      "assets/svg/right-side-rejected.svg",
+      "assets/svg/right-side-success.svg",
+      "assets/svg/robert-hood.svg",
+      "assets/svg/vector.svg",
+      "assets/svg/work-day.svg"
+    ],
+    "gifs": [
+      "assets/gifs/IncreasesProductivity2-new.gif",
+      "assets/gifs/InsightsVideo2.gif",
+      "assets/gifs/Smart_Proctor.gif",
+      "assets/gifs/interview_Schedule_Latest.gif"
+    ],
+    "images": [
+      "assets/images/flow-left-1.png",
+      "assets/images/left-new-2.png",
+      "assets/images/left-new-3.png"
+    ],
+    "video-thumbnails": [
+      "assets/video-thumbnails/2e745b_thumbnail-1-0.avif",
+      "assets/video-thumbnails/562dd6_thumbnail-1-0.avif",
+      "assets/video-thumbnails/66066d_thumbnail-1-0.avif"
+    ],
+    "ui": [
+      "assets/ui/candidate-pills/demo-1.png",
+      "assets/ui/candidate-pills/demo-2.png",
+      "assets/ui/candidate-pills/demo-3.png",
+      "assets/ui/candidate-pills/demo-4.png",
+      "assets/ui/candidate-pills/demo-5.png",
+      "assets/ui/candidate-pills/demo-6.png",
+      "assets/ui/webp/0b9517_image.webp",
+      "assets/ui/webp/36b366_image.webp",
+      "assets/ui/webp/54dd31_image.webp",
+      "assets/ui/webp/89cedb_image.webp",
+      "assets/ui/webp/99e1fd_image.webp",
+      "assets/ui/webp/d1786e_image.webp",
+      "assets/ui/webp/e5e04e_image.webp"
+    ],
+    "fonts": [
+      "assets/fonts/0484562807a97172-s.p.woff2",
+      "assets/fonts/8888a3826f4a3af4-s.p.woff2",
+      "assets/fonts/b957ea75a84b6ea7-s.p.woff2",
+      "assets/fonts/eafabf029ad39a43-s.p.woff2"
+    ]
+  }
+}

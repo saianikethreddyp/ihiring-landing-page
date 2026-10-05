@@ -1,0 +1,468 @@
+{
+  "alex": {
+    "title": "Alex - AI Recruiter for Hiring Great People | Alex AI",
+    "h1": "Interview everyone. Hire the best.",
+    "h1Style": {
+      "size": "54px",
+      "weight": "300",
+      "ls": "-0.704px",
+      "lh": "58px",
+      "font": "\"DM Sans\""
+    },
+    "bodyBg": "rgb(249, 251, 245)",
+    "fonts": [
+      [
+        "\"DM Sans\"",
+        1479
+      ]
+    ],
+    "colors": [
+      [
+        "rgb(8, 41, 0)",
+        952
+      ],
+      [
+        "rgb(33, 33, 33)",
+        203
+      ],
+      [
+        "rgb(238, 242, 225)",
+        127
+      ],
+      [
+        "rgb(107, 127, 102)",
+        111
+      ],
+      [
+        "rgb(255, 255, 255)",
+        49
+      ],
+      [
+        "rgba(255, 255, 255, 0.45)",
+        38
+      ],
+      [
+        "rgb(238, 240, 230)",
+        23
+      ],
+      [
+        "rgb(249, 251, 245)",
+        15
+      ]
+    ],
+    "headings": [
+      "H1: Interview everyone. Hire the best.",
+      "H2: Free your team to hire at their best, at any scale. Alex is the AI recruiter that automates the busywork and creates space for your recruiters to build candidate relationships, partner with hiring managers, and win top talent.",
+      "H2: Talent scales with Alex",
+      "H2: Natural, intelligent conversations",
+      "H2: Meet candidates where they are",
+      "H2: Know who is applying",
+      "H2: Trust the answers were theirs",
+      "H2: The right person, confirmed",
+      "H2: Book interviews automatically",
+      "H2: Review resumes instantly",
+      "H2: Unlock your ATS",
+      "H2: Measurable Impact",
+      "H2: Accelerate Hiring",
+      "H3: Engage Instantly",
+      "H3: Evaluate Fairly",
+      "H3: Hire Faster",
+      "H3: What we loved most about Alex was the people who were willing to grow and scale with us, willing to configure and build within our applicant tracking system. Where we started and where we are now is night and day.",
+      "H3: Traditionally in recruitment, there is a limit on the number of candidates that a recruiter can talk to in a day. Alex is a game changer, with every interested candidate being considered for the role.",
+      "H3: Alex functions like a supercharged recruiting associate: it asks smart questions, surfaces key insights, and dramatically speeds up our screening process. Our recruiters focus on deeper conversations and higher-value work.",
+      "H3: Alex even identified two amazing candidates that our professors did not initially shortlist because their CVs were not well aligned with the advertisement. We ended up moving forward with both."
+    ],
+    "buttons": [
+      "Customize",
+      "Reject All",
+      "Accept All",
+      "Log in",
+      "Book a demo",
+      "Sign in",
+      "Request a demo"
+    ],
+    "radius": [
+      "0px",
+      "2px",
+      "2px"
+    ],
+    "height": 12740
+  },
+  "perfectly": {
+    "title": "Perfectly: Fill your role in days, not months",
+    "h1": "Your AI recruiter for understaffed teams",
+    "h1Style": {
+      "size": "70px",
+      "weight": "400",
+      "ls": "-4.9px",
+      "lh": "77px",
+      "font": "Halant"
+    },
+    "bodyBg": "rgb(252, 246, 239)",
+    "fonts": [
+      [
+        "sans-serif",
+        480
+      ],
+      [
+        "Halant",
+        143
+      ],
+      [
+        "Geist",
+        83
+      ],
+      [
+        "Inter",
+        1
+      ]
+    ],
+    "colors": [
+      [
+        "rgb(0, 0, 0)",
+        448
+      ],
+      [
+        "rgb(255, 255, 255)",
+        114
+      ],
+      [
+        "rgb(43, 24, 10)",
+        67
+      ],
+      [
+        "rgb(148, 135, 124)",
+        44
+      ],
+      [
+        "rgb(0, 0, 238)",
+        25
+      ],
+      [
+        "rgb(239, 231, 221)",
+        17
+      ],
+      [
+        "rgb(250, 246, 242)",
+        11
+      ],
+      [
+        "rgb(246, 240, 233)",
+        10
+      ]
+    ],
+    "headings": [
+      "H3: Perfectly",
+      "H1: Your AI recruiter for understaffed teams",
+      "H1: The AI recruiting team that fills your startup roles in days",
+      "H2: We build a living model of the perfect candidate, and develop the recruiting engine for you to find and close them.",
+      "H2: Custom Integration",
+      "H2: Source",
+      "H2: Outreach",
+      "H2: Optimize",
+      "H2: We moved off Paraform and canceled our Juicebox subscription because of the velocity we saw from Perfectly",
+      "H2: 2x interview pass rate for top startup",
+      "H1: 10x",
+      "H1: 12 weeks",
+      "H2: Set it, and let it run. We'll take care of the rest.",
+      "H2: Faster, Cheaper, Better",
+      "H1: 2x more precise",
+      "H1: 4x faster",
+      "H2: We're a team of Meta and TikTok researchers obsessed with finding you the right candidates",
+      "H2: We put transparency first",
+      "H2: Perfectly"
+    ],
+    "buttons": [
+      "Researcher Scout",
+      "Request Access Schedule Demo",
+      "Get Started Get Started"
+    ],
+    "radius": [],
+    "height": 7227
+  },
+  "prism": {
+    "title": "Prism – Qualified talent leads. A lot faster. | Prism",
+    "h1": "Fill critical roles, a lot faster.",
+    "h1Style": {
+      "size": "60px",
+      "weight": "400",
+      "ls": "normal",
+      "lh": "66px",
+      "font": "\"Playfair Display\""
+    },
+    "bodyBg": "rgb(26, 26, 24)",
+    "fonts": [
+      [
+        "dmSans",
+        1408
+      ],
+      [
+        "\"DM Sans\"",
+        446
+      ],
+      [
+        "\"Playfair Display\"",
+        15
+      ],
+      [
+        "sourceSerif",
+        9
+      ]
+    ],
+    "colors": [
+      [
+        "rgb(245, 240, 234)",
+        1681
+      ],
+      [
+        "rgba(245, 240, 234, 0.04)",
+        150
+      ],
+      [
+        "rgba(245, 240, 234, 0.7)",
+        76
+      ],
+      [
+        "rgba(245, 240, 234, 0.55)",
+        50
+      ],
+      [
+        "rgba(255, 255, 255, 0.8)",
+        26
+      ],
+      [
+        "rgb(26, 26, 24)",
+        17
+      ],
+      [
+        "rgb(245, 240, 235)",
+        16
+      ],
+      [
+        "rgb(61, 64, 47)",
+        11
+      ]
+    ],
+    "headings": [
+      "H1: Fill critical roles, a lot faster.",
+      "H2: How Prism works",
+      "H3: We hire for you, end-to-end",
+      "H3: 15% of salary, only when you hire",
+      "H3: Our pool. Your network. The whole internet.",
+      "H2: The best people search engine in the world.",
+      "H2: Common Questions"
+    ],
+    "buttons": [
+      "Skip to main content",
+      "Employers",
+      "Candidates",
+      "Start hiring",
+      "View paper",
+      "Essential Only",
+      "Accept All"
+    ],
+    "radius": [
+      "9999px",
+      "9999px",
+      "9999px"
+    ],
+    "height": 7559
+  },
+  "contrario": {
+    "title": "Contrario | AI Recruiting Platform",
+    "h1": "Hire great talent faster",
+    "h1Style": {
+      "size": "72px",
+      "weight": "500",
+      "ls": "normal",
+      "lh": "72px",
+      "font": "Inter"
+    },
+    "bodyBg": "rgb(250, 250, 250)",
+    "fonts": [
+      [
+        "sans-serif",
+        846
+      ],
+      [
+        "Inter",
+        178
+      ]
+    ],
+    "colors": [
+      [
+        "rgb(0, 0, 0)",
+        565
+      ],
+      [
+        "rgb(0, 0, 238)",
+        289
+      ],
+      [
+        "rgb(17, 24, 39)",
+        73
+      ],
+      [
+        "rgba(17, 24, 39, 0.8)",
+        45
+      ],
+      [
+        "rgb(255, 255, 255)",
+        21
+      ],
+      [
+        "rgba(255, 255, 255, 0)",
+        17
+      ],
+      [
+        "rgba(17, 24, 39, 0.4)",
+        15
+      ],
+      [
+        "rgba(255, 255, 255, 0.6)",
+        15
+      ]
+    ],
+    "headings": [
+      "H1: Hire great talent faster",
+      "H2: Don’t just take our word for it",
+      "H2: Why teams trust Contrario",
+      "H2: High-quality candidates",
+      "H3: 80% of candidates interviewed",
+      "H2: Fast time-to-hire",
+      "H3: 20 days to meet the candidate you hire",
+      "H2: Concierge-level support",
+      "H3: 80% of customers renew after 1st hire",
+      "H2: Hiring without overhead",
+      "H3: 90% less recruiting admin work",
+      "H2: How Contrario works",
+      "H2: Contrario fits seamlessly into your existing workflows",
+      "H2: The future of hiring starts here"
+    ],
+    "buttons": [
+      "Solutions",
+      "Features",
+      "Customers",
+      "Domains",
+      "Resources",
+      "Sign in",
+      "Get a demo",
+      "See all customer stories",
+      "For companies",
+      "For recruiters",
+      "Blogs",
+      "Careers"
+    ],
+    "radius": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "height": 8783
+  },
+  "candidately": {
+    "title": "AI for Recruitment Agencies | Candidately",
+    "h1": "AI that makes great Recruitment Agencies unstoppable.",
+    "h1Style": {
+      "size": "54px",
+      "weight": "300",
+      "ls": "-1.08px",
+      "lh": "62.1px",
+      "font": "rhymesLight"
+    },
+    "bodyBg": "rgb(255, 255, 255)",
+    "fonts": [
+      [
+        "GeistSans",
+        1380
+      ],
+      [
+        "rhymesLight",
+        68
+      ]
+    ],
+    "colors": [
+      [
+        "rgb(9, 9, 9)",
+        1083
+      ],
+      [
+        "rgb(127, 128, 128)",
+        101
+      ],
+      [
+        "rgb(149, 149, 149)",
+        101
+      ],
+      [
+        "rgb(255, 255, 255)",
+        60
+      ],
+      [
+        "rgb(74, 74, 74)",
+        38
+      ],
+      [
+        "rgb(32, 106, 123)",
+        29
+      ],
+      [
+        "rgb(233, 127, 70)",
+        14
+      ],
+      [
+        "rgb(247, 247, 247)",
+        13
+      ]
+    ],
+    "headings": [
+      "H1: AI that makes great Recruitment Agencies unstoppable.",
+      "H2: Recruiters move faster when AI does the busywork.",
+      "H2: From Search to Submission at the Speed of AI.",
+      "H3: Rediscovery",
+      "H3: Job Board",
+      "H3: Resume Builder",
+      "H3: Client Portal",
+      "H3: Talent Marketplace",
+      "H2: Search. Format. Present. Place.",
+      "H3: Find the right person in seconds.",
+      "H3: A branded job board. Synced with your ATS.",
+      "H3: Client-ready resumes in seconds.",
+      "H3: One workspace. Faster placements.",
+      "H2: Built for every size of team",
+      "H2: What changes when AI works on top of your ATS.",
+      "H2: Works on top of the ATS you already use",
+      "H2: Works on top of the ATS you already use",
+      "H2: Four teams. One platform.",
+      "H3: For sourcing teams",
+      "H3: For recruiters",
+      "H3: For business development",
+      "H3: For marketing teams",
+      "H2: Questions we hear on every demo call.",
+      "H3: Do I need to migrate away from my ATS?",
+      "H3: What does Candidately actually include?",
+      "H3: How is this different from my ATS's built-in search?",
+      "H3: How long does setup take?",
+      "H3: Will my recruiters actually use it?",
+      "H3: Can I try it with my own data before committing?",
+      "H3: Is my candidate data secure?",
+      "H3: Do you support ATS platforms other than Bullhorn?",
+      "H2: Stop searching. Start placing.",
+      "H3: Product",
+      "H3: Resources",
+      "H3: Company"
+    ],
+    "buttons": [
+      "Skip to content",
+      "Book a demo",
+      "Try for free",
+      "All Systems Operational"
+    ],
+    "radius": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "height": 12306
+  }
+}
