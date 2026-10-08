@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { CheckCircle2, Loader2 } from "lucide-react";
 import clsx from "clsx";
 import { demoForm } from "@/lib/site";
@@ -13,7 +14,7 @@ function validate(v: Values) {
   if (!v.name?.trim()) e.name = "Tell us your name.";
   if (!v.organizationName?.trim()) e.organizationName = "Which company are you with?";
   if (!v.jobTitle?.trim()) e.jobTitle = "What is your role?";
-  if (!emailRe.test(v.email ?? "")) e.email = "Enter a valid work email.";
+  if (!emailRe.test(v.email?.trim() ?? "")) e.email = "Enter a valid work email.";
   if (!v.source) e.source = "Pick one so we know what is working.";
   return e;
 }
@@ -22,6 +23,12 @@ export function DemoForm() {
   const [values, setValues] = useState<Values>({});
   const [errors, setErrors] = useState<Values>({});
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
+  const success = useRef<HTMLDivElement>(null);
+  const submitting = useRef(false);
+
+  useEffect(() => {
+    if (status === "done") success.current?.focus();
+  }, [status]);
 
   const set = (k: string, val: string) => {
     setValues((s) => ({ ...s, [k]: val }));
@@ -30,31 +37,37 @@ export function DemoForm() {
 
   async function onSubmit(ev: React.FormEvent) {
     ev.preventDefault();
+    if (submitting.current) return;
     const e = validate(values);
     setErrors(e);
     if (Object.keys(e).length) {
       document.getElementById(`f-${Object.keys(e)[0]}`)?.focus();
       return;
     }
+    submitting.current = true;
     setStatus("sending");
     try {
       const res = await fetch("/api/demo", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(values),
+        body: JSON.stringify(Object.fromEntries(Object.entries(values).map(([key, value]) => [key, value.trim()]))),
+        signal: AbortSignal.timeout(15000),
       });
-      setStatus(res.ok ? "done" : "error");
+      const result = await res.json();
+      setStatus(res.ok && result.ok === true ? "done" : "error");
     } catch {
       setStatus("error");
+    } finally {
+      submitting.current = false;
     }
   }
 
   if (status === "done") {
     return (
-      <div role="status" className="rounded-[28px] border border-ink/10 bg-card p-8 text-center sm:p-10">
+      <div ref={success} tabIndex={-1} role="status" className="demo-success rounded-[28px] border border-ink/10 bg-card p-8 text-center sm:p-10">
         <CheckCircle2 className="mx-auto text-emerald-600" size={40} />
-        <h2 className="display mt-4 text-4xl">Thanks, {values.name?.split(" ")[0]}.</h2>
-        <p className="mt-2 text-mute">We have your request and will reach out at {values.email} to set up your demo.</p>
+        <h2 className="display mt-4 text-4xl">Thanks, {values.name?.trim().split(/\s+/)[0]}.</h2>
+        <p className="mt-2 break-words text-mute">We have your request and will reach out at {values.email?.trim()} to set up your demo.</p>
       </div>
     );
   }
@@ -63,7 +76,11 @@ export function DemoForm() {
     "mt-1.5 block h-11 w-full rounded-xl border bg-paper px-3.5 text-base outline-none transition-colors placeholder:text-mute/60 focus:border-brand focus:ring-2 focus:ring-brand/20";
 
   return (
-    <form onSubmit={onSubmit} noValidate className="rounded-[28px] border border-ink/10 bg-card p-6 sm:p-8">
+    <form onSubmit={onSubmit} noValidate aria-label="Request a demo" aria-busy={status === "sending"} className="demo-form rounded-[28px] border border-ink/10 bg-card p-6 sm:p-8">
+      <h2 className="text-2xl font-semibold">Your details</h2>
+      <p className="mb-6 mt-1 text-sm text-mute">Tell us a little about your team. Fields marked * are required.</p>
+      <fieldset disabled={status === "sending"}>
+        <legend className="sr-only">Your contact details</legend>
       <div className="grid gap-5 sm:grid-cols-2">
         {demoForm
           .filter((f) => !("options" in f && f.options))
@@ -75,11 +92,14 @@ export function DemoForm() {
               <div key={f.name} className={clsx(full && "sm:col-span-2")}>
                 <label htmlFor={`f-${f.name}`} className="text-sm font-medium">
                   {label}
+                  {required && <span aria-hidden="true" className="ml-1 text-brand">*</span>}
                   {!required && <span className="ml-1 font-normal text-mute">(optional)</span>}
                 </label>
                 <input
                   id={`f-${f.name}`}
                   name={f.name}
+                  required={required}
+                  maxLength={200}
                   type={f.name === "email" ? "email" : f.name === "phoneNumber" ? "tel" : "text"}
                   autoComplete={
                     { name: "name", email: "email", phoneNumber: "tel", organizationName: "organization", jobTitle: "organization-title" }[f.name]
@@ -105,10 +125,12 @@ export function DemoForm() {
             <div key={f.name} className="sm:col-span-2">
               <label htmlFor={`f-${f.name}`} className="text-sm font-medium">
                 {f.label.replace("*", "")}
+                <span aria-hidden="true" className="ml-1 text-brand">*</span>
               </label>
               <select
                 id={`f-${f.name}`}
                 name={f.name}
+                required
                 value={values[f.name] ?? ""}
                 onChange={(e) => set(f.name, e.target.value)}
                 aria-invalid={!!errors[f.name]}
@@ -131,17 +153,18 @@ export function DemoForm() {
             </div>
           ))}
       </div>
+      </fieldset>
 
       {status === "error" && (
         <p role="alert" className="mt-5 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
-          Something went wrong sending that. Please try again.
+          We couldn’t send your request. Your details are still here—try again, or email <a className="underline" href="mailto:info@ihiring.ai">info@ihiring.ai</a>.
         </p>
       )}
 
       <button
         type="submit"
         disabled={status === "sending"}
-        className="mt-6 inline-flex h-13 w-full items-center justify-center gap-2 rounded-full bg-ink text-[15px] font-medium text-paper transition-colors hover:bg-ink-2 disabled:opacity-70"
+        className="demo-submit mt-6 inline-flex h-13 w-full items-center justify-center gap-2 rounded-full bg-ink text-[15px] font-medium text-paper hover:bg-ink-2 disabled:opacity-70"
       >
         {status === "sending" ? (
           <>
@@ -151,7 +174,7 @@ export function DemoForm() {
           "Book a demo"
         )}
       </button>
-      <p className="mt-3 text-center text-xs text-mute">We only use this to contact you about your demo.</p>
+      <p className="mt-3 text-center text-xs text-mute">We only use this to contact you about your demo. <Link href="/privacy" className="underline underline-offset-2">Privacy policy</Link></p>
     </form>
   );
 }

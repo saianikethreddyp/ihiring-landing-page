@@ -1,27 +1,18 @@
-import { Hero } from "@/components/Hero";
-import { NightShift } from "@/components/NightShift";
-import { Chapters } from "@/components/Chapters";
-import { Integrations } from "@/components/Integrations";
-import { Global } from "@/components/Global";
-import { Audience } from "@/components/Audience";
-import { Thesis } from "@/components/Thesis";
-import { Voices } from "@/components/Voices";
-import { FAQ } from "@/components/FAQ";
-import { FinalCTA } from "@/components/FinalCTA";
+import type { Metadata } from "next";
+import { HomeStory } from "@/components/HomeStory";
+import "./story.css";
+
+export const metadata: Metadata = {
+  title: "ihiring.ai | Less time screening. More time hiring.",
+  description: "Meet SAM, your AI interviewer. Screen applicants, schedule interviews and turn conversations into detailed reports for your hiring team.",
+  openGraph: {
+    title: "Less time screening. More time hiring. | ihiring.ai",
+    description: "Screen. Schedule. Interview. Understand. Meet SAM, the AI interviewer for hiring teams.",
+  },
+};
 
 export default function Home() {
   return (
-    <>
-      <Hero />
-      <NightShift />
-      <Chapters />
-      <Integrations />
-      <Global />
-      <Audience />
-      <Thesis />
-      <Voices />
-      <FAQ />
-      <FinalCTA />
-    </>
+    <HomeStory />
   );
 }

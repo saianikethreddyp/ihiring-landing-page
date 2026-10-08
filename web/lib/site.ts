@@ -5,7 +5,7 @@ export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ihiring.ai"
 // TODO(ihiring): replace with the real app login URL.
 export const LOGIN_URL = process.env.NEXT_PUBLIC_LOGIN_URL ?? "https://ihiring.ai/";
 
-export const DEMO_HREF = "/demo";
+export const DEMO_HREF = "/contact";
 
 /**
  * Companies shown under "Trusted by". Edit this list to change the strip.
@@ -31,8 +31,9 @@ export const traction: { value: string; label: string; note?: string }[] = [];
 export const nav = [
   { label: "How it works", href: "/#how" },
   { label: "Integrations", href: "/#stack" },
-  { label: "Who it's for", href: "/#who" },
-  { label: "FAQ", href: "/#faq" },
+  { label: "About", href: "/about" },
+  { label: "Careers", href: "/careers" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const testimonials = config.home.testimonials.items;

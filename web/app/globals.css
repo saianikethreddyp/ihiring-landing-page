@@ -31,24 +31,17 @@
   --color-brand-soft: var(--brand-soft);
   --color-live: var(--live);
   --color-good: var(--good);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-mukta), system-ui, sans-serif;
   --font-mono: var(--font-geist-mono);
-  --font-display: var(--font-instrument), Georgia, serif;
+  --font-display: var(--font-halant), Georgia, serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
+
 
 body {
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: var(--font-mukta), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -79,12 +72,12 @@ section[id] {
 }
 
 .display {
-  font-family: var(--font-display);
-  font-weight: 400;
-  letter-spacing: -0.02em;
+  font-family: var(--font-halant), Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.025em;
 }
 .display em {
-  font-style: italic;
+  font-style: normal;
   color: var(--brand);
 }
 
@@ -152,24 +145,27 @@ details[open] .faq-icon {
   color: #26262d;
   line-height: 1.7;
   font-size: 0.95rem;
+  font-family: var(--font-mukta), system-ui, sans-serif;
 }
 .legal h1 {
-  font-family: var(--font-display);
+  font-family: var(--font-halant), Georgia, serif;
   font-size: 2.75rem;
-  font-weight: 400;
-  letter-spacing: -0.02em;
+  font-weight: 500;
+  letter-spacing: -0.025em;
   margin-bottom: 0.5rem;
   color: var(--ink);
 }
 .legal h2 {
-  font-size: 1.2rem;
+  font-family: var(--font-mukta), system-ui, sans-serif;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
   color: var(--ink);
 }
 .legal h3 {
-  font-size: 1rem;
+  font-family: var(--font-mukta), system-ui, sans-serif;
+  font-size: 1.05rem;
   font-weight: 600;
   margin-top: 1.5rem;
   color: var(--ink);
@@ -197,4 +193,38 @@ details[open] .faq-icon {
   border: 1px solid var(--line);
   padding: 0.5rem 0.75rem;
   vertical-align: top;
+}
+
+/* A fresh page opens into place; the shared header and footer stay steady. */
+@keyframes page-open {
+  from { opacity: .2; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes detail-arrive {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.page-opening { animation: page-open 520ms cubic-bezier(.22, 1, .36, 1) backwards; }
+.page-opening:not(:has(.story-home)) h1 { animation: detail-arrive 650ms 60ms cubic-bezier(.22, 1, .36, 1) backwards; }
+.page-opening:not(:has(.story-home)) h1 + p { animation: detail-arrive 650ms 140ms cubic-bezier(.22, 1, .36, 1) backwards; }
+.site-nav-link { position: relative; }
+.site-nav-link[aria-current="page"] { background: var(--brand-soft); color: var(--brand-ink); }
+.site-nav-link::after { content: ""; position: absolute; bottom: 5px; left: 25%; right: 25%; height: 2px; border-radius: 2px; background: var(--brand); transform: scaleX(0); transition: transform 220ms ease; }
+.site-nav-link:hover::after, .site-nav-link[aria-current="page"]::after { transform: scaleX(1); }
+.demo-form { box-shadow: 0 16px 48px -32px #24477545; }
+.demo-form input, .demo-form select { scroll-margin-top: 100px; }
+.demo-form input:focus, .demo-form select:focus { background: #fff; }
+.demo-submit { transition: background 180ms, transform 180ms, box-shadow 180ms; }
+.demo-submit:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 8px 20px -12px #0f181b80; }
+.demo-submit:active:not(:disabled) { transform: translateY(0); }
+.demo-success { animation: page-open 400ms ease-out; }
+.demo-success svg { animation: detail-arrive 500ms 100ms backwards; }
+@media (hover: hover) {
+  .page-opening:not(:has(.story-home)) .bg-card.rounded-3xl { transition: border-color 200ms, box-shadow 200ms; }
+  .page-opening:not(:has(.story-home)) .bg-card.rounded-3xl:hover { border-color: #bed0ee; box-shadow: 0 12px 30px -24px #24477560; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  .page-opening, .page-opening:not(:has(.story-home)) h1, .page-opening:not(:has(.story-home)) h1 + p, .demo-success, .demo-success svg { animation: none; }
+  .demo-submit:hover:not(:disabled) { transform: none; }
 }

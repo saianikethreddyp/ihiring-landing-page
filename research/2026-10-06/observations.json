@@ -1,0 +1,3255 @@
+{
+  "ihiring": {
+    "capturedAt": "2026-10-06T14:37:06.525Z",
+    "desktop": {
+      "title": "ihiring.ai | AI-Powered Interview Platform",
+      "url": "https://ihiring.ai/",
+      "headings": [
+        {
+          "text": "Meet Sam!",
+          "tag": "H1",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "64px",
+          "weight": "300"
+        },
+        {
+          "text": "The Only AI Interviewer",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "48px",
+          "weight": "300"
+        },
+        {
+          "text": "That Thinks Beyond Intelligence",
+          "tag": "H3",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "48px",
+          "weight": "300"
+        },
+        {
+          "text": "Let SAM handle your overwhelming tasks, too!",
+          "tag": "H1",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "48px",
+          "weight": "400"
+        },
+        {
+          "text": "Precise Pipeline Management",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "32px",
+          "weight": "400"
+        },
+        {
+          "text": "Auto Schedule Anytime",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "22.4px",
+          "weight": "200"
+        },
+        {
+          "text": "Vet Qualified Candidates in Minutes, Not Weeks",
+          "tag": "H1",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "40px",
+          "weight": "600"
+        },
+        {
+          "text": "Increases Productivity",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "32px",
+          "weight": "400"
+        },
+        {
+          "text": "Candidates\nihiring's SAM",
+          "tag": "H1",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "40px",
+          "weight": "400"
+        },
+        {
+          "text": "There is a lot more",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "20px",
+          "weight": "400"
+        },
+        {
+          "text": "Your Questions, Answered",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "64px",
+          "weight": "400"
+        },
+        {
+          "text": "What does ihiring offer?",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "24px",
+          "weight": "400"
+        },
+        {
+          "text": "Which ATS and Job boards platforms are supported?",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "20px",
+          "weight": "200"
+        },
+        {
+          "text": "Does ihiring work for staffing and enterprises?",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "20px",
+          "weight": "200"
+        },
+        {
+          "text": "What insights does Sam provide?",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "20px",
+          "weight": "200"
+        },
+        {
+          "text": "As a candidate interviewing on the ihiring platform, what guidelines should I follow?",
+          "tag": "H2",
+          "font": "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "size": "20px",
+          "weight": "200"
+        }
+      ],
+      "fonts": [
+        [
+          "Arial, Helvetica, sans-serif, Poppins",
+          494
+        ],
+        [
+          "Poppins, \"Poppins Fallback\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          85
+        ],
+        [
+          "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          19
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(0, 0, 0)",
+          393
+        ],
+        [
+          "rgb(255, 255, 255)",
+          59
+        ],
+        [
+          "rgb(168, 162, 158)",
+          43
+        ],
+        [
+          "rgb(38, 38, 38)",
+          29
+        ],
+        [
+          "rgb(75, 85, 99)",
+          28
+        ],
+        [
+          "rgb(14, 93, 252)",
+          26
+        ],
+        [
+          "rgb(8, 51, 68)",
+          19
+        ],
+        [
+          "rgb(136, 144, 147)",
+          10
+        ],
+        [
+          "rgb(115, 115, 115)",
+          8
+        ],
+        [
+          "rgba(0, 0, 0, 0.7)",
+          8
+        ]
+      ],
+      "videos": [],
+      "iframes": [
+        "https://play.gumlet.io/embed/67c14d5d3e62e5390999631b?t1=1740721792&t2=1740721655056?preload=false&autoplay=false&loop=true&background=false&disable_player_controls=false"
+      ],
+      "runningAnimations": [
+        {
+          "state": "running",
+          "duration": 1000,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 2000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 80000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 80000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 800,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 1070,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1060,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1070,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1060,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 200,
+          "iterations": "1"
+        }
+      ],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TBPPCNC2",
+        "https://ihiring.ai/_next/static/chunks/4bd1b696-2b3c16076e39c545.js",
+        "https://ihiring.ai/_next/static/chunks/684-2267ccc6b5143718.js",
+        "https://ihiring.ai/_next/static/chunks/main-app-02309c054ef852a1.js",
+        "https://ihiring.ai/_next/static/chunks/app/layout-2feaedf91c6e90e7.js",
+        "https://ihiring.ai/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "https://swan-scripts.s3.amazonaws.com/bundle.js",
+        "https://ihiring.ai/_next/static/chunks/webpack-d79d0b3edc19e1d7.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-CXVX78S6S9"
+      ],
+      "height": 6359
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "sarvam": {
+    "capturedAt": "2026-10-06T14:37:17.369Z",
+    "desktop": {
+      "title": "Sarvam | India's Full-Stack Sovereign AI Platform",
+      "url": "https://www.sarvam.ai/",
+      "headings": [
+        {
+          "text": "AI for all from India",
+          "tag": "H1",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "64px",
+          "weight": "425"
+        },
+        {
+          "text": "The AI Platform\nIndia Builds On",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Build anything with\nSarvam APIs",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Add Text to Speech\nto your app in minutes",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "28px",
+          "weight": "525"
+        },
+        {
+          "text": "India Can",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Powering India's AI-first future",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Sovereign by design",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "21px",
+          "weight": "525"
+        },
+        {
+          "text": "State of the art models",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "21px",
+          "weight": "525"
+        },
+        {
+          "text": "Human at the core",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "21px",
+          "weight": "525"
+        },
+        {
+          "text": "India's Full-Stack Sovereign\nAI Platform",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Population-scale Applications",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "20px",
+          "weight": "525"
+        },
+        {
+          "text": "State-of-the-Art Models",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "20px",
+          "weight": "525"
+        },
+        {
+          "text": "Infrastructure to Serve Models Efficiently",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "20px",
+          "weight": "525"
+        },
+        {
+          "text": "Enterprise-grade. Out of\nthe box.",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Forward deployed",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "20px",
+          "weight": "525"
+        },
+        {
+          "text": "Deployment flexibility",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "20px",
+          "weight": "525"
+        },
+        {
+          "text": "Security and governance",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "20px",
+          "weight": "525"
+        },
+        {
+          "text": "Built to run\nanywhere your business runs",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Sarvam Cloud",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "18px",
+          "weight": "525"
+        },
+        {
+          "text": "Private Cloud (VPC)",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "18px",
+          "weight": "525"
+        },
+        {
+          "text": "On-Premises",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "18px",
+          "weight": "525"
+        },
+        {
+          "text": "What our customers say",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Research & Updates",
+          "tag": "H2",
+          "font": "\"Season Mix\", sans-serif",
+          "size": "36px",
+          "weight": "525"
+        },
+        {
+          "text": "Introducing Saaras V4",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "18px",
+          "weight": "525"
+        },
+        {
+          "text": "Sarvam Vision 2.1: Pushing the Pareto frontier of document intelligence",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "18px",
+          "weight": "525"
+        },
+        {
+          "text": "Indic DiarBench: A Joint Diarization-ASR Benchmark Dataset for Indian Languages",
+          "tag": "H3",
+          "font": "Matter, sans-serif",
+          "size": "18px",
+          "weight": "525"
+        },
+        {
+          "text": "PRODUCTS",
+          "tag": "H3",
+          "font": "\"Matter Semi Mono\", monospace",
+          "size": "12px",
+          "weight": "425"
+        },
+        {
+          "text": "APIS",
+          "tag": "H3",
+          "font": "\"Matter Semi Mono\", monospace",
+          "size": "12px",
+          "weight": "425"
+        },
+        {
+          "text": "RESOURCES",
+          "tag": "H3",
+          "font": "\"Matter Semi Mono\", monospace",
+          "size": "12px",
+          "weight": "425"
+        },
+        {
+          "text": "COMPANY",
+          "tag": "H3",
+          "font": "\"Matter Semi Mono\", monospace",
+          "size": "12px",
+          "weight": "425"
+        },
+        {
+          "text": "LEGAL",
+          "tag": "H3",
+          "font": "\"Matter Semi Mono\", monospace",
+          "size": "12px",
+          "weight": "425"
+        }
+      ],
+      "fonts": [
+        [
+          "Matter, sans-serif",
+          816
+        ],
+        [
+          "\"Season Mix\", sans-serif",
+          18
+        ],
+        [
+          "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          12
+        ],
+        [
+          "\"Matter Semi Mono\", monospace",
+          5
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(0, 0, 0)",
+          457
+        ],
+        [
+          "rgb(102, 102, 102)",
+          160
+        ],
+        [
+          "rgb(31, 31, 31)",
+          59
+        ],
+        [
+          "rgb(255, 255, 255)",
+          53
+        ],
+        [
+          "rgb(61, 61, 61)",
+          39
+        ],
+        [
+          "rgb(85, 106, 220)",
+          25
+        ],
+        [
+          "rgb(230, 230, 230)",
+          25
+        ],
+        [
+          "rgb(110, 163, 53)",
+          9
+        ],
+        [
+          "rgb(42, 44, 51)",
+          8
+        ],
+        [
+          "rgb(212, 80, 142)",
+          7
+        ]
+      ],
+      "videos": [
+        {
+          "src": "https://assets.sarvam.ai/Pages/home/india-can.mp4?updatedAt=1777885741173",
+          "autoplay": false,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://assets.sarvam.ai/assets/solutions/indian-art-mask.mp4",
+          "autoplay": false,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "https://assets.sarvam.ai/assets/solutions/indian-art-mask.mp4",
+          "autoplay": false,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "iframes": [
+        ""
+      ],
+      "runningAnimations": [],
+      "scriptSources": [
+        "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://connect.facebook.net/signals/config/1644973323880196?v=2.9.414&r=stable&domain=www.sarvam.ai&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188%2C267%2C265%2C260%2C262%2C263%2C264%2C261%2C259%2C246%2C266%2C268%2C258%2C216%2C217%2C269%2C270%2C257%2C256%2C351%2C352%2C199%2C198%2C197%2C229%2C224%2C227%2C228%2C206%2C222%2C387%2C303%2C307%2C310%2C311%2C312%2C308%2C313%2C306%2C301%2C315%2C316%2C305%2C314%2C318%2C309%2C304%2C317%2C319%2C302%2C239%2C300%2C205%2C225%2C226%2C250%2C223%2C221%2C277%2C241%2C214%2C215%2C211%2C212%2C213%2C210%2C208%2C219%2C220%2C218%2C325%2C380%2C345%2C346%2C348%2C349%2C347%2C344%2C343%2C230%2C280%2C287%2C288%2C281%2C283%2C286%2C284%2C285%2C282%2C279%2C298%2C292%2C295%2C291%2C299%2C296%2C290%2C294%2C297%2C293%2C289%2C339%2C356",
+        "https://connect.facebook.net/signals/config/1492713775401572?v=2.9.414&r=stable&domain=www.sarvam.ai&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "https://connect.facebook.net/en_US/fbevents.js",
+        "https://www.googletagmanager.com/gtag/js?id=AW-17991375912&cx=c&gtm=4e6a21",
+        "https://js-eu1.hsadspixel.net/pixels.js",
+        "https://js-eu1.hscollectedforms.net/collectedforms.js",
+        "https://js-eu1.hs-analytics.net/analytics/1791293700000/145251747.js",
+        "https://js-eu1.hs-banner.com/v2/145251747/banner.js",
+        "https://www.sarvam.ai/_astro/PostHog.astro_astro_type_script_index_0_lang.0IIAwczT.js",
+        "https://www.sarvam.ai/_astro/Mixpanel.astro_astro_type_script_index_0_lang.CR8Ji5SG.js",
+        "https://www.sarvam.ai/_astro/baseLayout.astro_astro_type_script_index_0_lang.d5B442GW.js",
+        "https://js-eu1.hs-scripts.com/145251747.js",
+        "https://www.sarvam.ai/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-7TL00J655C",
+        "https://js-eu1.hs-scripts.com/145251747.js",
+        "https://www.googletagmanager.com/gtag/js?id=AW-17991375912",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17991375912/?random=1791297429913&cv=11&fst=1791297429913&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a21v9245951245za200zb9210166923zd9210166923xecxf1&gcd=13t3t3Z3t5l1&dma=0&tag_exp=115616985~115938465~115938468~118131810~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280969&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.sarvam.ai%2F&rcb=8&frm=0&tiba=Sarvam%20%7C%20India%27s%20Full-Stack%20Sovereign%20AI%20Platform&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1060968944.1791297430&uaa=arm&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.6.2&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://k.sarvam.ai/static/exception-autocapture.js?v=1.413.3",
+        "https://k.sarvam.ai/static/web-vitals.js?v=1.413.3",
+        "https://k.sarvam.ai/static/dead-clicks-autocapture.js?v=1.413.3",
+        "https://k.sarvam.ai/static/logs.js?v=1.413.3",
+        "https://k.sarvam.ai/static/surveys.js?v=1.413.3",
+        "https://k.sarvam.ai/static/posthog-recorder.js?v=1.413.3",
+        "https://k.sarvam.ai/array/phc_IRMGB5iaCEGGzGMyLDOwM1naPYFZG0IpXYcvlWkS0Ox/config.js",
+        "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+      ],
+      "height": 9219
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "alex": {
+    "capturedAt": "2026-10-06T14:37:27.595Z",
+    "desktop": {
+      "title": "Alex - AI Recruiter for Hiring Great People | Alex AI",
+      "url": "https://www.alex.com/",
+      "headings": [
+        {
+          "text": "Interview everyone.\nHire the best.",
+          "tag": "H1",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "54px",
+          "weight": "300"
+        },
+        {
+          "text": "Free your team to hire at their best, at any scale. Alex is the AI recruiter that automates the busywork and creates space for your recruiters to build candidate relationships, partner with hiring managers, and win top talent.",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Talent scales with Alex",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Natural, intelligent conversations",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Meet candidates where they are",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Know who is applying",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Trust the answers were theirs",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "The right person, confirmed",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Book interviews automatically",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Review resumes instantly",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Unlock your ATS",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "40px",
+          "weight": "300"
+        },
+        {
+          "text": "Measurable Impact",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "64px",
+          "weight": "300"
+        },
+        {
+          "text": "Accelerate Hiring",
+          "tag": "H2",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "64px",
+          "weight": "300"
+        },
+        {
+          "text": "Engage Instantly",
+          "tag": "H3",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "24px",
+          "weight": "400"
+        },
+        {
+          "text": "Evaluate Fairly",
+          "tag": "H3",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "24px",
+          "weight": "400"
+        },
+        {
+          "text": "Hire Faster",
+          "tag": "H3",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "24px",
+          "weight": "400"
+        },
+        {
+          "text": "What we loved most about Alex was the people who were willing to grow and scale with us, willing to configure and build within our applicant tracking system. Where we started and where we are now is night and day.",
+          "tag": "H3",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "32px",
+          "weight": "300"
+        },
+        {
+          "text": "Traditionally in recruitment, there is a limit on the number of candidates that a recruiter can talk to in a day. Alex is a game changer, with every interested candidate being considered for the role.",
+          "tag": "H3",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "32px",
+          "weight": "300"
+        },
+        {
+          "text": "Alex functions like a supercharged recruiting associate: it asks smart questions, surfaces key insights, and dramatically speeds up our screening process. Our recruiters focus on deeper conversations and higher-value work.",
+          "tag": "H3",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "32px",
+          "weight": "300"
+        },
+        {
+          "text": "Alex even identified two amazing candidates that our professors did not initially shortlist because their CVs were not well aligned with the advertisement. We ended up moving forward with both.",
+          "tag": "H3",
+          "font": "\"DM Sans\", sans-serif",
+          "size": "32px",
+          "weight": "300"
+        }
+      ],
+      "fonts": [
+        [
+          "\"DM Sans\", sans-serif",
+          829
+        ],
+        [
+          "\"DM Sans\", system-ui, sans-serif",
+          105
+        ],
+        [
+          "webflow-icons",
+          3
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(8, 41, 0)",
+          617
+        ],
+        [
+          "rgb(238, 242, 225)",
+          159
+        ],
+        [
+          "rgb(107, 127, 102)",
+          61
+        ],
+        [
+          "rgb(255, 255, 255)",
+          60
+        ],
+        [
+          "rgba(255, 255, 255, 0.45)",
+          38
+        ],
+        [
+          "rgb(238, 240, 230)",
+          15
+        ],
+        [
+          "rgb(249, 251, 245)",
+          13
+        ],
+        [
+          "rgb(223, 222, 218)",
+          12
+        ],
+        [
+          "rgba(255, 255, 255, 0)",
+          9
+        ],
+        [
+          "rgb(183, 199, 167)",
+          7
+        ]
+      ],
+      "videos": [
+        {
+          "src": "https://media.apriora.ai/storage/v1/object/public/alex.com/Candidate_04_fs-video_1-1_opt.mp4",
+          "autoplay": false,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://media.apriora.ai/storage/v1/object/public/alex.com/Recruiter_03_fs-video_1-1_opt.mp4",
+          "autoplay": false,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://media.apriora.ai/storage/v1/object/public/alex.com/Candidate_01_fs-video_1-1_opt.mp4",
+          "autoplay": false,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://media.apriora.ai/storage/v1/object/public/alex.com/Candidate_02_fs-video_2-1_opt.mp4",
+          "autoplay": false,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/robyn_forest.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/ace_yamaguchi.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/neil_shah.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/raymond_trumpover.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/jillian_long.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/chris_g.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/elizabeth_le.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/ritik.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/robyn_forest.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/ace_yamaguchi.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/neil_shah.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/raymond_trumpover.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/jillian_long.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/chris_g.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/elizabeth_le.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        },
+        {
+          "src": "https://lp-frames-f8dmb0anf4bwgcak.z03.azurefd.net/videos/ritik.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": true
+        }
+      ],
+      "iframes": [
+        "https://alex-dropdown-platform-01.netlify.app/",
+        "https://alex-dropdown-integrations-01.netlify.app/",
+        "https://alex-homepage-section-animations-01.netlify.app/interviews/",
+        "",
+        "https://alex-homepage-section-animations-01.netlify.app/channels/",
+        "",
+        "https://alex-homepage-section-animations-01.netlify.app/verify/",
+        "",
+        "https://alex-homepage-section-animations-01.netlify.app/proctor/",
+        "",
+        "https://alex-homepage-section-animations-01.netlify.app/identity/",
+        "",
+        "https://alex-homepage-section-animations-01.netlify.app/coordinator/",
+        "",
+        "https://alex-homepage-section-animations-01.netlify.app/resume-screens/",
+        "",
+        "https://alex-homepage-section-animations-01.netlify.app/talent-match/",
+        "",
+        "https://alex-engage-instantly-02.netlify.app/",
+        "https://alex-evaluate-fairly-02.netlify.app/",
+        "https://alex-hire-faster-02.netlify.app/"
+      ],
+      "runningAnimations": [
+        {
+          "state": "running",
+          "duration": 41630,
+          "iterations": "Infinity"
+        }
+      ],
+      "scriptSources": [
+        "https://cdn.claydar.com/releases/latest/radar.min.js",
+        "https://ddwl4m2hdecbv.cloudfront.net/b/1N5W0HMV2DO5/1N5W0HMV2DO5.js.gz",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-5L4J83T6HJ&cx=c&gtm=4e6a50h2",
+        "https://www.googletagmanager.com/gtag/js?id=AW-17587098852&cx=c&gtm=4e6a50h2",
+        "https://cdn-cookieyes.com/client_data/e06fc29e57c3a1ec340298db18cc8ab1/script.js",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-M9THNLQK",
+        "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+        "https://use.typekit.net/joo2xer.js",
+        "https://unpkg.com/lenis@1.1.20/dist/lenis.min.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cb3c6a1d98fa3cf2687%2Find2combinedcss-4.4.10.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cb3da4a544fea18d7bb%2Findustriesfootercss-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cb42917b3eed6f92064%2Findustrieshubfix-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cb407fb943519e15b7e%2Frichtexttablecss-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cb5aad9ecf43a04212b%2Findustriesherorotator-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cee29fdcb3f917b97ec%2Find2tabshc-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27ceeda4a544fea19121c%2Find2tabsec-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cef262bc00a7a2880fb%2Find2tabsrpo-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cefda4a544fea19128e%2Find2tabsml-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27cf06dfc797991119b58%2Find2tabsrb-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27d324e9a130ba09a6aa4%2Find2tabsrh-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27d33ce2391c04e1d96ef%2Find2tabspst-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27d33f5613829b73d6e64%2Find2render-4.1.4.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27d33010e34d678477e81%2Findpagerender-4.1.4.js",
+        "https://tracking-api.g2.com/attribution_tracking/conversions/1032555.js?p=https://www.alex.com/&e=",
+        "https://cdn-cookieyes.com/client_data/e06fc29e57c3a1ec340298db18cc8ab1/banner.js",
+        "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68aeb8386df2a4eb63bab7e3",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3/js/webflow.schunk.36b8fb49256177c8.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3/js/webflow.schunk.73d4d40487eed783.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3/js/webflow.c8cf7993.bd70f439ee302d8d.js",
+        "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+        "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+        "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+        "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+        "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js",
+        "https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js",
+        "https://unpkg.com/lenis@1.1.20/dist/lenis.min.js",
+        "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js",
+        "https://alex-homepage-hero-animation-01.netlify.app/hero.js",
+        "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F69e27d3347c5a9adfa85a1a8%2Find2swiper-1.7.1.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F6ac3fec28bb9148dcebf0ff7%2Fvideooneplayatatime-1.0.0.js",
+        "https://cdn.prod.website-files.com/68aeb8386df2a4eb63bab7e3%2F689e5ba67671442434f3ca35%2F6ac409eb5210959b0496cb65%2Flovecarouselfix-1.0.0.js",
+        "https://static.claydar.com/init.v1.js?id=c6bp1Ye76L"
+      ],
+      "height": 12740
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "heymilo": {
+    "capturedAt": "2026-10-06T14:37:37.671Z",
+    "desktop": {
+      "title": "Leading AI Recruiter for High-Volume Hiring | HeyMilo",
+      "url": "https://www.heymilo.ai/",
+      "headings": [
+        {
+          "text": "The\nAI Recruiter\nfor teams swamped by applications",
+          "tag": "H1",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "52px",
+          "weight": "700"
+        },
+        {
+          "text": "Configure the hiring agents each role needs",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "44px",
+          "weight": "400"
+        },
+        {
+          "text": "Sourcing",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Screening",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Interviews",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Skill Assessments",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Scheduling",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Cheat detection",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Integrations",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Screening that builds credibility with every handoff",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "44px",
+          "weight": "400"
+        },
+        {
+          "text": "Screen across every channel that matters",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "26px",
+          "weight": "600"
+        },
+        {
+          "text": "Hiring managers get a score they can trust",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "26px",
+          "weight": "600"
+        },
+        {
+          "text": "Built for the scale your team hires at",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "44px",
+          "weight": "400"
+        },
+        {
+          "text": "Your ATS stays the source of truth",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "44px",
+          "weight": "400"
+        },
+        {
+          "text": "Scoring & Reporting",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "MCP & API",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "Notetaker",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "18px",
+          "weight": "500"
+        },
+        {
+          "text": "For enterprise talent teams hiring at volume",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "44px",
+          "weight": "400"
+        },
+        {
+          "text": "Hiring manager partnership",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "16px",
+          "weight": "600"
+        },
+        {
+          "text": "Annotators who clear the rubric",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "16px",
+          "weight": "600"
+        },
+        {
+          "text": "More output per recruiter desk",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "16px",
+          "weight": "600"
+        },
+        {
+          "text": "Consistent screens across regions",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "16px",
+          "weight": "600"
+        },
+        {
+          "text": "One standard across locations",
+          "tag": "H3",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "16px",
+          "weight": "600"
+        },
+        {
+          "text": "Trusted Across Industries",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "44px",
+          "weight": "400"
+        },
+        {
+          "text": "Your questions, answered",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "32px",
+          "weight": "600"
+        },
+        {
+          "text": "See HeyMilo in action.",
+          "tag": "H2",
+          "font": "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "size": "44px",
+          "weight": "400"
+        }
+      ],
+      "fonts": [
+        [
+          "Uxum, \"Uxum Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          1442
+        ],
+        [
+          "system-ui, sans-serif",
+          5
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(23, 23, 23)",
+          621
+        ],
+        [
+          "rgb(1, 4, 64)",
+          225
+        ],
+        [
+          "rgb(255, 255, 255)",
+          173
+        ],
+        [
+          "rgb(113, 113, 122)",
+          69
+        ],
+        [
+          "rgb(63, 63, 70)",
+          59
+        ],
+        [
+          "rgb(0, 0, 0)",
+          46
+        ],
+        [
+          "rgba(255, 255, 255, 0.6)",
+          41
+        ],
+        [
+          "rgb(17, 24, 39)",
+          41
+        ],
+        [
+          "rgb(242, 111, 69)",
+          37
+        ],
+        [
+          "rgb(156, 163, 175)",
+          35
+        ]
+      ],
+      "videos": [
+        {
+          "src": "https://www.heymilo.ai/videos/hero/interview.mp4",
+          "autoplay": false,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "",
+          "autoplay": false,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "",
+          "autoplay": false,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "iframes": [
+        "https://www.heymilo.ai/"
+      ],
+      "runningAnimations": [
+        {
+          "state": "running",
+          "duration": 3500,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 3000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 8000,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 20000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 20000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 20000,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 20000,
+          "iterations": "Infinity"
+        }
+      ],
+      "scriptSources": [
+        "https://www.heymilo.ai/js/lead-attribution.min.2e63091781cecc9f63f1e92e62e11249637b78a200e0e3fc2bf9bb6201da4072.js",
+        "https://www.heymilo.ai/js/posthog-analytics.min.6af70b2d9431f95ef9343d58ad8a13bf16026eecf74cc286042b5f0639ffba33.js",
+        "https://www.heymilo.ai/js/site.min.64d4045253a280d22a21bee23f3c092987e5899b88b7033eaa4a7844051daa80.js",
+        "https://www.heymilo.ai/js/homepage-rebrand.min.a08f021ff24ba26cb33529eae81d9565f397eab15d3ba950de8022693fedd925.js",
+        "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/0GOYPYHZW5OX/reb2b.js.gz"
+      ],
+      "height": 8690
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "humanly": {
+    "capturedAt": "2026-10-06T14:37:49.063Z",
+    "desktop": {
+      "title": "AI Recruiting Platform for High-Volume Hiring | Hire Faster with Humanly | Humanly",
+      "url": "https://www.humanly.io/",
+      "headings": [
+        {
+          "text": "It's now humanly possible\nto hire 5,000 frontline workers in days\nto cut Indeed spend by 92%\nto save 752 screening hours per week\nto earn a 4.8/5 candidate rating\nto screen in 5 hours instead of 5 days",
+          "tag": "H1",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "72px",
+          "weight": "600"
+        },
+        {
+          "text": "Trusted by 1,000+ high-volume hiring teams",
+          "tag": "H1",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "18px",
+          "weight": "600"
+        },
+        {
+          "text": "High-volume hiring breaks when your team can't keep up.",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "Resumes tell you who applied. Conversations tell you who fits.",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "One platform. Every step between application and hire.",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "A candidate applies at 9pm. They're on your calendar next day.",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "Everything you need to hire faster, built into one platform",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "How Humanly works",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "60px",
+          "weight": "600"
+        },
+        {
+          "text": "Attract & Engage",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "30px",
+          "weight": "400"
+        },
+        {
+          "text": "Screen & Schedule",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "30px",
+          "weight": "400"
+        },
+        {
+          "text": "Interview & Hire",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "30px",
+          "weight": "400"
+        },
+        {
+          "text": "Move candidates from application to interview in minutes.",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "Customer stories",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "500"
+        },
+        {
+          "text": "Better hiring for everyone",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "See what Humanly is worth to your team",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "Step 1: Annual Hires",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "24px",
+          "weight": "600"
+        },
+        {
+          "text": "Works with the tools your team already uses",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "Real results from high-volume hiring teams",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "Customers consistently rank Humanly among the top recruiting platforms.",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "30px",
+          "weight": "600"
+        },
+        {
+          "text": "Frequently Asked Questions",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "20px",
+          "weight": "500"
+        },
+        {
+          "text": "Will Humanly work with our existing ATS?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "Do recruiters still make the final hiring decision?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "How does Humanly help reduce bias in hiring?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "Can candidates tell they're talking to AI?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "How long does implementation take?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "What types of companies use Humanly?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "How is Humanly different from traditional recruiting software?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "Can Humanly interview every applicant?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "Is Humanly secure?",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "400"
+        },
+        {
+          "text": "Stay ahead in high-volume hiring.",
+          "tag": "H2",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "Products",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "900"
+        },
+        {
+          "text": "Solutions",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "900"
+        },
+        {
+          "text": "Company",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "900"
+        },
+        {
+          "text": "Industries",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "900"
+        },
+        {
+          "text": "Resources",
+          "tag": "H3",
+          "font": "fontDisplay, \"fontDisplay Fallback\"",
+          "size": "16px",
+          "weight": "900"
+        }
+      ],
+      "fonts": [
+        [
+          "\"Work Sans\", \"Work Sans Fallback\"",
+          979
+        ],
+        [
+          "fontDisplay, \"fontDisplay Fallback\"",
+          92
+        ]
+      ],
+      "colors": [
+        [
+          "lab(1.81027 11.3171 -30.4922)",
+          620
+        ],
+        [
+          "lab(26.9145 -1.42646 -16.0187)",
+          134
+        ],
+        [
+          "rgb(33, 33, 33)",
+          102
+        ],
+        [
+          "lab(95.9844 -0.695497 -2.88397)",
+          48
+        ],
+        [
+          "lab(98.1664 -0.418335 -1.20075)",
+          29
+        ],
+        [
+          "lab(95.9842 -0.704169 -2.92031)",
+          17
+        ],
+        [
+          "lab(22.5236 57.6914 -94.6751)",
+          16
+        ],
+        [
+          "oklab(0.371697 -0.00978009 -0.0438122 / 0.7)",
+          13
+        ],
+        [
+          "lab(44.4871 -41.0396 11.0361)",
+          12
+        ],
+        [
+          "lab(94.0135 -0.995636 -3.60583)",
+          11
+        ]
+      ],
+      "videos": [
+        {
+          "src": "https://cdn.sanity.io/files/pm8sh1r9/production/b64ca086cd0d36de590161d9ed14f5b6da3a2dd8.mov",
+          "autoplay": true,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "iframes": [
+        ""
+      ],
+      "runningAnimations": [
+        {
+          "state": "running",
+          "duration": 80726.5673828125,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 80726.5673828125,
+          "iterations": "Infinity"
+        },
+        {
+          "state": "running",
+          "duration": 400,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 400,
+          "iterations": "1"
+        }
+      ],
+      "scriptSources": [
+        "https://b2bjsstore.s3.us-west-2.amazonaws.com/b/XOE9GHRWX5OM/XOE9GHRWX5OM.js.gz",
+        "https://www.googletagmanager.com/gtag/js?id=G-PMEEH9SXMG&cx=c&gtm=4e6a21",
+        "https://bat.bing.com/bat.js",
+        "https://cdn-cookieyes.com/client_data/545ebabad993ad372ed70d4af4069f73/script.js",
+        "https://js.hs-banner.com/v2/21101485/banner.js",
+        "https://js.hscollectedforms.net/collectedforms.js",
+        "https://js.hubspot.com/web-interactives-embed.js",
+        "https://js.hs-analytics.net/analytics/1791297300000/21101485.js",
+        "https://js.hsadspixel.net/pixels.js",
+        "https://www.humanly.io/_next/static/chunks/77e995f98ab17e6c.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/d61ece1df99a1afa.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/4ac8015b16225b15.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/840f95debe9dff71.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/433e6806dff50ec6.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/turbopack-32e52e14e1e2ca45.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/f7c27e92c3914563.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/2bed225d32bb4aee.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/d4cb9539f05230a3.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/954a0bbe74494641.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/6c11775478f3f6b3.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/c9325417f0d59411.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/3b57b7cb55cd7c56.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/3afc1f923d3c8b4f.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/dec6b6bb394f1db1.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/73cec50b56e7e457.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/5d7830fa6564e85e.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/70d777c78c4290ee.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/c68897cccd3238c0.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/fd393b50f734c6fb.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/c234fa2671f56266.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/6313663f4862b548.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/b961914527d3fe7a.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/9b20b3913495edf7.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/8efcd4fc67494299.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/bee99dd1c2636be1.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/aedc8e78cc639f29.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/0509079e47788bf1.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.humanly.io/_next/static/chunks/a6dad97d9634a72d.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://cdn-cookieyes.com/client_data/545ebabad993ad372ed70d4af4069f73/banner.js",
+        "https://www.humanly.io/_next/static/chunks/a2ae4f3b664eb2df.js?dpl=dpl_F49cTjAjv4AoUUk2gLsgzJpvsT6N",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P6LWMW5",
+        "https://js.hs-scripts.com/21101485.js",
+        "https://js.hs-scripts.com/21101485.js"
+      ],
+      "height": 15480
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "hirevue": {
+    "capturedAt": "2026-10-06T14:37:59.878Z",
+    "desktop": {
+      "title": "Hirevue | Make confident talent decisions",
+      "url": "https://www.hirevue.com/",
+      "headings": [
+        {
+          "text": "Make confident talent decisions.",
+          "tag": "H1",
+          "font": "Outfit, sans-serif",
+          "size": "64px",
+          "weight": "400"
+        },
+        {
+          "text": "01 Predictive hiring content",
+          "tag": "H2",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "70M",
+          "tag": "H3",
+          "font": "Outfit, sans-serif",
+          "size": "74px",
+          "weight": "300"
+        },
+        {
+          "text": "200M",
+          "tag": "H3",
+          "font": "Outfit, sans-serif",
+          "size": "74px",
+          "weight": "300"
+        },
+        {
+          "text": "02 End-to-end selection experience",
+          "tag": "H2",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "Match and Apply",
+          "tag": "H3",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "AI Interviewer",
+          "tag": "H3",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "Assessments",
+          "tag": "H3",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "Video interviewing",
+          "tag": "H3",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "Powerful results speak for themselves",
+          "tag": "H2",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "03 Enterprise-grade platform with defensible governance",
+          "tag": "H2",
+          "font": "Outfit, sans-serif",
+          "size": "42px",
+          "weight": "400"
+        },
+        {
+          "text": "Frequently asked questions",
+          "tag": "H2",
+          "font": "Outfit, sans-serif",
+          "size": "32px",
+          "weight": "400"
+        },
+        {
+          "text": "",
+          "tag": "H2",
+          "font": "Outfit, sans-serif",
+          "size": "16px",
+          "weight": "400"
+        }
+      ],
+      "fonts": [
+        [
+          "Outfit, sans-serif",
+          754
+        ],
+        [
+          "Helvetica, Arial, \"Hiragino Sans GB\", STXihei, \"Microsoft YaHei\", \"WenQuanYi Micro Hei\", Hind, \"MS Gothic\", \"Apple SD Gothic Neo\", NanumBarunGothic, sans-serif",
+          27
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(43, 45, 55)",
+          403
+        ],
+        [
+          "rgb(255, 255, 255)",
+          164
+        ],
+        [
+          "rgb(86, 96, 104)",
+          132
+        ],
+        [
+          "rgb(111, 121, 136)",
+          66
+        ],
+        [
+          "rgb(95, 100, 230)",
+          45
+        ],
+        [
+          "rgb(230, 232, 234)",
+          29
+        ],
+        [
+          "rgb(234, 9, 84)",
+          23
+        ],
+        [
+          "rgb(127, 127, 127)",
+          15
+        ],
+        [
+          "rgb(0, 0, 0)",
+          14
+        ],
+        [
+          "rgb(93, 170, 102)",
+          11
+        ]
+      ],
+      "videos": [],
+      "iframes": [
+        "",
+        "",
+        "https://sidebar.bugherd.com/sidebar/embed_html?apikey=wwzy0bghkwqmalozuyqlgq",
+        "https://10090547.fls.doubleclick.net/activityi;src=10090547;type=paget0;cat=pagev0;rcb=13;ord=511484795827;npa=0;auiddc=1832670887.1791297472;u3=;u4=India;u5=Telangana;u6=Hyderabad;u7=;u8=;u9=;u10=;u11=undefined;u12=undefined;u13=;u16=undefined;uaa=arm;uab=64;uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6a50h2v9188137899z872544489za20gzb72544489zd72544489xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246027~121246035;epver=2;dc_random=1791297475_c0_Sybfr_QcIKWPTxnWWdnEGsDNdgR1RRA;_dc_test=1;~oref=https%3A%2F%2Fwww.hirevue.com%2F?"
+      ],
+      "runningAnimations": [],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/js?id=G-HRJK1TJNV6&cx=c&_slc=1",
+        "https://www.googletagmanager.com/gtag/destination?id=DC-10090547&cx=c&gtm=4e6a50h2",
+        "https://www.google-analytics.com/analytics.js",
+        "https://www.clarity.ms/tag/uet/5523493",
+        "https://scripts.clarity.ms/0.8.70/clarity.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://b2bjsstore.s3.us-west-2.amazonaws.com/b/1N5W0H7G8MO5/1N5W0H7G8MO5.js.gz",
+        "https://trk.techtarget.com/tracking.js",
+        "https://www.clarity.ms/tag/mrgseu7zoh?ref=gtm",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://bat.bing.com/bat.js",
+        "https://j.6sc.co/6si.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=AW-1068459977&cx=c&gtm=4e6a50h2",
+        "https://www.googletagmanager.com/gtag/js?id=G-W9Q4GYQKPB&cx=c&gtm=4e6a50h2",
+        "https://js-na2.hsadspixel.net/pixels.js",
+        "https://js-na2.hubspot.com/web-interactives-embed.js",
+        "https://js-na2.hs-banner.com/v2/243656279/banner.js",
+        "https://js-na2.hs-analytics.net/analytics/1791293400000/243656279.js",
+        "https://sjrtp8-cdn.marketo.com/rtp-api/v1/rtp.js?aid=hirevue",
+        "https://sjrtp8-cdn.marketo.com/rtp-api/v1/rtp.js?aid=hirevue",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TK8NWJ",
+        "https://cmp.osano.com/oJ8dYmsPYm/ac60417a-699b-463a-9a48-6c0bf0f78c54/osano.js",
+        "https://offers.hirevue.com/js/forms2/js/forms2.min.js",
+        "https://www.bugherd.com/sidebarv2.js?apikey=wwzy0bghkwqmalozuyqlgq",
+        "https://static.hotjar.com/c/hotjar-248571.js?sv=6",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/libs.min.js?ver=1790071578423",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/main.min.js?ver=1790071578423",
+        "https://api-ingest.pocustrack.com/pocus-track/8eebd51c-aba7-435d-90c1-af79e589f036.js",
+        "https://tracking.g2crowd.com/attribution_tracking/conversions/2656.js?p=https://www.hirevue.com/&e=",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068459977/?random=1791297472707&cv=11&fst=1791297472707&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a50h2v9179592433z872544489za20gzb72544489zd72544489xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.hirevue.com%2F&rcb=7&frm=0&tiba=Hirevue%20%7C%20Make%20confident%20talent%20decisions&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1832670887.1791297472&uaa=arm&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.6.2&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://bat.bing.com/p/action/5523493.js",
+        "https://dev.visualwebsiteoptimizer.com/tag/940946.js",
+        "https://dev.visualwebsiteoptimizer.com/v2/dyn?a=940946&uuid=J63215AFAECB44CEB6467BF5075D39F59&d=https%3A%2F%2Fwww.hirevue.com&scope=vis",
+        "https://dev.visualwebsiteoptimizer.com/info?a=940946",
+        "https://dev.visualwebsiteoptimizer.com/cdn/edrv/beta/nc-a455c405109c9c093c4e23d7516e932a.br.js",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1068459977/?random=1791297475700&cv=11&fst=1791297475700&bg=ffffff&guid=ON&async=1&gtm=45be6a50h2v9179592433z872544489za20gzb72544489zd72544489xeaxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.hirevue.com%2F&rcb=7&gacid=''&frm=0&tiba=Hirevue%20%7C%20Make%20confident%20talent%20decisions&hn=www.googleadservices.com&rdp=1&npa=0&us_privacy=1---&pscdl=noapi&auid=1832670887.1791297472&uaa=arm&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.6.2&uaw=0&_tu=CAI&data=event%3Dpage_view%3Bcompany_name%3D%3Bcompany_country%3DIndia%3Bcompany_state%3DTelangana%3Bcompany_city%3DHyderabad%3Bcompany_industry%3D%3Bcompany_employee_range%3D%3Bcompany_revenue_range%3D%3Bsegments%3D%3Bcompany_domain%3D%3Bads_data_redaction%3Dtrue&ept=9&rfmt=3&fmt=4",
+        "https://d2i34c80a0ftze.cloudfront.net/fullcircle.js?cid=5f517fee-1a83-423f-ae2b-71e99b192fa1&domain=hirevue.com",
+        "https://js-na2.hs-scripts.com/243656279.js",
+        "https://www.hirevue.com/wp-content/cache/min/1/forms/embed/v2.js?ver=1790687439",
+        "https://js-na2.hs-scripts.com/243656279.js?integration=WordPress&ver=11.3.75",
+        "https://players.brightcove.net/6074091992001/Nh7jZXDNO_default/index.min.js",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/blocks/homepage-hero.min.js?v=1790071471&ver=6.8.10",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/blocks/customers-logo-grid.min.js?v=1790071471&ver=6.8.10",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/vendor/gsap.min.js?ver=3.12.5",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/blocks/science-stats.min.js?ver=1790071471",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/vendor/ScrollTrigger.min.js?ver=3.12.5",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/blocks/experience-scroll.min.js?ver=1790071471",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/blocks/governance-tabs.min.js?ver=1790071471",
+        "https://www.hirevue.com/wp-content/themes/xvfoundation/dist/js/blocks/faq-accordion.min.js?v=1790071471&ver=6.8.10",
+        "https://www.hirevue.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+        "https://dx.mountain.com/spx?dxver=4.0.0&shaid=35972&tdr=&plh=https%3A%2F%2Fwww.hirevue.com%2F&cb=31200582319663604term=value",
+        "https://wec-assets.terminus.services/46fe5e75-c042-457e-a900-4e0fe81672d7/t.js",
+        "https://js.navattic.com/sdk.js?key=pkey_cm34kkry30191rs3ba1si8gzb",
+        "https://js.qualified.com/qualified.js?token=cGyboY6dCxTHiXBE",
+        "https://px.mountain.com/st?ga_tracking_id=G-W9Q4GYQKPB&ga_client_id=688449260.1791297473&shpt=Hirevue%20%7C%20Make%20confident%20talent%20decisions&dcm_cid=s1791297472%24o1%24g0%24t1791297472%24j60%24l0%24h1043206568.undefined&available_ga=%5B%7B%22id%22%3A%22G-W9Q4GYQKPB%22%2C%22sess_id%22%3A%221791297472%22%7D%5D&ga_info=%7B%22status%22%3A%22OK%22%2C%22ga_tracking_id%22%3A%22G-W9Q4GYQKPB%22%2C%22ga_client_id%22%3A%22688449260.1791297473%22%2C%22shpt%22%3A%22Hirevue%20%7C%20Make%20confident%20talent%20decisions%22%2C%22dcm_cid%22%3A%22s1791297472%24o1%24g0%24t1791297472%24j60%24l0%24h1043206568.undefined%22%2C%22mntnis%22%3A%22kCpi1JvxnCqcgyGGVDOCx1F2HPoNmIux%22%2C%22execution_workflow%22%3A%7B%22iteration%22%3A10%2C%22shpt%22%3A%22OK%22%2C%22dcm_cid%22%3A%22OK%22%7D%2C%22available_ga%22%3A%5B%7B%22id%22%3A%22G-W9Q4GYQKPB%22%2C%22sess_id%22%3A%221791297472%22%7D%5D%7D&hardcoded_ga=G-W9Q4GYQKPB&meta_tag_data=%5B%7B%22robots.content%22%3A%22index%2C%20follow%2C%20max-image-preview%3Alarge%2C%20max-snippet%3A-1%2C%20max-video-preview%3A-1%22%7D%2C%7B%22description.content%22%3A%22Make%20confident%20hiring%20decisions%20with%20Hirevue%E2%80%99s%20science-backed%20AI%20screening%2C%20assessments%20and%20video%20interviewing.%20Verify%20skills%20and%20hire%20faster%20at%20scale.%22%7D%5D&dxver=4.0.0&shaid=35972&plh=https%3A%2F%2Fwww.hirevue.com%2F&cb=31200582319663604term%3Dvalue&shoid=688449260.1791297473&shadditional=googletagmanager%3Dtrue%2Cga4%3Dtrue",
+        "https://gs.mountain.com/gs",
+        "https://px.mountain.com/st?ga_tracking_id=G-W9Q4GYQKPB&ga_client_id=688449260.1791297473&shpt=Hirevue%20%7C%20Make%20confident%20talent%20decisions&dcm_cid=s1791297472%24o1%24g0%24t1791297472%24j60%24l0%24h1043206568.undefined&available_ga=%5B%7B%22id%22%3A%22G-W9Q4GYQKPB%22%2C%22sess_id%22%3A%221791297472%22%7D%5D&ga_info=%7B%22status%22%3A%22OK%22%2C%22ga_tracking_id%22%3A%22G-W9Q4GYQKPB%22%2C%22ga_client_id%22%3A%22688449260.1791297473%22%2C%22shpt%22%3A%22Hirevue%20%7C%20Make%20confident%20talent%20decisions%22%2C%22dcm_cid%22%3A%22s1791297472%24o1%24g0%24t1791297472%24j60%24l0%24h1043206568.undefined%22%2C%22mntnis%22%3A%22kCpi1JvxnCqcgyGGVDOCx1F2HPoNmIux%22%2C%22execution_workflow%22%3A%7B%22iteration%22%3A10%2C%22shpt%22%3A%22OK%22%2C%22dcm_cid%22%3A%22OK%22%7D%2C%22available_ga%22%3A%5B%7B%22id%22%3A%22G-W9Q4GYQKPB%22%2C%22sess_id%22%3A%221791297472%22%7D%5D%7D&hardcoded_ga=G-W9Q4GYQKPB&meta_tag_data=%5B%7B%22robots.content%22%3A%22index%2C%20follow%2C%20max-image-preview%3Alarge%2C%20max-snippet%3A-1%2C%20max-video-preview%3A-1%22%7D%2C%7B%22description.content%22%3A%22Make%20confident%20hiring%20decisions%20with%20Hirevue%E2%80%99s%20science-backed%20AI%20screening%2C%20assessments%20and%20video%20interviewing.%20Verify%20skills%20and%20hire%20faster%20at%20scale.%22%7D%5D&dxver=4.0.0&shaid=35972&plh=https%3A%2F%2Fwww.hirevue.com%2F&shoid=688449260.1791297473&shadditional=googletagmanager%3Dtrue%2Cga4%3Dtrue&cb=1791297474892638&shguid=2668eb54-afb1-3aed-bb76-44b959b0ffb7&shgts=1791297475261"
+      ],
+      "height": 13019
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "barraiser": {
+    "capturedAt": "2026-10-06T14:38:08.043Z",
+    "desktop": {
+      "title": "Interview as a Service - Technical Interview Outsourcing | BarRaiser",
+      "url": "https://www.barraiser.com/",
+      "headings": [
+        {
+          "text": "Interview as a Service:\nComplete Interview\nOutsourcing Solution",
+          "tag": "H1",
+          "font": "Manrope, sans-serif",
+          "size": "48px",
+          "weight": "600"
+        },
+        {
+          "text": "How Interview Outsourcing Works",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "32px",
+          "weight": "700"
+        },
+        {
+          "text": "Why BarRaiser over other interview outsourcing services?",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "32px",
+          "weight": "700"
+        },
+        {
+          "text": "Experience smarter interviewing with BarRaiser",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "36px",
+          "weight": "400"
+        },
+        {
+          "text": "Salient features of BarRaiser IaaS",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "32px",
+          "weight": "700"
+        },
+        {
+          "text": "Transform Hiring: Outsourcing Technical Interviews as a Service",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "32px",
+          "weight": "700"
+        },
+        {
+          "text": "Why Candidates love BarRaiser",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "32px",
+          "weight": "700"
+        },
+        {
+          "text": "Hire Faster With Us",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "24px",
+          "weight": "700"
+        },
+        {
+          "text": "Our Interviewers Are Available 24*7",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "24px",
+          "weight": "700"
+        },
+        {
+          "text": "DEI that actually delivers",
+          "tag": "H3",
+          "font": "Manrope",
+          "size": "24px",
+          "weight": "700"
+        },
+        {
+          "text": "Explore our blog posts for more insights",
+          "tag": "H3",
+          "font": "Manrope, sans-serif",
+          "size": "26px",
+          "weight": "700"
+        },
+        {
+          "text": "Frequently asked questions",
+          "tag": "H3",
+          "font": "Inter, sans-serif",
+          "size": "36px",
+          "weight": "700"
+        },
+        {
+          "text": "",
+          "tag": "H3",
+          "font": "Inter, sans-serif",
+          "size": "28px",
+          "weight": "700"
+        }
+      ],
+      "fonts": [
+        [
+          "Inter, sans-serif",
+          406
+        ],
+        [
+          "Manrope",
+          51
+        ],
+        [
+          "Chivo, sans-serif",
+          37
+        ],
+        [
+          "Inter",
+          20
+        ],
+        [
+          "Manrope, sans-serif",
+          10
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(75, 79, 88)",
+          316
+        ],
+        [
+          "rgb(23, 43, 77)",
+          55
+        ],
+        [
+          "rgb(255, 255, 255)",
+          35
+        ],
+        [
+          "rgb(180, 182, 196)",
+          29
+        ],
+        [
+          "rgb(80, 95, 121)",
+          21
+        ],
+        [
+          "rgb(107, 119, 140)",
+          20
+        ],
+        [
+          "rgb(1, 112, 185)",
+          16
+        ],
+        [
+          "rgb(52, 69, 99)",
+          16
+        ],
+        [
+          "rgb(59, 109, 239)",
+          14
+        ],
+        [
+          "rgb(47, 87, 191)",
+          12
+        ]
+      ],
+      "videos": [
+        {
+          "src": "https://www.barraiser.com/wp-content/themes/astra-child/video/interviewService.mp4",
+          "autoplay": true,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://www.barraiser.com/wp-content/themes/astra-child/video/interviewService.mp4",
+          "autoplay": true,
+          "muted": true,
+          "loop": false
+        }
+      ],
+      "iframes": [
+        "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdC180qAAAAAKR1YV13qKLFQUDR8jqlkVR2LuzE&co=aHR0cHM6Ly93d3cuYmFycmFpc2VyLmNvbTo0NDM.&hl=en&v=guXhH0v-XMxlzmbTwqkaT4i5&size=invisible&anchor-ms=20000&execute-ms=30000&cb=k923ktciiz7u",
+        ""
+      ],
+      "runningAnimations": [
+        {
+          "state": "running",
+          "duration": 1500,
+          "iterations": "1"
+        }
+      ],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/destination?id=G-71N61N4YGB&cx=c&gtm=4e6a21",
+        "https://widget.intercom.io/widget/txm43deq",
+        "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+        "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+        "https://connect.facebook.net/signals/config/389363360205043?v=2.9.414&r=stable&domain=www.barraiser.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "https://connect.facebook.net/en_US/fbevents.js",
+        "https://cdn-in.pagesense.io/js/portal9119/fa8bd1cc743e48f28aed928f0a55f2b2.js",
+        "https://cdn.mxpnl.com/libs/mixpanel-js-wrapper.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-4PY59J0JXK&cx=c&gtm=4e6a21",
+        "https://www.google-analytics.com/analytics.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-71N61N4YGB&cx=c&gtm=4e6a21",
+        "https://www.googletagmanager.com/gtag/js?id=UA-198434821-2&cx=c&gtm=4e6a21",
+        "https://ma.zoho.in/hub/js/WebsiteAutomation.js",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PPDH4KR",
+        "https://www.googletagmanager.com/gtag/js?id=AW-11074688270",
+        "https://www.barraiser.com/wp-content/plugins/wp-reading-progress/wp-reading-progress.min.js?ver=1.5.3",
+        "https://www.barraiser.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://www.barraiser.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2",
+        "https://www.barraiser.com/wp-content/plugins/ultimate-carousel-for-elementor/js/slick.js?ver=6.4.12",
+        "https://www.barraiser.com/wp-content/plugins/ultimate-carousel-for-elementor/js/custom-tm.js?ver=6.4.12",
+        "https://www.barraiser.com/wp-content/plugins/ht-mega-for-elementor/assets/extensions/ht-menu/js/htmegamenu-main.js?ver=6.4.12",
+        "https://www.googletagmanager.com/gtag/js?id=UA-198434821-2",
+        "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js?ver=1.0.2",
+        "https://cdn-in.pagesense.io/js/portal9119/fa8bd1cc743e48f28aed928f0a55f2b2.js",
+        "https://cdn.debugbear.com/dmBMXhAXNkoa.js",
+        "https://www.google.com/recaptcha/enterprise.js?render=6LdC180qAAAAAKR1YV13qKLFQUDR8jqlkVR2LuzE",
+        "https://www.barraiser.com/wp-content/themes/astra-child/js/slick.min.js",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11074688270/?random=1791297480919&cv=11&fst=1791297480919&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a21v9216710792za200zd9216710792xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246027~121246035&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.barraiser.com%2F&rcb=13&frm=0&tiba=Interview%20as%20a%20Service%20-%20Technical%20Interview%20Outsourcing%20%7C%20BarRaiser&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=351293032.1791297481&uaa=arm&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.6.2&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://www.barraiser.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+        "https://tracking.g2crowd.com/attribution_tracking/conversions/1008180.js?p=https://www.barraiser.com/&e=489294493.1791297481",
+        "https://www.barraiser.com/wp-content/plugins/structured-content/dist/app.build.js?ver=1.5.3",
+        "https://www.barraiser.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.3.1",
+        "https://www.barraiser.com/wp-content/plugins/xpro-elementor-addons/assets/js/xpro-widgets.js?ver=1.4.2",
+        "https://www.barraiser.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.6",
+        "https://www.barraiser.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.6",
+        "https://www.barraiser.com/wp-content/plugins/wpcf7-redirect/build/js/wpcf7r-fe.js?ver=1.1",
+        "https://www.barraiser.com/wp-content/plugins/xpro-theme-builder/assets/js/xpro-theme-builder.js?ver=1.2.7",
+        "https://www.barraiser.com/wp-content/plugins/ht-mega-for-elementor/assets/js/popper.min.js?ver=2.4.3",
+        "https://www.barraiser.com/wp-content/plugins/ht-mega-for-elementor/assets/js/htbbootstrap.js?ver=2.4.3",
+        "https://www.barraiser.com/wp-content/plugins/ht-mega-for-elementor/assets/js/waypoints.js?ver=2.4.3",
+        "https://www.barraiser.com/wp-content/plugins/cf7-google-sheets-connector-pro/assets/js/gs-pipe-select-index.js?ver=2.3.26",
+        "https://www.barraiser.com/wp-content/plugins/searchwp-live-ajax-search/assets/javascript/dist/script.min.js?ver=1.7.6",
+        "https://www.barraiser.com/wp-content/plugins/perfmatters/js/lazyload.min.js?ver=2.2.0",
+        "https://www.barraiser.com/wp-content/plugins/bigscoots-cache/assets/js/bfcache-invalidation.min.js?ver=4.3.1",
+        "https://www.barraiser.com/wp-content/plugins/mailpoet/assets/dist/js/public.js?ver=4.54.0",
+        "https://www.barraiser.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.18.3",
+        "https://www.barraiser.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3",
+        "https://www.barraiser.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3",
+        "https://www.barraiser.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2",
+        "https://www.barraiser.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0",
+        "https://www.barraiser.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0",
+        "https://www.barraiser.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1",
+        "https://www.barraiser.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef",
+        "https://www.barraiser.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.18.3",
+        "https://www.barraiser.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+        "https://www.barraiser.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3",
+        "https://www.barraiser.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.18.3",
+        "https://www.barraiser.com/wp-content/plugins/xpro-elementor-addons/inc/controls/assets/js/widgetarea-editor.js?ver=1.4.2",
+        "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "https://www.barraiser.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"
+      ],
+      "height": 9332
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 395
+    }
+  },
+  "intervue": {
+    "capturedAt": "2026-10-06T14:38:18.851Z",
+    "desktop": {
+      "title": "Interview Outsourcing, Interview as a Service Platform - Intervue",
+      "url": "https://www.intervue.io/",
+      "headings": [],
+      "fonts": [
+        [
+          "__Sora_a2c6d6, __Sora_Fallback_a2c6d6",
+          1014
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(0, 0, 0)",
+          846
+        ],
+        [
+          "rgb(255, 255, 255)",
+          68
+        ],
+        [
+          "rgb(29, 104, 189)",
+          23
+        ],
+        [
+          "rgba(255, 255, 255, 0.75)",
+          21
+        ],
+        [
+          "rgb(217, 217, 217)",
+          11
+        ],
+        [
+          "rgb(22, 38, 58)",
+          10
+        ],
+        [
+          "rgb(118, 118, 118)",
+          10
+        ],
+        [
+          "rgba(7, 7, 7, 0.6)",
+          5
+        ],
+        [
+          "rgb(43, 43, 43)",
+          5
+        ],
+        [
+          "rgb(236, 236, 236)",
+          5
+        ]
+      ],
+      "videos": [
+        {
+          "src": "https://d2b1cooxpkirg1.cloudfront.net/publicAssets/homepage/hero/videos-bg.mp4",
+          "autoplay": true,
+          "muted": true,
+          "loop": false
+        },
+        {
+          "src": "https://d2b1cooxpkirg1.cloudfront.net/publicAssets/homepage/hero/man.mp4",
+          "autoplay": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "https://d2b1cooxpkirg1.cloudfront.net/publicAssets/homepage/hero/women.mp4",
+          "autoplay": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "src": "https://d2b1cooxpkirg1.cloudfront.net/publicAssets/homepage/hero/videos-bg2.mp4",
+          "autoplay": true,
+          "muted": true,
+          "loop": true
+        }
+      ],
+      "iframes": [
+        "https://app-na2.hubspot.com/conversations-visitor/20086546/threads/utk/130097453f7247b1948cf8dc00273513?uuid=4e645bbac50c447a9d924819f7685866&mobile=false&mobileSafari=false&hideWelcomeMessage=false&hstc=&domain=intervue.io&inApp53=false&messagesUtk=130097453f7247b1948cf8dc00273513&url=https%3A%2F%2Fwww.intervue.io%2F&inline=false&isFullscreen=false&globalCookieOptOut=&isFirstVisitorSession=true&isAttachmentDisabled=false&isInitialInputFocusDisabled=false&enableWidgetCookieBanner=false&isInCMS=false&hideScrollToButton=true&isIOSMobile=false"
+      ],
+      "runningAnimations": [
+        {
+          "state": "finished",
+          "duration": 500,
+          "iterations": "1"
+        },
+        {
+          "state": "finished",
+          "duration": 1500,
+          "iterations": "1"
+        },
+        {
+          "state": "finished",
+          "duration": 750,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 40000,
+          "iterations": "Infinity"
+        }
+      ],
+      "scriptSources": [
+        "https://www.googletagmanager.com/gtag/js?id=AW-608047266&cx=c&gtm=4e6a21h1",
+        "https://scripts.clarity.ms/0.8.70/clarity.js",
+        "https://js-na2.usemessages.com/conversations-embed.js",
+        "https://js-na2.hsadspixel.net/pixels.js",
+        "https://js-na2.hs-banner.com/v2/20086546/banner.js",
+        "https://js-na2.hubspot.com/web-interactives-embed.js",
+        "https://js-na2.hs-analytics.net/analytics/1791294600000/20086546.js",
+        "https://asset.dyh8ken8pc.com/dyh8ken8pc.js",
+        "https://bat.bing.com/bat.js",
+        "https://www.clarity.ms/tag/v8f6ae6oig?ref=gtm",
+        "https://www.google-analytics.com/analytics.js",
+        "https://www.googletagmanager.com/gtag/js?id=AW-11259933036&cx=c&gtm=4e6a21h1",
+        "https://www.googletagmanager.com/gtag/js?id=G-LK7XTP00KD&cx=c&gtm=4e6a21h1",
+        "https://diffuser-cdn.app-us1.com/diffuser/diffuser.js",
+        "https://connect.facebook.net/signals/config/814764155796572?v=2.9.414&r=stable&domain=www.intervue.io&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188%2C267%2C265%2C260%2C262%2C263%2C264%2C261%2C259%2C246%2C266%2C268%2C258%2C216%2C217%2C269%2C270%2C257%2C256%2C351%2C352%2C199%2C201%2C202%2C206%2C205%2C207%2C203%2C204%2C200%2C198%2C197%2C229%2C224%2C227%2C228%2C222%2C387%2C225%2C226%2C250%2C223%2C221%2C277%2C241%2C214%2C215%2C211%2C212%2C213%2C210%2C208%2C219%2C220%2C218%2C325%2C380%2C345%2C346%2C348%2C349%2C347%2C344%2C343%2C230%2C280%2C287%2C288%2C281%2C283%2C286%2C284%2C285%2C282%2C279%2C298%2C292%2C295%2C291%2C299%2C296%2C290%2C294%2C297%2C293%2C289%2C339%2C356",
+        "https://connect.facebook.net/signals/config/1449589622589127?v=2.9.414&r=stable&domain=www.intervue.io&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "https://connect.facebook.net/en_US/fbevents.js",
+        "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/GOYPYHDVG8OX/GOYPYHDVG8OX.js.gz",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P6GWRW4",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/fd9d1056-ec6c824b43209ef0.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/4938-072f2c3e94d5fb6b.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/main-app-f15bec0fbc9a60cc.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/222-7f3ea275fdf60263.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/1749-3c54ccaef8130418.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/8475-00d4c0806325eea6.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/1824-d8f28825fbc0acb9.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/4172-6993398c2ef8c7a6.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/3978-814a34b08b40c342.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/3704-88c2712670f8a572.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/app/homepage/page-96224cf3c75487b9.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/4148-53d4c2c08853d113.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/3242-c4cfc5610f5a7c75.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/app/layout-8430f0eb215d9792.js",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+        "https://prism.app-us1.com/?a=92805674&u=https%3A%2F%2Fwww.intervue.io%2F",
+        "https://trackcmp.net/t_prism_sitemessages.php?trackid=92805674&prismid=817c08c2-7d21-4e8c-b1e2-a2a468f443b0&url=https%3A%2F%2Fwww.intervue.io%2F",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11259933036/?random=1791297490695&cv=11&fst=1791297490695&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a21h1v9176747349z8813270234za20gzb813270234zd813270234xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776795~118131809~118897920~118897930~119381662~120213116~120385423~120469145~120469153~121046263~121046271&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.intervue.io%2F&rcb=8&frm=0&tiba=Interview%20Outsourcing%2C%20Interview%20as%20a%20Service%20Platform%20-%20Intervue&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1987624926.1791297490&uaa=arm&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.6.2&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11259933036/?random=1791297490707&cv=11&fst=1791297490707&bg=ffffff&guid=ON&async=1&gtm=45be6a21h1v9176747349z8813270234za20gzb813270234zd813270234xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776795~118131809~118897920~118897930~119381662~120213116~120385423~120469145~120469153~121046263~121046271&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.intervue.io%2F&rcb=8&frm=0&tiba=Interview%20Outsourcing%2C%20Interview%20as%20a%20Service%20Platform%20-%20Intervue&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1987624926.1791297490&uaa=arm&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.6.2&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+        "https://bat.bing.com/p/action/187185755.js",
+        "https://www.googletagmanager.com/gtag/js?id=AW-608047266",
+        "https://d2b1cooxpkirg1.cloudfront.net/_next/static/chunks/webpack-1fcfae3f7d9ebd48.js",
+        "https://js-na1.hs-scripts.com/20086546.js",
+        "https://www.googleoptimize.com/optimize.js?id=OPT-58N99SP",
+        "https://js-na2.hs-scripts.com/20086546.js"
+      ],
+      "height": 6974
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "perfectly": {
+    "capturedAt": "2026-10-06T14:38:26.267Z",
+    "desktop": {
+      "title": "Perfectly: Fill your role in days, not months",
+      "url": "https://www.perfectly.so/",
+      "headings": [
+        {
+          "text": "Perfectly",
+          "tag": "H3",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "32px",
+          "weight": "400"
+        },
+        {
+          "text": "Your AI recruiter for understaffed teams",
+          "tag": "H1",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "70px",
+          "weight": "400"
+        },
+        {
+          "text": "The AI recruiting team that fills your startup roles in days",
+          "tag": "H1",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "70px",
+          "weight": "400"
+        },
+        {
+          "text": "We build a living model of the perfect candidate, and develop the recruiting engine for you to find and close them.",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "Custom Integration",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "Source",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "Outreach",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "Optimize",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "We moved off Paraform and canceled our Juicebox subscription because of the velocity we saw from Perfectly",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "48px",
+          "weight": "400"
+        },
+        {
+          "text": "2x interview pass rate for top startup",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "10x",
+          "tag": "H1",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "70px",
+          "weight": "400"
+        },
+        {
+          "text": "12 weeks",
+          "tag": "H1",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "70px",
+          "weight": "400"
+        },
+        {
+          "text": "Set it, and let it run. We'll take care of the rest.",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "Faster, Cheaper, Better",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "2x more precise",
+          "tag": "H1",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "70px",
+          "weight": "400"
+        },
+        {
+          "text": "4x faster",
+          "tag": "H1",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "70px",
+          "weight": "400"
+        },
+        {
+          "text": "We're a team of Meta and TikTok researchers obsessed with finding you the right candidates",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "We put transparency first",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        },
+        {
+          "text": "Perfectly",
+          "tag": "H2",
+          "font": "Halant, \"Halant Placeholder\", sans-serif",
+          "size": "56px",
+          "weight": "400"
+        }
+      ],
+      "fonts": [
+        [
+          "sans-serif",
+          488
+        ],
+        [
+          "Halant, \"Halant Placeholder\", sans-serif",
+          143
+        ],
+        [
+          "Geist, \"Geist Placeholder\", sans-serif",
+          83
+        ],
+        [
+          "Inter, \"Inter Placeholder\", sans-serif",
+          1
+        ]
+      ],
+      "colors": [
+        [
+          "rgb(0, 0, 0)",
+          452
+        ],
+        [
+          "rgb(255, 255, 255)",
+          114
+        ],
+        [
+          "rgb(43, 24, 10)",
+          72
+        ],
+        [
+          "rgb(148, 135, 124)",
+          44
+        ],
+        [
+          "rgb(0, 0, 238)",
+          24
+        ],
+        [
+          "rgb(239, 231, 221)",
+          17
+        ],
+        [
+          "rgb(250, 246, 242)",
+          11
+        ],
+        [
+          "rgb(246, 240, 233)",
+          10
+        ],
+        [
+          "rgba(245, 239, 233, 0)",
+          3
+        ],
+        [
+          "rgba(255, 255, 255, 0.8)",
+          3
+        ]
+      ],
+      "videos": [
+        {
+          "src": "https://framerusercontent.com/assets/2FrgGQ95O0hQezTGdIT8zhNvraU.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": false
+        },
+        {
+          "src": "https://framerusercontent.com/assets/qp5KAHnvEuPuP08CYIrLYK7mtRs.mp4",
+          "autoplay": false,
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "iframes": [
+        "https://framer.com/edit?framerSiteId=bb0173820d30d21d08bb7bb066159405ed94506d1aa321f7683a59c99eccbed4&source=www.perfectly.so&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1791297500205"
+      ],
+      "runningAnimations": [
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1320,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 1200,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2450,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2450,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2450,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2450,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2450,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2450,
+          "iterations": "1"
+        },
+        {
+          "state": "running",
+          "duration": 2450,
+          "iterations": "1"
+        }
+      ],
+      "scriptSources": [
+        "https://cdn.snitcher.com/releases/latest/radar.min.js",
+        "https://events.framer.com/script?v=2",
+        "https://framerusercontent.com/sites/4MeLlLB0HzFtt4miR23Q9e/script_main.CfHMdx9-.mjs"
+      ],
+      "height": 7227
+    },
+    "mobile": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  }
+}

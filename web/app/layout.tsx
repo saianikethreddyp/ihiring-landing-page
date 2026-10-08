@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Serif, Halant, Mukta } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
@@ -7,6 +7,8 @@ import { SITE_URL } from "@/lib/site";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const halant = Halant({ variable: "--font-halant", subsets: ["latin"], weight: ["400", "500"], display: "swap" });
+const mukta = Mukta({ variable: "--font-mukta", subsets: ["latin"], weight: ["400", "500", "600"], display: "swap" });
 const instrument = Instrument_Serif({
   variable: "--font-instrument",
   subsets: ["latin"],
@@ -43,7 +45,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${instrument.variable} antialiased`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${instrument.variable} ${halant.variable} ${mukta.variable} antialiased`}>
       <body className="flex min-h-screen flex-col">
         <a
           href="#main"
