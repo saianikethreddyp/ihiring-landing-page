@@ -15,8 +15,3 @@ export function ScrollQuote({ quote }: { quote: string }) {
   const words = `“${quote}”`.split(/\s+/);
   return <blockquote ref={ref} className="scroll-quote"><span className="sr-only">{quote}</span><span aria-hidden="true">{words.map((word, index) => <QuoteWord key={`${index}-${word}`} word={word} index={index} total={words.length} progress={scrollYProgress} reduced={!!reduced} />)}</span></blockquote>;
 }
-
-export function IntegrationLines() {
-  const reduced = useReducedMotion();
-  return <svg className="integration-links" viewBox="0 0 900 60" preserveAspectRatio="none" aria-hidden="true">{[83, 266, 450, 634, 817].map((x, index) => <motion.path key={x} d={`M450 0 V24 H${x} V60`} fill="none" stroke="#a9c3eb" strokeWidth="1.2" vectorEffect="non-scaling-stroke" initial={reduced ? false : { pathLength: 0 }} whileInView={{ pathLength: 1 }} viewport={{ once: true, amount: .5 }} transition={{ duration: reduced ? 0 : .95, delay: reduced ? 0 : index * .09, ease: "easeInOut" }} />)}</svg>;
-}

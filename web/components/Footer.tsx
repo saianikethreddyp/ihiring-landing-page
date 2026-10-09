@@ -7,6 +7,7 @@ const groups = [
   { title: "Product", links: [
     { label: "How SAM works", href: "/#how" },
     { label: "Integrations", href: "/#stack" },
+    { label: "Pricing", href: "/pricing" },
     { label: "Who it’s for", href: "/#who" },
     { label: "FAQs", href: "/#faq" },
   ] },

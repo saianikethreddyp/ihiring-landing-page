@@ -1,0 +1,79 @@
+/* Pricing page: one question, one answer. Uses the home page tokens (Halant headings, #0e5dfc, hairlines). */
+.pricing-hero { text-align: center; padding: 64px 0 34px; }
+.pricing-hero h1 { font-size: clamp(42px, 5.6vw, 72px); line-height: 1.06; margin-top: 18px; }
+.pricing-hero > p:last-child { margin: 18px auto 0; font-size: 18px; color: var(--story-muted); }
+
+.explorer { max-width: 920px; margin-inline: auto; }
+.volume { border: 0; padding: 0; margin: 0; }
+.volume legend { display: block; width: 100%; text-align: center; font-size: 18px; font-weight: 600; margin-bottom: 16px; padding: 0; }
+.volume-options { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid #dfe7f2; border-radius: 14px; overflow: hidden; background: #fff; }
+.volume-options label { position: relative; display: flex; align-items: center; justify-content: center; min-height: 56px; padding: 10px 8px; border-left: 1px solid #dfe7f2; font-size: 16px; cursor: pointer; text-align: center; transition: background .15s; }
+.volume-options label:first-child { border-left: 0; }
+.volume-options label:hover { background: #f7f9fd; }
+.volume-options label.is-selected { background: #0e5dfc; color: #fff; font-weight: 600; }
+.volume-options input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+.volume-options label:has(input:focus-visible) { outline: 3px solid #0e5dfc; outline-offset: -3px; }
+.volume-options label.is-selected:has(input:focus-visible) { outline-color: #fff; }
+
+.answer { display: grid; grid-template-columns: 1fr 1.1fr; margin-top: 22px; border: 1px solid #dfe7f2; border-radius: 18px; overflow: hidden; background: #fff; }
+.answer-price { padding: 34px 32px; background: #f7f9fd; border-right: 1px solid #dfe7f2; }
+.pricing-page .answer-plan { font-size: 15px; font-weight: 600; color: #0e5dfc; }
+.pricing-page .answer-amount { margin-top: 10px; font-family: var(--font-halant), Georgia, serif; font-size: 68px; line-height: 1; letter-spacing: -.025em; }
+.answer-amount small { font-family: var(--font-mukta), system-ui, sans-serif; font-size: 16px; letter-spacing: 0; color: var(--story-muted); margin-left: 8px; }
+.pricing-page .answer-per { margin-top: 12px; min-height: 26px; font-size: 16px; line-height: 1.5; color: var(--story-muted); }
+.answer-price .story-button { width: 100%; margin-top: 24px; font-size: 16px; }
+.answer-trial { display: block; margin-top: 14px; text-align: center; font-size: 15px; color: #0e5dfc; text-decoration: underline; text-underline-offset: 4px; }
+
+.answer-detail { padding: 34px 32px; }
+.answer-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 20px; margin: 0; }
+.answer-facts dt { font-size: 14px; color: var(--story-muted); }
+.answer-facts dd { margin: 4px 0 0; font-size: 26px; font-weight: 500; letter-spacing: -.01em; }
+.pricing-page .answer-extras-title { margin-top: 28px; padding-top: 22px; border-top: 1px solid #edf1f8; font-size: 14px; color: var(--story-muted); }
+.answer-extras { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; font-size: 16px; }
+.answer-extras li { display: flex; gap: 8px; align-items: flex-start; }
+.answer-extras svg { margin-top: 4px; flex-shrink: 0; color: #0e5dfc; }
+
+.pricing-page .every-plan { max-width: 760px; margin: 28px auto 0; text-align: center; font-size: 15px; line-height: 1.7; color: var(--story-muted); }
+.every-plan strong { color: var(--story-ink); font-weight: 600; }
+.every-plan a { color: #0e5dfc; text-decoration: underline; text-underline-offset: 4px; }
+
+.glance { max-width: 760px; margin: 72px auto 0; }
+.glance h2, .pricing-faq h2 { font-size: 30px; text-align: center; margin-bottom: 22px; }
+.glance table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.glance th, .glance td { padding: 14px 10px; text-align: left; border-bottom: 1px solid #dfe7f2; }
+.glance thead th { font-size: 13px; font-weight: 600; color: var(--story-muted); border-bottom-color: #cfd9e8; }
+.glance tbody th { font-weight: 600; }
+.glance td:nth-child(n+2), .glance thead th:nth-child(n+2) { text-align: right; }
+.pricing-page .glance-note { margin-top: 12px; font-size: 14px; color: var(--story-muted); }
+
+.compare-details { max-width: 920px; margin: 36px auto 0; border: 1px solid #dfe7f2; border-radius: 14px; background: #fff; }
+.compare-details summary { padding: 18px 22px; font-size: 17px; font-weight: 600; cursor: pointer; min-height: 56px; }
+.compare-details summary:hover { color: #0e5dfc; }
+.compare-details[open] summary { border-bottom: 1px solid #dfe7f2; }
+.compare-scroll { position: relative; overflow-x: auto; }
+.compare { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 15px; }
+.compare th, .compare td { padding: 14px 20px; text-align: left; border-bottom: 1px solid #edf1f8; }
+.compare thead th { font-weight: 600; background: #f7f9fd; white-space: nowrap; }
+.compare tbody th { font-weight: 400; color: var(--story-muted); position: sticky; left: 0; background: #fff; min-width: 210px; }
+.compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: 0; }
+.compare .yes { color: #0e5dfc; }
+.compare .no { color: #b4c0d0; }
+
+.pricing-faq { max-width: 780px; margin: 72px auto 0; padding-bottom: 80px; }
+.pricing-faq .story-faq-list { width: 100%; }
+
+@media (max-width: 760px) {
+  .pricing-hero { padding: 40px 0 26px; }
+  .volume-options { grid-template-columns: 1fr 1fr; }
+  .volume-options label { border-left: 0; border-top: 1px solid #dfe7f2; min-height: 52px; }
+  .volume-options label:nth-child(-n+2) { border-top: 0; }
+  .volume-options label:nth-child(even) { border-left: 1px solid #dfe7f2; }
+  .volume-options label:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .answer { grid-template-columns: 1fr; }
+  .answer-price { border-right: 0; border-bottom: 1px solid #dfe7f2; padding: 26px 22px; }
+  .answer-detail { padding: 26px 22px; }
+  .pricing-page .answer-amount { font-size: 56px; }
+  .glance { margin-top: 52px; }
+  .glance th, .glance td { padding: 12px 6px; font-size: 14px; }
+  .pricing-faq { margin-top: 52px; padding-bottom: 56px; }
+}

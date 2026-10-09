@@ -13,7 +13,7 @@ export function InitialAvatar({ initials, className = "applicant-avatar" }: { in
   return (
     <span className={className} aria-hidden="true">
       <svg viewBox="0 0 40 40">
-        <text x="20" y="21" textAnchor="middle" dominantBaseline="middle" fill="currentColor" fontFamily="system-ui, sans-serif" fontSize={initials.length > 1 ? 11 : 13} fontWeight="500">{initials}</text>
+        <text x="20" y="21" textAnchor="middle" dominantBaseline="middle" fill="currentColor" fontFamily="system-ui, sans-serif" fontSize={initials.length > 1 ? 14 : 16} fontWeight="500">{initials}</text>
       </svg>
     </span>
   );

@@ -31,12 +31,26 @@ export const traction: { value: string; label: string; note?: string }[] = [];
 export const nav = [
   { label: "How it works", href: "/#how" },
   { label: "Integrations", href: "/#stack" },
+  { label: "Pricing", href: "/pricing" },
   { label: "About", href: "/about" },
   { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
 ];
 
 export const testimonials = config.home.testimonials.items;
+
+/** Short label for each candidate quote, taken from what the candidate actually said. */
+export const candidateThemes: Record<string, string> = {
+  "Haig Schmidt": "Tested real skills",
+  "Taylor": "Felt comfortable",
+  "Dominic Z.T.": "Felt natural",
+  "Miller": "Less nervous",
+  "Nicole Meyer": "Respected my time",
+  "Dorthy": "Less nervous",
+  "Chris A": "Felt natural",
+};
+
+export const initialsOf = (name: string) => name.split(/\s+/).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
 
 export const faqs = (() => {
   const seen = new Set<string>();

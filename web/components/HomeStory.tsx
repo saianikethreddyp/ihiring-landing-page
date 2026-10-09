@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight, CalendarDays, FileText, MessageCircle, Play } from "lucide-react";
-import { IntegrationLines, ScrollQuote } from "@/components/StoryMotion";
+import { ArrowDown, ArrowUpRight, Play } from "lucide-react";
+import { CandidateVoices } from "@/components/CandidateVoices";
+import { IntegrationFlow } from "@/components/IntegrationFlow";
 import { StoryFAQ } from "@/components/StoryFAQ";
 import { StoryReveal } from "@/components/StoryReveal";
-import { InterviewJourney } from "@/components/SignalExperience";
+import { HowItWorks } from "@/components/HowItWorks";
+import { TaskHandoff } from "@/components/TaskHandoff";
 import { ClientLogos } from "@/components/ClientLogos";
-import { InitialAvatar, SamAvatar } from "@/components/Avatar";
-import { integrations, testimonials } from "@/lib/site";
+import { integrations } from "@/lib/site";
 
 const interviewUrl = "https://play.gumlet.io/embed/67c14d5d3e62e5390999631b?autoplay=false";
 const questions = [
@@ -41,17 +42,16 @@ export function HomeStory() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="review-pill-card"
-                aria-label="Read iHiring reviews on G2 (4.9 out of 5 stars)"
               >
                 <div className="review-pill-logo">
                   <Image src="/brands/g2-badge.svg" alt="G2" width={95} height={30} className="h-6 w-auto object-contain" />
                 </div>
                 <div className="review-pill-text">
                   <div className="review-pill-stars">
-                    <span className="stars-gold">★★★★★</span>
+                    <span className="stars-gold" aria-hidden="true">★★★★★</span>
                     <strong className="rating-num">4.9/5</strong>
                   </div>
-                  <span className="review-pill-count">16+ Verified Reviews</span>
+                  <span className="review-pill-count">16+ Verified Reviews<span className="sr-only"> (opens in a new tab)</span></span>
                 </div>
               </a>
 
@@ -62,17 +62,16 @@ export function HomeStory() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="review-pill-card"
-                aria-label="Read iHiring reviews on Capterra (5.0 out of 5 stars)"
               >
                 <div className="review-pill-logo">
                   <Image src="/brands/capterra-badge.svg" alt="Capterra" width={110} height={30} className="h-6 w-auto object-contain" />
                 </div>
                 <div className="review-pill-text">
                   <div className="review-pill-stars">
-                    <span className="stars-gold">★★★★★</span>
+                    <span className="stars-gold" aria-hidden="true">★★★★★</span>
                     <strong className="rating-num">5.0/5</strong>
                   </div>
-                  <span className="review-pill-count">Top Rated AI Interviewer</span>
+                  <span className="review-pill-count">Top Rated AI Interviewer<span className="sr-only"> (opens in a new tab)</span></span>
                 </div>
               </a>
             </div>
@@ -83,21 +82,17 @@ export function HomeStory() {
 
       <section id="how" className="story-journey story-wrap">
         <StoryReveal className="section-heading"><p className="story-kicker">How it works</p><h2>From application<br /><em>to interview report.</em></h2><p>From the first application to the next conversation. Your team stays in control.</p></StoryReveal>
-        <InterviewJourney />
+        <HowItWorks />
         <p className="sample-caption">An illustrative preview of the SAM workflow.</p>
       </section>
 
-      <section id="product" className="story-benefits story-wrap">
-        <StoryReveal className="benefits-intro section-heading"><p className="story-kicker">Make room for better hiring</p><h2>Less coordination.<br /><em>More conversation.</em></h2></StoryReveal>
-        <div className="benefit-grid">{[
-          { icon: CalendarDays, title: "Stop chasing calendars.", body: "Let candidates book and reschedule, 24/7. Keep interviews moving without the scheduling back-and-forth." },
-          { icon: MessageCircle, title: "Go beyond the resume.", body: "SAM follows up on what candidates say, so your team can understand the experience behind their skills." },
-          { icon: FileText, title: "Start the next round informed.", body: "Review the conversation and its key details in one report. Spend the next interview exploring what matters." },
-        ].map((item, index) => <StoryReveal key={item.title} delay={index * 90}><article className="benefit-card"><div className="benefit-card-top"><div className="benefit-icon"><item.icon size={27} strokeWidth={1.4} /></div><span className="benefit-index">0{index + 1}</span></div><h3>{item.title}</h3><p>{item.body}</p></article></StoryReveal>)}</div>
+      <section id="product" className="story-handoff story-wrap">
+        <StoryReveal className="benefits-intro section-heading"><p className="story-kicker">Make room for better hiring</p><h2>Less coordination.<br /><em>More conversation.</em></h2><p>Scroll to see which tasks move from your team to SAM.</p></StoryReveal>
+        <TaskHandoff />
       </section>
 
       <section id="stack" className="story-stack">
-        <div className="story-wrap stack-layout"><StoryReveal className="section-heading"><p className="story-kicker">Integrations</p><h2>Works with<br /><em>your hiring tools.</em></h2><p>Your hiring process, with less admin.<br />Bring SAM’s interview insights into the tools your team already uses.</p><a href="#how" className="story-text-link">Explore the workflow <ArrowUpRight size={17} /></a></StoryReveal><StoryReveal className="integration-network"><div className="integration-hub"><SamAvatar /><div><strong>SAM</strong><span>Your AI interviewer</span></div></div><div className="integration-grid" aria-label="ATS integrations"><IntegrationLines />{integrations.filter(item => item.kind === "ATS").map(item => <div className="integration-card" key={item.name}><Image src={`/brands/${item.name.toLowerCase()}.png`} alt={item.name} width={48} height={48} className="integration-logo" /><span>{item.name}</span></div>)}</div></StoryReveal></div>
+        <div className="story-wrap stack-layout"><StoryReveal className="section-heading"><p className="story-kicker">Integrations</p><h2>Works with<br /><em>your hiring tools.</em></h2><p>Your hiring process, with less admin.<br />Bring ihiring’s interview insights into the tools your team already uses.</p><a href="#how" className="story-text-link">Explore the workflow <ArrowUpRight size={17} /></a></StoryReveal><StoryReveal className="integration-network"><IntegrationFlow items={[...integrations.filter(item => item.kind === "ATS").map(item => ({ name: item.name, logo: `/brands/${item.name.toLowerCase()}.png` })), { name: "Others" }]} /></StoryReveal></div>
       </section>
 
       <section id="who" className="story-audience story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Who it’s for</p><h2>Built for teams<br /><em>ready to grow.</em></h2></StoryReveal><div className="audience-grid">{[
@@ -106,7 +101,7 @@ export function HomeStory() {
         { label: "Staffing agencies", title: "More roles. One workflow.", body: "Bring screening, scheduling and interviews together across client roles. Keep your team focused on the next placement." },
       ].map((item, i) => <article key={item.label}><span className="audience-number">0{i + 1}</span><div className="audience-title"><p className="audience-label">{item.label}</p><h3>{item.title}</h3></div><p>{item.body}</p></article>)}</div></section>
 
-      <section className="story-quote"><StoryReveal className="story-wrap quote-layout"><p className="story-kicker">A candidate’s experience</p><figure><span className="quote-symbol" aria-hidden="true">“</span><ScrollQuote quote={testimonials[0].quote} /><figcaption><InitialAvatar initials="HS" className="quote-avatar" /><span><strong>{testimonials[0].name}</strong><span>{testimonials[0].role} · Candidate interviewed by SAM</span></span></figcaption></figure><a className="story-text-link" href="https://www.g2.com/products/ihiring-ai/reviews" target="_blank" rel="noopener noreferrer">Read the reviews <ArrowUpRight size={16} /><span className="sr-only"> (opens in a new tab)</span></a></StoryReveal></section>
+      <CandidateVoices />
 
       <section id="faq" className="story-faq story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Frequently asked questions</p><h2>A few things<br /><em>you might ask.</em></h2><p>Getting ready to meet SAM?<br /><Link href="/blog" className="story-text-link">Read the candidate guide <ArrowUpRight size={16} /></Link></p></StoryReveal><StoryFAQ questions={questions} /></section>
 
