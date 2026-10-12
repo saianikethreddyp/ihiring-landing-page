@@ -5,6 +5,8 @@ export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ihiring.ai"
 // TODO(ihiring): replace with the real app login URL.
 export const LOGIN_URL = process.env.NEXT_PUBLIC_LOGIN_URL ?? "https://ihiring.ai/";
 
+export const CALENDLY_URL = "https://calendly.com/ram-ihiring/demo-ihiring-ai";
+
 export const DEMO_HREF = "/contact";
 
 /**
@@ -32,7 +34,6 @@ export const nav = [
   { label: "How it works", href: "/#how" },
   { label: "Integrations", href: "/#stack" },
   { label: "Pricing", href: "/pricing" },
-  { label: "About", href: "/about" },
   { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
 ];

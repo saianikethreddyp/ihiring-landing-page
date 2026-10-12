@@ -65,9 +65,9 @@ export function DemoForm() {
   if (status === "done") {
     return (
       <div ref={success} tabIndex={-1} role="status" className="demo-success rounded-[28px] border border-ink/10 bg-card p-8 text-center sm:p-10">
-        <CheckCircle2 className="mx-auto text-emerald-600" size={40} />
-        <h2 className="display mt-4 text-4xl">Thanks, {values.name?.trim().split(/\s+/)[0]}.</h2>
-        <p className="mt-2 break-words text-mute">We have your request and will reach out at {values.email?.trim()} to set up your demo.</p>
+        <CheckCircle2 className="mx-auto text-brand" size={40} />
+        <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">Thanks, {values.name?.trim().split(/\s+/)[0]}.</h2>
+        <p className="mt-3 text-base leading-relaxed text-mute">We have your request and will be in touch shortly to set up your demo.</p>
       </div>
     );
   }
@@ -164,7 +164,7 @@ export function DemoForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="demo-submit mt-6 inline-flex h-13 w-full items-center justify-center gap-2 rounded-full bg-ink text-[15px] font-medium text-paper hover:bg-ink-2 disabled:opacity-70"
+        className="demo-submit mt-6 inline-flex h-13 w-full items-center justify-center gap-2 rounded-md bg-brand text-[15px] font-medium text-white transition-colors hover:bg-brand-ink disabled:opacity-70"
       >
         {status === "sending" ? (
           <>

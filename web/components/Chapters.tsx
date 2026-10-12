@@ -22,12 +22,12 @@ function Frame({ title, children }: { title: string; children: React.ReactNode }
 
 function ScreenPanel() {
   const rows = [
-    { n: "Priya N.", s: 94, tag: "Invited" },
+    { n: "Ethan T.", s: 94, tag: "Invited" },
     { n: "Marcus L.", s: 91, tag: "Invited" },
-    { n: "Aiko T.", s: 88, tag: "Invited" },
+    { n: "Emily T.", s: 88, tag: "Invited" },
     { n: "Daniel R.", s: 76, tag: "Review" },
-    { n: "Sofia M.", s: 71, tag: "Review" },
-    { n: "Jonas K.", s: 54, tag: "Declined" },
+    { n: "Olivia M.", s: 71, tag: "Review" },
+    { n: "Jason K.", s: 54, tag: "Declined" },
   ];
   return (
     <Frame title="Senior Backend Engineer · ranked applicants">
@@ -95,7 +95,7 @@ function SchedulePanel() {
         ))}
       </div>
       <p className="mt-5 flex items-center gap-2 rounded-xl bg-white/[0.04] px-4 py-3 text-xs text-white/65">
-        <Check size={14} className="text-emerald-300" /> Priya moved her interview to Tue 7:00 am · 2:14 am
+        <Check size={14} className="text-emerald-300" /> Ethan moved his interview to Tue 7:00 am · 2:14 am
       </p>
     </Frame>
   );
@@ -114,7 +114,7 @@ function InterviewPanel() {
             Cross-shard queries. I would keep the shard key aligned with how we read, and plan resharding early.
           </p>
           <p className="flex items-center gap-2 pl-1 font-mono text-[11px] text-white/45">
-            <Video size={13} /> follow-up generated from her answer
+            <Video size={13} /> follow-up generated from his answer
           </p>
         </div>
         <ul className="space-y-2">
@@ -143,7 +143,7 @@ function ReportPanel() {
     ["Collaboration", 72],
   ] as const;
   return (
-    <Frame title="Scorecard · Priya N.">
+    <Frame title="Scorecard · Ethan T.">
       <div className="flex items-end justify-between gap-6">
         <div>
           <p className="font-mono text-[11px] uppercase tracking-wider text-white/45">Overall</p>

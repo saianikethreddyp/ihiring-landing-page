@@ -49,9 +49,10 @@ function Count({ to, seen, ms = 1500 }: { to: number; seen: boolean; ms?: number
 }
 
 const candidates = [
-  { id: "alex", initials: "AR", name: "Alex R.", skills: "Node.js · Databases", fit: "Lower match", w: 46 },
-  { id: "arjun", initials: "AM", name: "Arjun M.", skills: "Java · Systems", fit: "Possible match", w: 68 },
-  { id: "priya", initials: "PN", name: "Priya N.", skills: "Python · APIs", fit: "Strong match", w: 94, top: true },
+  { id: "alex", initials: "MC", name: "Michael C.", skills: "Node.js · PostgreSQL", fit: "Lower match", w: 46 },
+  { id: "arjun", initials: "JB", name: "Jessica B.", skills: "Java · Microservices", fit: "Possible match", w: 68 },
+  { id: "priya", initials: "ET", name: "Ethan T.", skills: "Python · Cloud APIs", fit: "Strong match", w: 94, top: true },
+
 ];
 
 function ScreenArt({ seen }: ArtProps) {
@@ -67,7 +68,7 @@ function ScreenArt({ seen }: ArtProps) {
   return (
     <>
       <Frag depth={0} side="l" className="px-card px-funnel">
-        <span className="px-label">BACKEND ENGINEER · EXAMPLE DATA</span>
+        <span className="px-label">Sr. Backend Engineer</span>
         <div className="px-funnel-row">
           <span><b><Count to={120} seen={seen} /></b><small>applications received</small></span>
           <span className="px-funnel-arrow" aria-hidden="true">→</span>
@@ -118,9 +119,9 @@ function ScheduleArt() {
       </Frag>
       <Frag depth={1} delay={0.1} side="r" className="px-card px-booked">
         <span className="px-booked-icon"><Check size={16} aria-hidden="true" /></span>
-        <span><strong>Interview booked</strong><small>Priya N. · Wed 14 · 2:00 PM</small></span>
+        <span><strong>Interview booked</strong><small>Ethan T. · Wed 14 · 2:00 PM</small></span>
       </Frag>
-      <Frag depth={2} delay={0.2} side="l" fit className="px-chiprow"><span className="px-chip">No email back-and-forth</span><span className="px-chip is-soft">Reschedule anytime, 24/7</span></Frag>
+      <Frag depth={2} delay={0.2} side="l" fit className="px-chiprow"><span className="px-chip">No email back-and-forth</span><span className="px-chip is-soft">Reschedule any time, 24/7</span></Frag>
     </>
   );
 }
@@ -133,13 +134,13 @@ function InterviewArt() {
         <em className="px-live"><i aria-hidden="true" />Live<span className="px-wave" aria-hidden="true">{[0, 1, 2, 3, 4].map(n => <b key={n} style={{ animationDelay: `${n * 0.12}s` }} />)}</span></em>
       </Frag>
       <Frag depth={1} delay={0.12} side="l" className="px-card px-bubble px-sam">
-        <span className="px-label">SAM</span><p>Tell me about a system you built that had to handle unexpected growth.</p>
+        <span className="px-label">SAM</span><p>Your order API started timing out under peak load. How did you find the bottleneck, and what did you change?</p>
       </Frag>
       <Frag depth={2} delay={0.26} side="r" className="px-card px-bubble px-cand">
-        <span className="px-label">Priya</span><p>Our API traffic grew quickly. I moved the expensive jobs to a queue so requests could stay fast.</p>
+        <span className="px-label">Ethan</span><p>Traces showed slow synchronous PDF and email work blocking requests. I moved it to Celery workers on Redis, added idempotency keys and cut p95 latency from 1.8s to 320ms.</p>
       </Frag>
       <Frag depth={3} delay={0.4} side="l" className="px-card px-bubble px-sam">
-        <span className="px-label">SAM</span><p>What trade-offs did you make, and how did you measure the impact?</p>
+        <span className="px-label">SAM</span><p>Queues add eventual consistency. How did you handle retries, duplicate jobs and failures?</p>
       </Frag>
     </>
   );
@@ -149,14 +150,14 @@ function ReportArt() {
   return (
     <>
       <Frag depth={0} side="l" className="px-card px-reporthead">
-        <InitialAvatar initials="PN" /><span><strong>Priya N.</strong><small>Backend engineer · Example report</small></span>
-        <span className="px-chips">{["Video", "Transcript", "Summary"].map(c => <em key={c} className="px-pill is-ready"><Check size={12} aria-hidden="true" />{c}</em>)}</span>
+        <InitialAvatar initials="ET" /><span><strong>Ethan T.</strong><small>Backend engineer</small></span>
+        <span className="px-chips">{["Video", "Transcript", "Summary","Recommendation"].map(c => <em key={c} className="px-pill is-ready"><Check size={12} aria-hidden="true" />{c}</em>)}</span>
       </Frag>
       <Frag depth={1} delay={0.14} side="r" className="px-card px-summary">
-        <span className="px-label">INTERVIEW SUMMARY</span><p>Described moving expensive API jobs to an asynchronous queue to handle growth.</p>
+        <span className="px-label">INTERVIEW SUMMARY</span><p>Moved slow synchronous work to Celery and Redis workers, with idempotency keys. Reported p95 latency falling from 1.8s to 320ms.</p>
       </Frag>
       <Frag depth={2} delay={0.28} side="l" className="px-card px-finding">
-        <span className="px-label">FOR THE NEXT CONVERSATION</span><strong>Explore the trade-offs in more detail</strong>
+        <span className="px-label">FOR THE NEXT CONVERSATION</span><strong>Probe retry and dead-letter handling</strong>
       </Frag>
       <Frag depth={3} delay={0.42} side="r" fit className="px-chip is-green"><Check size={14} aria-hidden="true" /> Synced to your ATS</Frag>
     </>
@@ -165,9 +166,9 @@ function ReportArt() {
 
 const chapters: { ghost: string; title: string; body: string; detail: string; outcomes: string[]; Art: ComponentType<ArtProps> }[] = [
   { ghost: "Screen", title: "SAM reads every application.", body: "Resumes are screened and ranked against the role, so your team starts with the strongest candidates.", detail: "Resume screening", outcomes: ["Ranked against your job criteria", "Your team reviews a shortlist, not an inbox"], Art: ScreenArt },
-  { ghost: "Schedule", title: "Candidates book their own time.", body: "They schedule and reschedule with SAM, at any hour of the day.", detail: "24/7 scheduling", outcomes: ["Candidates self-book and reschedule, any hour", "No email back-and-forth for your recruiters"], Art: ScheduleArt },
+  { ghost: "Schedule", title: "Candidates book their own time.", body: "They schedule and reschedule with SAM, at any hour of the day, and receive notifications by email and phone.", detail: "24/7 scheduling", outcomes: ["Candidates self-book and reschedule, any hour", "No email back-and-forth for your recruiters"], Art: ScheduleArt },
   { ghost: "Interview", title: "SAM runs the first interview.", body: "A live one-to-one video conversation, with follow-up questions based on each answer.", detail: "AI interviews", outcomes: ["The same structured conversation for every candidate", "Interviews run in parallel, so volume does not queue"], Art: InterviewArt },
-  { ghost: "Report", title: "You get the report.", body: "Video, transcript and a performance summary for every interview. Your team decides who moves forward.", detail: "Your team decides", outcomes: ["Video, transcript and summary in one place", "Your team makes the call on who moves forward"], Art: ReportArt },
+  { ghost: "Report", title: "You get the report.", body: "Video, recommendation, transcript and summary in one place. Your team decides who moves forward.", detail: "Your team decides", outcomes: ["Video, recommendation, transcript and summary in one place", "Your team makes the call on who moves forward"], Art: ReportArt },
 ];
 
 function Chapter({ index, flip, ghost, title, body, detail, outcomes, Art }: (typeof chapters)[number] & { index: number; flip: boolean }) {

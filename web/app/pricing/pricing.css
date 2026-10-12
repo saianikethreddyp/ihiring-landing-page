@@ -37,7 +37,7 @@
 .every-plan strong { color: var(--story-ink); font-weight: 600; }
 .every-plan a { color: #0e5dfc; text-decoration: underline; text-underline-offset: 4px; }
 
-.glance { max-width: 760px; margin: 72px auto 0; }
+.compare-details.glance { max-width: 920px; margin: 72px auto 0; }.glance table { margin: 0; }.glance .compare-scroll { padding: 6px 22px 0; }.glance .glance-note { padding: 0 22px 18px; }
 .glance h2, .pricing-faq h2 { font-size: 30px; text-align: center; margin-bottom: 22px; }
 .glance table { width: 100%; border-collapse: collapse; font-size: 16px; }
 .glance th, .glance td { padding: 14px 10px; text-align: left; border-bottom: 1px solid #dfe7f2; }

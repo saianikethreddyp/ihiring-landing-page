@@ -61,7 +61,7 @@ export function ConversationEngine() {
             <rect width="146" height="204" rx="5" fill="#f1efe5" />
             <circle cx="26" cy="34" r="13" fill="#d7ddcb" />
             <text x="26" y="38" textAnchor="middle" fontFamily="var(--font-mukta), sans-serif" fontSize="13" fill="#475145">P</text>
-            <text x="48" y="31" fontFamily="var(--font-mukta), sans-serif" fontWeight="600" fontSize="13" fill="#24334b">Priya N.</text>
+            <text x="48" y="31" fontFamily="var(--font-mukta), sans-serif" fontWeight="600" fontSize="13" fill="#24334b">Ethan T.</text>
             <text x="48" y="46" fontFamily="var(--font-mukta), sans-serif" fontSize="9" fill="#73796b">Backend engineer</text>
             <path d="M17 66 H127" stroke="#cfcec2" />
             <g stroke="#b7bbae" strokeWidth="3" strokeLinecap="round"><path d="M18 84 H120" /><path d="M18 95 H109" /><path d="M18 106 H118" /><path d="M18 117 H82" /></g>

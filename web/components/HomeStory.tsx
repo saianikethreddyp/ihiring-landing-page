@@ -8,15 +8,16 @@ import { StoryReveal } from "@/components/StoryReveal";
 import { HowItWorks } from "@/components/HowItWorks";
 import { TaskHandoff } from "@/components/TaskHandoff";
 import { ClientLogos } from "@/components/ClientLogos";
+import { GlobalClock } from "@/components/GlobalClock";
 import { integrations } from "@/lib/site";
 
 const interviewUrl = "https://play.gumlet.io/embed/67c14d5d3e62e5390999631b?autoplay=false";
 const questions = [
-  { q: "What does SAM do?", a: "SAM is iHiring’s AI interviewer. It screens resumes, helps candidates schedule interviews, conducts conversations and delivers detailed reports for your team to review." },
-  { q: "Who is iHiring built for?", a: "Founders, internal hiring teams and staffing agencies who want more time for the people behind the applications." },
-  { q: "Can we keep using our ATS?", a: "iHiring offers integrations with Workday, Greenhouse, Lever, Ashby and Bullhorn, so interview insights can fit into your existing hiring process." },
-  { q: "What is the candidate experience like?", a: "Candidates schedule their interview and speak with SAM. The experience includes a conversation and live transcripts. You can watch an interview using the link above." },
-  { q: "Does SAM make the final hiring decision?", a: "Your hiring team stays in control. SAM provides interview reports and insights; people decide who moves forward." },
+  { q: "What does SAM do?", a: "SAM is ihiring’s AI interviewer. It screens resumes, helps candidates schedule interviews, conducts conversations and delivers detailed reports for your team to review." },
+  { q: "Who is ihiring built for?", a: "Staffing and recruitment firms, enterprise talent teams, and startups and growing teams that want more time for the people behind the applications." },
+  { q: "Can we keep using our ATS?", a: "ihiring integrates with Workday, Greenhouse, Lever, Ashby and Bullhorn, so interview insights can fit into your existing hiring process." },
+  { q: "What is the candidate experience like?", a: "Candidates book a time and have a live conversation with SAM, with a transcript alongside. You can watch a sample interview using the link above." },
+  { q: "Does SAM make the final hiring decision?", a: "Your hiring team stays in control. SAM provides interview reports and insights, and people decide who moves forward." },
 ];
 
 export function HomeStory() {
@@ -96,12 +97,17 @@ export function HomeStory() {
       </section>
 
       <section id="who" className="story-audience story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Who it’s for</p><h2>Built for teams<br /><em>ready to grow.</em></h2></StoryReveal><div className="audience-grid">{[
-        { label: "Founders", title: "Build your team. Keep building.", body: "Let SAM handle first rounds while you focus on building the business and choosing your next hire." },
-        { label: "Hiring teams", title: "Keep every role moving.", body: "Give your team a shared workflow for first rounds, with interview reports ready for the next conversation." },
-        { label: "Staffing agencies", title: "More roles. One workflow.", body: "Bring screening, scheduling and interviews together across client roles. Keep your team focused on the next placement." },
+        { label: "Staffing and recruitment firms", title: "Interview every candidate for every client.", body: "Run screening, scheduling and first interviews across client roles, then send each client a report with video, transcript and summary. Syncs with Bullhorn." },
+        { label: "Startups and growing teams", title: "First rounds without a recruiting team.", body: "Let SAM handle screening and first interviews while you stay focused on building, and step in only for the final conversations." },
+        { label: "Enterprise talent teams", title: "One consistent first round at scale.", body: "Give every applicant the same structured interview, with results synced to Workday, Greenhouse or Lever for your recruiters to review." },
       ].map((item, i) => <article key={item.label}><span className="audience-number">0{i + 1}</span><div className="audience-title"><p className="audience-label">{item.label}</p><h3>{item.title}</h3></div><p>{item.body}</p></article>)}</div></section>
 
       <CandidateVoices />
+
+      <section id="global" className="story-global story-wrap">
+        <StoryReveal className="section-heading"><p className="story-kicker">Global, around the clock</p><h2>Always on shift,<br /><em>in every time zone.</em></h2><p>Candidates pick a time in their own time zone, and SAM is ready whenever they are. Your pipeline never waits on your calendar.</p></StoryReveal>
+        <GlobalClock />
+      </section>
 
       <section id="faq" className="story-faq story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Frequently asked questions</p><h2>A few things<br /><em>you might ask.</em></h2><p>Getting ready to meet SAM?<br /><Link href="/blog" className="story-text-link">Read the candidate guide <ArrowUpRight size={16} /></Link></p></StoryReveal><StoryFAQ questions={questions} /></section>
 

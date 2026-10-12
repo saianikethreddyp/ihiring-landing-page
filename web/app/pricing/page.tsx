@@ -38,8 +38,9 @@ export default function PricingPage() {
           {" "}Rated {G2.rating} out of 5 from {G2.reviews} reviews on <a href={G2.url} target="_blank" rel="noopener noreferrer">G2<span className="sr-only"> (opens in a new tab)</span></a>.
         </p>
 
-        <section className="glance" aria-labelledby="glance">
-          <h2 id="glance">All plans at a glance</h2>
+        <details className="compare-details glance">
+          <summary>All plans at a glance</summary>
+          <div className="compare-scroll" tabIndex={0} role="region" aria-label="Plans at a glance, scrolls sideways on small screens">
           <table>
             <thead>
               <tr><th scope="col">Plan</th><th scope="col">Interviews a month</th><th scope="col">Price a month</th><th scope="col">Per interview</th></tr>
@@ -58,8 +59,9 @@ export default function PricingPage() {
               })}
             </tbody>
           </table>
+          </div>
           <p className="glance-note">Prices are in US dollars. Per interview is the monthly price divided by the monthly interviews.</p>
-        </section>
+        </details>
 
         <details className="compare-details">
           <summary>Compare every feature</summary>
