@@ -8,25 +8,25 @@ import { Container, SectionHeader } from "@/components/ui";
 const beats = [
   {
     time: "11:48 pm",
-    title: "Priya applies.",
-    body: "She finds your role on a job board and submits her resume. You are asleep.",
+    title: "Ethan applies.",
+    body: "He finds your role on a job board and submits his resume. You are asleep.",
     chip: "New applicant · via LinkedIn",
   },
   {
     time: "11:49 pm",
     title: "Sam reads every line.",
-    body: "Sam screens her resume against the role, ranks her against everyone else and decides she is worth an interview.",
+    body: "Sam screens his resume against the role, ranks him against everyone else and decides he is worth an interview.",
     chip: "Match 94% · invited",
   },
   {
     time: "11:52 pm",
     title: "She books herself in.",
-    body: "No email chain, no timezone maths. Priya picks a slot from Sam's calendar and can move it any time.",
+    body: "No email chain, no timezone maths. Ethan picks a slot from Sam's calendar and can move it any time.",
     chip: "Booked · Tue 7:00 am",
   },
   {
     time: "7:00 am",
-    title: "Sam interviews her, live.",
+    title: "Sam interviews him, live.",
     body: "A real 1:1 video conversation with follow-up questions that test depth. Proctoring runs in the background.",
     chip: "Live · proctoring on",
   },

@@ -8,7 +8,7 @@ import { StoryReveal } from "@/components/StoryReveal";
 export const metadata: Metadata = {
   title: "Contact & Book a Demo",
   alternates: { canonical: "/contact" },
-  description: "Book a walkthrough of SAM or get in touch with the iHiring team.",
+  description: "Book a walkthrough of SAM or get in touch with the ihiring team.",
 };
 
 export default function ContactPage() {
@@ -25,7 +25,7 @@ export default function ContactPage() {
               <div className="mt-6 space-y-6 text-base">
                 <div className="flex items-start gap-3.5">
                   <Mail className="mt-0.5 h-5 w-5 shrink-0 text-brand" aria-hidden="true" />
-                  <div><p className="text-sm text-mute">General enquiries</p><a href="mailto:info@ihiring.ai" className="hover:text-brand">info@ihiring.ai</a></div>
+                  <div><p className="text-sm text-mute">General inquiries</p><a href="mailto:info@ihiring.ai" className="hover:text-brand">info@ihiring.ai</a></div>
                 </div>
                 <div className="flex items-start gap-3.5">
                   <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-brand" aria-hidden="true" />

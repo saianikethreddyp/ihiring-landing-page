@@ -94,10 +94,10 @@ export function LiveInterview() {
           </div>
           <div className="relative flex w-full max-w-[260px] items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-3">
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-[#cfe0ff] to-[#6fa3ff] text-sm font-semibold text-ink">
-              PN
+              ET
             </span>
             <div className="min-w-0 flex-1">
-              <p className="truncate text-sm font-medium">Priya N.</p>
+              <p className="truncate text-sm font-medium">Ethan T.</p>
               <p className="truncate font-mono text-[10px] text-white/45">candidate · sample</p>
             </div>
             <div className="flex h-6 items-end gap-0.5" aria-hidden>
