@@ -13,7 +13,28 @@ export const DEMO_HREF = "/contact";
  * Companies shown under "Trusted by". Edit this list to change the strip.
  * Make sure every name here is a company you have permission to show.
  */
-export const trustedBy = ["Meta", "NVIDIA", "Microsoft", "Google", "Tesla", "Stripe", "DoorDash"];
+export type Client = { name: string; logo: string; /** Logo height in px; defaults to 26. */ height?: number; /** Show the name beside a mark-only logo. */ label?: boolean };
+
+export const trustedBy: Client[] = [
+  { name: "Gamma", logo: "/clients/gamma.svg", height: 22 },
+  { name: "Rogo", logo: "/clients/rogo.svg", height: 22 },
+  { name: "Intercom", logo: "/clients/intercom.svg", height: 22 },
+  { name: "PostHog", logo: "/clients/posthog.svg", height: 24 },
+  { name: "Samsara", logo: "/clients/samsara.svg", height: 20 },
+  { name: "Qualia", logo: "/clients/qualia.png", height: 30, label: true },
+  { name: "Saronic", logo: "/clients/saronic.svg", height: 22 },
+  { name: "Baseten", logo: "/clients/baseten.svg", height: 26 },
+  { name: "Weaviate", logo: "/clients/weaviate.svg", height: 26 },
+  { name: "Varda", logo: "/clients/varda.svg", height: 28, label: true },
+  { name: "JK Organisation", logo: "/clients/jk.png", height: 46 },
+  { name: "Kairos", logo: "/clients/kairos.png", height: 26 },
+  { name: "Function Health", logo: "/clients/function.svg", height: 24 },
+  { name: "Machinify", logo: "/clients/machinify.svg", height: 24, label: true },
+  { name: "Kavout", logo: "/clients/kavout.png", height: 28 },
+  { name: "Emergent", logo: "/clients/emergent.svg", height: 26 },
+  { name: "Lovable", logo: "/clients/lovable.svg", height: 24 },
+  { name: "Groq", logo: "/clients/groq.svg", height: 26 },
+];
 
 /** Headquarters pin on the world map. */
 export const hq = { city: "San Francisco Bay Area", lat: 37.77, lon: -122.42 };

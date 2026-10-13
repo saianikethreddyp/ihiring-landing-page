@@ -9,14 +9,13 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { TaskHandoff } from "@/components/TaskHandoff";
 import { ClientLogos } from "@/components/ClientLogos";
 import { GlobalClock } from "@/components/GlobalClock";
-import { HiringFunnel } from "@/components/HiringFunnel";
 import { integrations } from "@/lib/site";
 
 const interviewUrl = "https://play.gumlet.io/embed/67c14d5d3e62e5390999631b?autoplay=false";
 const questions = [
   { q: "What does SAM do?", a: "SAM is ihiring’s AI interviewer. It screens resumes, helps candidates schedule interviews, conducts conversations and delivers detailed reports for your team to review." },
   { q: "Who is ihiring built for?", a: "Staffing and recruitment firms, enterprise talent teams, and startups and growing teams that want more time for the people behind the applications." },
-  { q: "Can we keep using our ATS?", a: "ihiring integrates with Workday, Greenhouse, Lever, Ashby and Bullhorn, so interview insights can fit into your existing hiring process." },
+  { q: "Can we keep using our ATS?", a: "ihiring integrates with Workday, Greenhouse, Lever, Ashby, Bullhorn and any other ATS, so interview insights can fit into your existing hiring process." },
   { q: "What is the candidate experience like?", a: "Candidates book a time and have a live conversation with SAM, with a transcript alongside. You can watch a sample interview using the link above." },
   { q: "Does SAM make the final hiring decision?", a: "Your hiring team stays in control. SAM provides interview reports and insights, and people decide who moves forward." },
 ];
@@ -97,15 +96,10 @@ export function HomeStory() {
         <div className="story-wrap stack-layout"><StoryReveal className="section-heading"><p className="story-kicker">Integrations</p><h2>Works with<br /><em>your hiring tools.</em></h2><p>Your hiring process, with less admin.<br />Bring ihiring’s interview insights into the tools your team already uses.</p><a href="#how" className="story-text-link">Explore the workflow <ArrowUpRight size={17} /></a></StoryReveal><StoryReveal className="integration-network"><IntegrationFlow items={[...integrations.filter(item => item.kind === "ATS").map(item => ({ name: item.name, logo: `/brands/${item.name.toLowerCase()}.png` })), { name: "Others" }]} /></StoryReveal></div>
       </section>
 
-      <section id="funnel" className="story-funnel">
-        <StoryReveal className="section-heading story-wrap"><p className="story-kicker">From applicants to shortlist</p><h2>500 applications in,<br /><em>5 reports out.</em></h2><p>Follow a sample role as SAM turns a pile of applications into a shortlist your team can act on.</p></StoryReveal>
-        <HiringFunnel />
-      </section>
-
       <section id="who" className="story-audience story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Who it’s for</p><h2>Built for teams<br /><em>ready to grow.</em></h2></StoryReveal><div className="audience-grid">{[
-        { label: "Staffing and recruitment firms", title: "Interview every candidate for every client.", body: "Run screening, scheduling and first interviews across client roles, then send each client a report with video, transcript and summary. Syncs with Bullhorn." },
+        { label: "Staffing and recruitment firms", title: "Interview every candidate for every client.", body: "Run screening, scheduling and first interviews across client roles, then send each client a report with video, transcript and summary. Syncs with your ATS." },
         { label: "Startups and growing teams", title: "First rounds without a recruiting team.", body: "Let SAM handle screening and first interviews while you stay focused on building, and step in only for the final conversations." },
-        { label: "Enterprise talent teams", title: "One consistent first round at scale.", body: "Give every applicant the same structured interview, with results synced to Workday, Greenhouse or Lever for your recruiters to review." },
+        { label: "Enterprise talent teams", title: "One consistent first round at scale.", body: "Give every applicant the same structured interview, with reports synced to  your ATS for your recruiters to review." },
       ].map((item, i) => <article key={item.label}><span className="audience-number">0{i + 1}</span><div className="audience-title"><p className="audience-label">{item.label}</p><h3>{item.title}</h3></div><p>{item.body}</p></article>)}</div></section>
 
       <CandidateVoices />

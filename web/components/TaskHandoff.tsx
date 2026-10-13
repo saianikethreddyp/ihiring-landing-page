@@ -6,10 +6,10 @@ import { ArrowRight, CalendarDays, Check, FileText, MessageCircle, NotebookPen, 
 import { SamAvatar } from "@/components/Avatar";
 
 const tasks = [
-  { icon: FileText, title: "Reading every resume", before: "Application by application, in the order they arrive", after: "Screened and ranked against the role" },
+  { icon: FileText, title: "Analyses every resume", before: "Application by application, in the order they arrive", after: "Screened and ranked against the role" },
   { icon: CalendarDays, title: "Chasing calendars", before: "Emails back and forth to find a time", after: "Candidates book and reschedule themselves, any hour" },
   { icon: MessageCircle, title: "First-round calls", before: "One recruiter, one call at a time", after: "Interviews run in parallel, with follow-up questions" },
-  { icon: NotebookPen, title: "Writing up notes", before: "Notes typed up after each call", after: "A report with video, transcript and summary" },
+  { icon: NotebookPen, title: "Writing up notes", before: "Notes typed up after each call", after: "A report with video,recommendation, transcript and summary" },
   { icon: RefreshCw, title: "Updating your ATS", before: "Copying results from tool to tool", after: "Results sync to Workday, Greenhouse, Lever, Ashby, Bullhorn" },
 ];
 const N = tasks.length;

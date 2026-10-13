@@ -1,9 +1,9 @@
-import { BrandLockup } from "@/components/Brands";
+import { ClientLogo } from "@/components/ClientLogo";
 import { trustedBy } from "@/lib/site";
 
 export function TrustedBy() {
   return (
-    <div className="relative mt-16" aria-label={`Trusted by ${trustedBy.join(", ")}`}>
+    <div className="relative mt-16" aria-label={`Trusted by ${trustedBy.map((c) => c.name).join(", ")}`}>
       <p className="mb-6 text-center font-mono text-[11px] uppercase tracking-[0.16em] text-mute">
         Trusted by teams at
       </p>
@@ -11,9 +11,9 @@ export function TrustedBy() {
         <div className="flex w-max motion-safe-anim [animation:marquee_40s_linear_infinite] hover:[animation-play-state:paused]">
           {[0, 1].map((dup) => (
             <ul key={dup} className="flex shrink-0 items-center gap-16 pr-16" aria-hidden={dup === 1}>
-              {trustedBy.map((n) => (
-                <li key={n} className="text-slate/55 transition-colors hover:text-brand">
-                  <BrandLockup name={n} />
+              {trustedBy.map((c) => (
+                <li key={c.name}>
+                  <ClientLogo client={c} />
                 </li>
               ))}
             </ul>
