@@ -53,7 +53,7 @@ export function Footer() {
             <p className="mt-4 max-w-xs text-base leading-relaxed text-mute">
               SAM handles first-round interviews, so your team can focus on the next conversation.
             </p>
-            <a href="mailto:info@ihiring.ai" className="mt-4 inline-block text-sm text-mute transition-colors hover:text-brand">info@ihiring.ai</a>
+            
             <ul className="mt-5 flex items-center gap-3" aria-label="Social media">
               {socials.map(item => (
                 <li key={item.href}>
@@ -91,7 +91,7 @@ export function Footer() {
           </nav>
         </div>
         <div className="mt-10 pt-4 sm:mt-14 sm:pt-6">
-          <FooterWordmark className="footer-wordmark fw block h-auto w-full" />
+          <FooterWordmark className="footer-wordmark block h-auto w-full" />
         </div>
         <div className="mt-8 flex flex-col gap-2 border-t border-ink/10 py-6 text-xs text-mute sm:flex-row sm:justify-between">
           <p>© {new Date().getFullYear()} ihiring Inc. All rights reserved.</p>

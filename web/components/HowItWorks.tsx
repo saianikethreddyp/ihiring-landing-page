@@ -130,7 +130,7 @@ function InterviewArt() {
   return (
     <>
       <Frag depth={0} side="l" className="px-card px-head">
-        <SamAvatar /><span><strong>Interview with SAM</strong><small>Backend engineer · Live transcript</small></span>
+        <SamAvatar /><span><strong> Video Interview with SAM</strong><small>Backend engineer · Live transcript</small></span>
         <em className="px-live"><i aria-hidden="true" />Live<span className="px-wave" aria-hidden="true">{[0, 1, 2, 3, 4].map(n => <b key={n} style={{ animationDelay: `${n * 0.12}s` }} />)}</span></em>
       </Frag>
       <Frag depth={1} delay={0.12} side="l" className="px-card px-bubble px-sam">
@@ -165,7 +165,7 @@ function ReportArt() {
 }
 
 const chapters: { ghost: string; title: string; body: string; detail: string; outcomes: string[]; Art: ComponentType<ArtProps> }[] = [
-  { ghost: "Screen", title: "SAM reads every application.", body: "Resumes are screened and ranked against the role, so your team starts with the strongest candidates.", detail: "Resume screening", outcomes: ["Ranked against your job criteria", "Your team reviews a shortlist, not an inbox"], Art: ScreenArt },
+  { ghost: "Screen", title: "SAM Analyses every Application.", body: "Resumes are Analysed and ranked against the role itself, not just keyword matches, so your team starts with the strongest candidates.", detail: "Resume screening", outcomes: ["Ranked against your job criteria", "Your team reviews a shortlist, not an inbox"], Art: ScreenArt },
   { ghost: "Schedule", title: "Candidates book their own time.", body: "They schedule and reschedule with SAM, at any hour of the day, and receive notifications by email and phone.", detail: "24/7 scheduling", outcomes: ["Candidates self-book and reschedule, any hour", "No email back-and-forth for your recruiters"], Art: ScheduleArt },
   { ghost: "Interview", title: "SAM runs the first interview.", body: "A live one-to-one video conversation, with follow-up questions based on each answer.", detail: "AI interviews", outcomes: ["The same structured conversation for every candidate", "Interviews run in parallel, so volume does not queue"], Art: InterviewArt },
   { ghost: "Report", title: "You get the report.", body: "Video, recommendation, transcript and summary in one place. Your team decides who moves forward.", detail: "Your team decides", outcomes: ["Video, recommendation, transcript and summary in one place", "Your team makes the call on who moves forward"], Art: ReportArt },

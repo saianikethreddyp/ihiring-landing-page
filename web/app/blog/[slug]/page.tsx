@@ -54,7 +54,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <h2 className="text-2xl font-semibold tracking-tight">See SAM in action</h2>
           <p className="mt-2 text-base leading-relaxed text-mute">Book a walkthrough of the interview experience and reports.</p>
           <Link href="/contact" className="mt-5 inline-flex h-12 items-center gap-2 rounded-md bg-brand px-6 text-[15px] font-medium text-white transition-colors hover:bg-brand-ink">
-            Request a demo <ArrowRight size={16} aria-hidden="true" />
+            Request a demo\\ <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </div>
       </article>

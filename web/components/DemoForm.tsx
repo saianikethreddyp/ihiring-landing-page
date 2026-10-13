@@ -78,7 +78,7 @@ export function DemoForm() {
   return (
     <form onSubmit={onSubmit} noValidate aria-label="Request a demo" aria-busy={status === "sending"} className="demo-form relative overflow-hidden rounded-3xl border border-[#dfe7f2] bg-white p-6 shadow-[0_30px_60px_-30px_rgba(30,64,130,0.25)] sm:p-9">
       <span aria-hidden="true" className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand to-[#6fa3ff]" />
-      <h2 className="text-2xl font-semibold tracking-tight">Request a demo</h2>
+      <h2 className="text-2xl font-semibold tracking-tight">Let's get you set up</h2>
       <p className="mb-7 mt-1.5 text-[15px] text-mute">Tell us a little about your team. Fields marked * are required.</p>
       <fieldset disabled={status === "sending"}>
         <legend className="sr-only">Your contact details</legend>
@@ -172,7 +172,7 @@ export function DemoForm() {
             <Loader2 size={18} className="animate-spin" /> Sending…
           </>
         ) : (
-          "Book a demo"
+          "Proceed"
         )}
       </button>
       <p className="mt-3 text-center text-xs text-mute">We only use this to contact you about your demo. <Link href="/privacy" className="underline underline-offset-2">Privacy policy</Link></p>
