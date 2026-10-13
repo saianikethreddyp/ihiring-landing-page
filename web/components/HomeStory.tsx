@@ -9,6 +9,7 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { TaskHandoff } from "@/components/TaskHandoff";
 import { ClientLogos } from "@/components/ClientLogos";
 import { GlobalClock } from "@/components/GlobalClock";
+import { HiringFunnel } from "@/components/HiringFunnel";
 import { integrations } from "@/lib/site";
 
 const interviewUrl = "https://play.gumlet.io/embed/67c14d5d3e62e5390999631b?autoplay=false";
@@ -96,6 +97,11 @@ export function HomeStory() {
         <div className="story-wrap stack-layout"><StoryReveal className="section-heading"><p className="story-kicker">Integrations</p><h2>Works with<br /><em>your hiring tools.</em></h2><p>Your hiring process, with less admin.<br />Bring ihiring’s interview insights into the tools your team already uses.</p><a href="#how" className="story-text-link">Explore the workflow <ArrowUpRight size={17} /></a></StoryReveal><StoryReveal className="integration-network"><IntegrationFlow items={[...integrations.filter(item => item.kind === "ATS").map(item => ({ name: item.name, logo: `/brands/${item.name.toLowerCase()}.png` })), { name: "Others" }]} /></StoryReveal></div>
       </section>
 
+      <section id="funnel" className="story-funnel">
+        <StoryReveal className="section-heading story-wrap"><p className="story-kicker">From applicants to shortlist</p><h2>500 applications in,<br /><em>5 reports out.</em></h2><p>Follow a sample role as SAM turns a pile of applications into a shortlist your team can act on.</p></StoryReveal>
+        <HiringFunnel />
+      </section>
+
       <section id="who" className="story-audience story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Who it’s for</p><h2>Built for teams<br /><em>ready to grow.</em></h2></StoryReveal><div className="audience-grid">{[
         { label: "Staffing and recruitment firms", title: "Interview every candidate for every client.", body: "Run screening, scheduling and first interviews across client roles, then send each client a report with video, transcript and summary. Syncs with Bullhorn." },
         { label: "Startups and growing teams", title: "First rounds without a recruiting team.", body: "Let SAM handle screening and first interviews while you stay focused on building, and step in only for the final conversations." },
@@ -109,7 +115,7 @@ export function HomeStory() {
         <GlobalClock />
       </section>
 
-      <section id="faq" className="story-faq story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Frequently asked questions</p><h2>A few things<br /><em>you might ask.</em></h2><p>Getting ready to meet SAM?<br /><Link href="/blog" className="story-text-link">Read the candidate guide <ArrowUpRight size={16} /></Link></p></StoryReveal><StoryFAQ questions={questions} /></section>
+      <section id="faq" className="story-faq story-wrap"><StoryReveal className="section-heading"><p className="story-kicker">Frequently asked questions</p><h2>A few things<br /><em>you might ask.</em></h2><p>Getting ready to meet SAM?<br /><Link href="/blog/candidate-interview-guide" className="story-text-link">Read the candidate guide <ArrowUpRight size={16} /></Link></p></StoryReveal><StoryFAQ questions={questions} /></section>
 
       <section className="story-final"><div className="story-wrap"><p className="story-kicker">See SAM in action</p><h2>Your next hire starts<br /><em>with a better first round.</em></h2><p>See the questions, follow-ups and candidate experience for yourself.</p><a className="interview-watch-card" href={interviewUrl} target="_blank" rel="noopener noreferrer"><span className="watch-play"><Play size={19} fill="currentColor" aria-hidden="true" /></span><span><strong>Watch SAM in action</strong><span>A conversation with a candidate</span></span><ArrowUpRight size={22} aria-hidden="true" /><span className="sr-only"> (opens in a new tab)</span></a></div></section>
     </div>

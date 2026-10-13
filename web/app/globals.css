@@ -228,3 +228,11 @@ details[open] .faq-icon {
   .page-opening, .page-opening:not(:has(.story-home)) h1, .page-opening:not(:has(.story-home)) h1 + p, .demo-success, .demo-success svg { animation: none; }
   .demo-submit:hover:not(:disabled) { transform: none; }
 }
+
+/* Footer wordmark: letters ripple and glow while the pointer rests on it. */
+.fw { opacity: .92; transition: filter .5s, opacity .3s; overflow: visible; cursor: default; }
+.fw .fw-letter { transform-box: fill-box; transform-origin: 50% 100%; }
+.fw:hover { opacity: 1; filter: drop-shadow(0 12px 28px rgba(14, 93, 252, .3)); }
+.fw:hover .fw-letter { animation: fw-wave 1.5s cubic-bezier(.34, 1.4, .5, 1) infinite; animation-delay: calc(var(--i) * 85ms); }
+@keyframes fw-wave { 0%, 55%, 100% { transform: translateY(0) scale(1); } 22% { transform: translateY(-9%) scale(1.04, 1.08); } }
+@media (prefers-reduced-motion: reduce) { .fw:hover .fw-letter { animation: none; } }

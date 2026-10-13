@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { Plus } from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useInView, useReducedMotion } from "framer-motion";
 
 export type FlowItem = { name: string; logo?: string };
 
@@ -12,13 +13,16 @@ export type FlowItem = { name: string; logo?: string };
  */
 export function IntegrationFlow({ items }: { items: FlowItem[] }) {
   const reduced = useReducedMotion();
+  const root = useRef<HTMLDivElement>(null);
+  // Phones swap the fanned lines for a vertical spine; this starts its draw-in when the section is on screen.
+  const inView = useInView(root, { once: true, amount: 0.25 });
   const n = items.length;
   // Card centres at the 900px design width (14px gaps), so each line lands on its card.
   const gap = 14, w = (900 - gap * (n - 1)) / n;
   const xs = items.map((_, i) => i * (w + gap) + w / 2);
 
   return (
-    <div className="flow">
+    <div className="flow" ref={root} data-in={inView}>
       <div className="flow-hub">
         <span className="flow-hub-ring" aria-hidden="true" />
         <Image src="/logo/ihiring.svg" alt="ihiring" width={100} height={33} className="flow-hub-logo" priority={false} />
@@ -50,6 +54,7 @@ export function IntegrationFlow({ items }: { items: FlowItem[] }) {
           <motion.li
             key={item.name}
             className={item.logo ? "flow-card" : "flow-card flow-card-other"}
+            style={{ ["--i" as string]: i }}
             initial={{ opacity: 0, y: 14 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.5 }}
