@@ -64,7 +64,7 @@ export function DemoForm() {
 
   if (status === "done") {
     return (
-      <div ref={success} tabIndex={-1} role="status" className="demo-success rounded-[28px] border border-ink/10 bg-card p-8 text-center sm:p-10">
+      <div ref={success} tabIndex={-1} role="status" className="demo-success rounded-3xl border border-[#dfe7f2] bg-white p-8 text-center shadow-[0_30px_60px_-30px_rgba(30,64,130,0.25)] sm:p-12">
         <CheckCircle2 className="mx-auto text-brand" size={40} />
         <h2 className="mt-4 text-3xl font-medium tracking-tight sm:text-4xl">Thanks, {values.name?.trim().split(/\s+/)[0]}.</h2>
         <p className="mt-3 text-base leading-relaxed text-mute">We have your request and will be in touch shortly to set up your demo.</p>
@@ -73,12 +73,13 @@ export function DemoForm() {
   }
 
   const input =
-    "mt-1.5 block h-11 w-full rounded-xl border bg-paper px-3.5 text-base outline-none transition-colors placeholder:text-mute/60 focus:border-brand focus:ring-2 focus:ring-brand/20";
+    "mt-2 block h-12 w-full rounded-lg border bg-white px-4 text-base outline-none transition-colors placeholder:text-mute/60 hover:border-brand/40 focus:border-brand focus:ring-4 focus:ring-brand/15";
 
   return (
-    <form onSubmit={onSubmit} noValidate aria-label="Request a demo" aria-busy={status === "sending"} className="demo-form rounded-[28px] border border-ink/10 bg-card p-6 sm:p-8">
-      <h2 className="text-2xl font-semibold">Your details</h2>
-      <p className="mb-6 mt-1 text-sm text-mute">Tell us a little about your team. Fields marked * are required.</p>
+    <form onSubmit={onSubmit} noValidate aria-label="Request a demo" aria-busy={status === "sending"} className="demo-form relative overflow-hidden rounded-3xl border border-[#dfe7f2] bg-white p-6 shadow-[0_30px_60px_-30px_rgba(30,64,130,0.25)] sm:p-9">
+      <span aria-hidden="true" className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand to-[#6fa3ff]" />
+      <h2 className="text-2xl font-semibold tracking-tight">Request a demo</h2>
+      <p className="mb-7 mt-1.5 text-[15px] text-mute">Tell us a little about your team. Fields marked * are required.</p>
       <fieldset disabled={status === "sending"}>
         <legend className="sr-only">Your contact details</legend>
       <div className="grid gap-5 sm:grid-cols-2">
@@ -87,7 +88,7 @@ export function DemoForm() {
           .map((f) => {
             const required = f.label.endsWith("*");
             const label = f.label.replace("*", "");
-            const full = f.name === "email" || f.name === "phoneNumber";
+            const full = f.name === "phoneNumber";
             return (
               <div key={f.name} className={clsx(full && "sm:col-span-2")}>
                 <label htmlFor={`f-${f.name}`} className="text-sm font-medium">
@@ -164,7 +165,7 @@ export function DemoForm() {
       <button
         type="submit"
         disabled={status === "sending"}
-        className="demo-submit mt-6 inline-flex h-13 w-full items-center justify-center gap-2 rounded-md bg-brand text-[15px] font-medium text-white transition-colors hover:bg-brand-ink disabled:opacity-70"
+        className="demo-submit mt-7 inline-flex h-13 w-full items-center justify-center gap-2 rounded-md bg-brand text-[15px] font-medium text-white transition-colors hover:bg-brand-ink disabled:opacity-70"
       >
         {status === "sending" ? (
           <>

@@ -10,12 +10,13 @@ const px = (lon: number) => lon + 180;
 const py = (lat: number) => 80 - lat;
 
 // Illustrative cities, one per major region. These are examples, not customer locations.
-const cities = [
+const cities: { name: string; lat: number; lon: number; tz: string; label?: "down" }[] = [
   { name: "San Francisco", lat: 37.77, lon: -122.42, tz: "America/Los_Angeles" },
   { name: "New York", lat: 40.71, lon: -74.0, tz: "America/New_York" },
   { name: "London", lat: 51.5, lon: -0.12, tz: "Europe/London" },
   { name: "Dubai", lat: 25.2, lon: 55.27, tz: "Asia/Dubai" },
-  { name: "Bengaluru", lat: 12.97, lon: 77.59, tz: "Asia/Kolkata" },
+  { name: "Hyderabad", lat: 17.39, lon: 78.49, tz: "Asia/Kolkata" },
+  { name: "Bengaluru", lat: 12.97, lon: 77.59, tz: "Asia/Kolkata", label: "down" },
   { name: "Singapore", lat: 1.35, lon: 103.82, tz: "Asia/Singapore" },
   { name: "Sydney", lat: -33.87, lon: 151.21, tz: "Australia/Sydney" },
 ];
@@ -138,7 +139,7 @@ export function GlobalClock() {
         {rows.map(c => (
           <span
             key={c.name}
-            className={`global-pin${c.live ? " is-live" : ""}`}
+            className={`global-pin${c.live ? " is-live" : ""}${c.label === "down" ? " label-down" : ""}`}
             style={{ left: `${(px(c.lon) / W) * 100}%`, top: `${(py(c.lat) / H) * 100}%` }}
           >
             <i aria-hidden="true" />

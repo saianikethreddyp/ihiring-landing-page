@@ -5,7 +5,7 @@ export function ClientLogos() {
   return (
     <div className="client-logos">
       <div className="client-logos-heading">
-        <p>Trusted by teams at</p>
+        <p>Built for teams hiring talent like</p>
       </div>
       <div className="client-logos-window" role="region" tabIndex={0} aria-label="Client logos. Hover or focus to pause scrolling.">
         <div className="client-logos-track">
